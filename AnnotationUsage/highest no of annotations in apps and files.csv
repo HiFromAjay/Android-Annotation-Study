@@ -1,0 +1,75 @@
+Annotations per LOC > 0.5,,,
+App Name,File Name,Annotations per LOC,
+apps-android-wikipedia-master,CreateAccountClient.java,0.62,
+apps-android-wikipedia-master,MwAuthManagerInfo.java,0.6,
+apps-android-wikipedia-master,EditClient.java,0.57,
+apps-android-wikipedia-master,Derivative.java,0.56,
+apps-android-wikipedia-master,ExtMetadata.java ,1,
+FastHub-Libre-liberated,GistService.java,0.68,
+FastHub-Libre-liberated,IssueService.java,0.81,
+FastHub-Libre-liberated,LoginRestService.java,0.57,
+FastHub-Libre-liberated,OrganizationService.java ,0.73,
+FastHub-Libre-liberated,PullRequestService.java,0.7,
+FastHub-Libre-liberated,ReactionsService.java,0.9,
+FastHub-Libre-liberated,RepoService.java,1.31,
+FastHub-Libre-liberated,ReviewService.java,0.69,
+FastHub-Libre-liberated,UserRestService.java,0.71,
+inventum-master,DiscoverService.java,0.55,
+Mysplash-master,CollectionApi.java ,0.52,
+Mysplash-master,PhotoApi.java,0.54,
+openfoodfacts-androidapp-master,OpenFoodAPIService.java ,0.59,
+OpenLinkWith-master,package-info.java ,0.67,
+OpenLinkWith-master,package-info.java ,0.67,
+OpenLinkWith-master,package-info.java ,0.67,
+OpenLinkWith-master,package-info.java,0.67,
+OpenLinkWith-master,package-info.java,0.67,
+Point.im-Android-master,PointIm.java ,0.68,
+smartcoins-wallet-master,IWebService.java ,0.52,
+SmartReceiptsLibrary-master,TableEventsListener.java ,0.64,
+Tusky-master,MastodonApi.java ,0.6,
+Twidere-Android-master,FriendsFollowersResources.java ,0.54,
+Twidere-Android-master,ListResources.java ,0.7,
+,,,
+,,,
+Annotations per app > 5000,,,
+Num,App Name,,
+9254,apps-android-wikipedia-master,,
+8058,FastHub-Libre-liberated,,
+8200,Osmand-master,,
+7504,SmartReceiptsLibrary-master,,
+11314,Telegram-FOSS-master,,
+5251,Twidere-Android-master,,
+,,,
+,,,
+Annotations per element > 5,,,
+App Name,File Name,Program Element Name,Annotations per element
+ Lawnchair-alpha ,Folder, fieldDeclarationMetaModel: 6,6
+ SoundWaves-master ,FeedItem, FeedItem: 6,6
+ Transportr-master,StoredSearch, StoredSearch: 9,9
+ quitesleep-master,ActionBar, fieldDeclarationMetaModel: 13,13
+ Twidere-Android-master,TwitterWeb, getStatusPage: 6,6
+ Twidere-Android-master,DMAnnotationTemplate, DMAnnotationTemplate: 11,11
+ Twidere-Android-master,StatusAnnotationTemplate, StatusAnnotationTemplate: 13,13
+ Twidere-Android-master,UserAnnotationTemplate, UserAnnotationTemplate: 6,6
+ android-master11 ,RunFailingTests, RunFailingTests: 6,6
+ android-master12,RunNoIgnoreTests, RunNoIgnoreTests: 6,6
+ android-master13,RunSmokeTests, RunSmokeTests: 6,6
+ android-master33 ,RunFailingTests, RunFailingTests: 6,6
+ android-master34,RunNoIgnoreTests, RunNoIgnoreTests: 6,6
+ android-master35,RunSmokeTests, RunSmokeTests: 6,6
+ open-event-orga-app-development ,Attendee, Attendee: 8,8
+ open-event-orga-app-development ,Copyright, Copyright: 7,7
+ open-event-orga-app-development ,Event, Event: 8,8
+ open-event-orga-app-development ,EventStatistics, EventStatistics: 6,6
+ open-event-orga-app-development ,Faq, Faq: 9,9
+ open-event-orga-app-development ,Feedback, Feedback: 9,9
+ open-event-orga-app-development ,Order, Order: 8,8
+ open-event-orga-app-development ,OrderStatistics, OrderStatistics: 7,7
+ open-event-orga-app-development ,Session, Session: 8,8
+ open-event-orga-app-development ,Speaker, Speaker: 9,9
+ open-event-orga-app-development ,SpeakersCall, SpeakersCall: 7,7
+ open-event-orga-app-development ,Sponsor, Sponsor: 6,6
+ open-event-orga-app-development ,OnSiteTicket, OnSiteTicket: 7,7
+ open-event-orga-app-development ,Ticket, Ticket: 9,9
+ open-event-orga-app-development ,Track, Track: 9,9
+ open-event-orga-app-development ,User, User: 8,8

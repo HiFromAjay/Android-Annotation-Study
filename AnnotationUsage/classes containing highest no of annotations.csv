@@ -1,0 +1,6 @@
+Project Name,Class Name,Num of Annotations,Annotations per LOC
+ twitlatte-master,MastodonTwitterImpl,269,0.17
+ Telegram-FOSS-master, ChatActivity,259,0.02
+ FastHub-Libre-liberated, RepoService,252,1.31
+ Telegram-FOSS-master , MessagesController,245,0.02
+ riot-android-develop, VectorRoomActivity,217,0.05

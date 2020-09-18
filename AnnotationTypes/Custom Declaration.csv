@@ -1,0 +1,4024 @@
+Project Name: 4pdaClient-plus-master File Name: PullBackLayout.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef(value = { DIRECTION_UP, DIRECTION_DOWN }, flag = true)"
+public @interface Direction {
+}
+
+Project Name: afh_downloader-master File Name: AfterPermissionGranted.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+public @interface AfterPermissionGranted {
+    int value();
+}
+
+Project Name: afwall-beta File Name: RootClass.java
+public @interface Candidate {
+}
+
+Project Name: and-bible-master File Name: ApplicationScope.java
+@Scope
+@Retention(RetentionPolicy.RUNTIME)
+public @interface ApplicationScope {
+}
+
+Project Name: and-bible-master File Name: ActivityScope.java
+@Scope
+@Retention(RetentionPolicy.RUNTIME)
+public @interface ActivityScope {
+}
+
+Project Name: and-bible-master File Name: MainBibleActivityScope.java
+@Scope
+@Retention(RetentionPolicy.RUNTIME)
+public @interface MainBibleActivityScope {
+}
+
+Project Name: andFHEM-master File Name: WidgetMediumLine1.java
+@Retention(RetentionPolicy.RUNTIME)
+public @interface WidgetMediumLine1 {
+    ResourceIdMapper description() default ResourceIdMapper.none;
+}
+
+Project Name: andFHEM-master File Name: WidgetMediumLine2.java
+@Retention(RetentionPolicy.RUNTIME)
+public @interface WidgetMediumLine2 {
+    ResourceIdMapper description() default ResourceIdMapper.none;
+}
+
+Project Name: andFHEM-master File Name: WidgetMediumLine3.java
+@Retention(RetentionPolicy.RUNTIME)
+public @interface WidgetMediumLine3 {
+    ResourceIdMapper description() default ResourceIdMapper.none;
+}
+
+Project Name: andFHEM-master File Name: WidgetTemperatureAdditionalField.java
+@Retention(RetentionPolicy.RUNTIME)
+public @interface WidgetTemperatureAdditionalField {
+    ResourceIdMapper description() default ResourceIdMapper.none;
+}
+
+Project Name: andFHEM-master File Name: WidgetTemperatureField.java
+@Retention(RetentionPolicy.RUNTIME)
+public @interface WidgetTemperatureField {
+}
+Project Name: andFHEM-master File Name: ForApplication.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface ForApplication {
+}
+
+Project Name: andFHEM-master File Name: DetailViewSettings.java
+@Retention(RetentionPolicy.RUNTIME)
+public @interface DetailViewSettings {
+    boolean showState() default true;
+    boolean showMeasured() default true;
+    ResourceIdMapper stateStringId() default ResourceIdMapper.state;
+    ResourceIdMapper measuredStringId() default ResourceIdMapper.measured;
+}
+
+Project Name: andFHEM-master File Name: OverviewViewSettings.java
+@Retention(RetentionPolicy.RUNTIME)
+public @interface OverviewViewSettings {
+    boolean showState() default false;
+    boolean showMeasured() default false;
+    ResourceIdMapper stateStringId() default ResourceIdMapper.state;
+    ResourceIdMapper measuredStringId() default ResourceIdMapper.measured;
+}
+
+Project Name: android-icon-pack-master File Name: KustomUtil.java
+"@StringDef({ FOLDER_WALLPAPERS, FOLDER_WIDGETS })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface KustomDir {
+}
+
+Project Name: android-icon-pack-master File Name: ApplyUtil.java
+"@IntDef({ UNKNOWN, APEX, NOVA, AVIATE, ADW, ACTION, SMART, NEXT, GO, HOLO, SOLO, KK, ATOM, INSPIRE, CMTE, LGHOME })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface Launcher {
+}
+
+Project Name: android-icon-pack-master File Name: ZooperUtil.java
+"@StringDef({ FOLDER_ICONSETS, FOLDER_FONTS, FOLDER_BITMAPS })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface ZooperDir {
+}
+
+Project Name: android-master11 File Name: FlexibleCategories.java
+@Retention(RetentionPolicy.RUNTIME)
+public @interface TestScanPackage {
+    public String value();
+}
+
+Project Name: android-master11 File Name: FlexibleCategories.java
+@Retention(RetentionPolicy.RUNTIME)
+public @interface TestClassPrefix {
+    public String value();
+}
+
+Project Name: android-master11 File Name: FlexibleCategories.java
+@Retention(RetentionPolicy.RUNTIME)
+public @interface TestClassSuffix {
+    public String value();
+}
+
+Project Name: android-master11 File Name: FlexibleCategories.java
+@Retention(RetentionPolicy.RUNTIME)
+public @interface TestMethodAnnotation {
+    public Class<? extends Annotation> value();
+}
+
+Project Name: android-master11 File Name: NextcloudServer.java
+@Retention(RetentionPolicy.SOURCE)
+@Target(ElementType.METHOD)
+public @interface NextcloudServer {
+    int min() default -1;
+    int max();
+}
+
+Project Name: android-master2 File Name: CalculationType.java
+"@IntDef({ CalculationType.UNKNOWN, CalculationType.CELL_HEIGHT, CalculationType.TURBULENT_QUANTITIES, CalculationType.GRID_CONVERGENCE })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface CalculationType {
+    int UNKNOWN = 0;
+    int CELL_HEIGHT = 1;
+    int TURBULENT_QUANTITIES = 2;
+    int GRID_CONVERGENCE = 3;
+}
+
+Project Name: android-master33 File Name: FlexibleCategories.java
+@Retention(RetentionPolicy.RUNTIME)
+public @interface TestScanPackage {
+    public String value();
+}
+
+Project Name: android-master33 File Name: FlexibleCategories.java
+@Retention(RetentionPolicy.RUNTIME)
+public @interface TestClassPrefix {
+    public String value();
+}
+
+Project Name: android-master33 File Name: FlexibleCategories.java
+@Retention(RetentionPolicy.RUNTIME)
+public @interface TestClassSuffix {
+    public String value();
+}
+
+Project Name: android-master33 File Name: FlexibleCategories.java
+@Retention(RetentionPolicy.RUNTIME)
+public @interface TestMethodAnnotation {
+    public Class<? extends Annotation> value();
+}
+
+Project Name: Android-MGKEapp-master File Name: FragNavController.java
+"@IntDef({ FragmentTransaction.TRANSIT_NONE, FragmentTransaction.TRANSIT_FRAGMENT_OPEN, FragmentTransaction.TRANSIT_FRAGMENT_CLOSE, FragmentTransaction.TRANSIT_FRAGMENT_FADE })"
+@Retention(RetentionPolicy.SOURCE)
+private @interface Transit {
+}
+
+Project Name: Android-MGKEapp-master File Name: FragNavController.java
+"@IntDef({ TAB1, TAB2, TAB3, TAB4, TAB5 })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface TabIndex {
+}
+
+Project Name: android-mileage-master File Name: Dao.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.FIELD)
+public @interface Column {
+    public static final int STRING = 0;
+    public static final int INTEGER = 1;
+    public static final int DOUBLE = 2;
+    public static final int BOOLEAN = 3;
+    public static final int TIMESTAMP = 4;
+    public static final int LONG = 5;
+    int value() default 0;
+    int type();
+    String name();
+}
+
+Project Name: android-mileage-master File Name: Dao.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.TYPE)
+public @interface DataObject {
+    String path();
+}
+
+Project Name: android-mileage-master File Name: Dao.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.FIELD)
+public @interface Validate {
+    int value() default 0;
+}
+
+Project Name: android-mileage-master File Name: Dao.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.FIELD)
+public @interface Nullable {
+}
+
+Project Name: android-mileage-master File Name: Dao.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.FIELD)
+public @interface CanBeEmpty {
+}
+
+Project Name: android-mileage-master File Name: Dao.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.FIELD)
+public @interface Past {
+}
+
+Project Name: android-mileage-master File Name: Dao.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.FIELD)
+public @interface Positive {
+}
+
+Project Name: android-permission-checker-app-master File Name: ActivityContext.java
+@Qualifier
+@Retention(RetentionPolicy.RUNTIME)
+public @interface ActivityContext {
+}
+
+Project Name: android-permission-checker-app-master File Name: ApplicationContext.java
+@Qualifier
+@Retention(RetentionPolicy.RUNTIME)
+public @interface ApplicationContext {
+}
+
+Project Name: android-permission-checker-app-master File Name: FragmentScope.java
+@Scope
+@Retention(RetentionPolicy.RUNTIME)
+public @interface FragmentScope {
+}
+
+Project Name: android-xbmcremote-master File Name: JacksonAnnotation.java
+@Target({ ElementType.ANNOTATION_TYPE })
+@Retention(RetentionPolicy.RUNTIME)
+public @interface JacksonAnnotation {
+}
+
+Project Name: android-xbmcremote-master File Name: JsonAnySetter.java
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
+@JacksonAnnotation
+public @interface JsonAnySetter {
+}
+
+Project Name: android-xbmcremote-master File Name: JsonAutoDetect.java
+@Target(ElementType.TYPE)
+@Retention(RetentionPolicy.RUNTIME)
+@JacksonAnnotation
+public @interface JsonAutoDetect {
+    public enum Visibility {
+"        ANY,"
+"        NON_PRIVATE,"
+"        PROTECTED_AND_PUBLIC,"
+"        PUBLIC_ONLY,"
+"        NONE,"
+        DEFAULT;
+        public boolean isVisible(Member m) {
+            switch(this) {
+                case ANY:
+                    return true;
+                case NONE:
+                    return false;
+                case NON_PRIVATE:
+                    return !Modifier.isPrivate(m.getModifiers());
+                case PROTECTED_AND_PUBLIC:
+                    if (Modifier.isProtected(m.getModifiers())) {
+                        return true;
+                    }
+                case PUBLIC_ONLY:
+                    return Modifier.isPublic(m.getModifiers());
+            }
+            return false;
+        }
+    }
+
+    JsonMethod[] value() default { JsonMethod.ALL };
+    Visibility getterVisibility() default Visibility.DEFAULT;
+    Visibility isGetterVisibility() default Visibility.DEFAULT;
+    Visibility setterVisibility() default Visibility.DEFAULT;
+    Visibility creatorVisibility() default Visibility.DEFAULT;
+    Visibility fieldVisibility() default Visibility.DEFAULT;
+}
+
+Project Name: android-xbmcremote-master File Name: JsonClass.java
+@Target({ ElementType.METHOD })
+@Retention(RetentionPolicy.RUNTIME)
+@JacksonAnnotation
+public @interface JsonClass {
+    public Class<?> value();
+}
+
+Project Name: android-xbmcremote-master File Name: JsonContentClass.java
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
+@JacksonAnnotation
+public @interface JsonContentClass {
+    public Class<?> value();
+}
+
+Project Name: android-xbmcremote-master File Name: JsonCreator.java
+"@Target({ ElementType.METHOD, ElementType.CONSTRUCTOR })"
+@Retention(RetentionPolicy.RUNTIME)
+@JacksonAnnotation
+public @interface JsonCreator {
+}
+
+Project Name: android-xbmcremote-master File Name: JsonGetter.java
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
+@JacksonAnnotation
+public @interface JsonGetter {
+"    String value() default """";"
+}
+
+Project Name: android-xbmcremote-master File Name: JsonIgnore.java
+"@Target({ ElementType.METHOD, ElementType.CONSTRUCTOR, ElementType.FIELD })"
+@Retention(RetentionPolicy.RUNTIME)
+@JacksonAnnotation
+public @interface JsonIgnore {
+    boolean value() default true;
+}
+
+Project Name: android-xbmcremote-master File Name: JsonIgnoreProperties.java
+@Target({ ElementType.TYPE })
+@Retention(RetentionPolicy.RUNTIME)
+@JacksonAnnotation
+public @interface JsonIgnoreProperties {
+    public String[] value() default {};
+    public boolean ignoreUnknown() default false;
+}
+
+Project Name: android-xbmcremote-master File Name: JsonKeyClass.java
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
+@JacksonAnnotation
+public @interface JsonKeyClass {
+    public Class<?> value();
+}
+
+Project Name: android-xbmcremote-master File Name: JsonProperty.java
+"@Target({ ElementType.FIELD, ElementType.METHOD, ElementType.PARAMETER })"
+@Retention(RetentionPolicy.RUNTIME)
+@JacksonAnnotation
+public @interface JsonProperty {
+"    String value() default """";"
+}
+
+Project Name: android-xbmcremote-master File Name: JsonPropertyOrder.java
+@Target({ ElementType.TYPE })
+@Retention(RetentionPolicy.RUNTIME)
+@JacksonAnnotation
+public @interface JsonPropertyOrder {
+    public String[] value() default {};
+    public boolean alphabetic() default false;
+}
+
+Project Name: android-xbmcremote-master File Name: JsonSetter.java
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
+@JacksonAnnotation
+public @interface JsonSetter {
+"    String value() default """";"
+}
+
+Project Name: android-xbmcremote-master File Name: JsonSubTypes.java
+@Target({ ElementType.TYPE })
+@Retention(RetentionPolicy.RUNTIME)
+@JacksonAnnotation
+public @interface JsonSubTypes {
+    public Type[] value();
+    public @interface Type {
+        public Class<?> value();
+"        public String name() default """";"
+    }
+}
+
+Project Name: android-xbmcremote-master File Name: JsonSubTypes.java
+public @interface Type {
+    public Class<?> value();
+"    public String name() default """";"
+}
+
+Project Name: android-xbmcremote-master File Name: JsonTypeInfo.java
+@Target({ ElementType.TYPE })
+@Retention(RetentionPolicy.RUNTIME)
+@JacksonAnnotation
+public @interface JsonTypeInfo {
+    public enum Id {
+"        NONE(null), CLASS(""@class""), MINIMAL_CLASS(""@c""), NAME(""@type""), CUSTOM(null);"
+        private final String _defaultPropertyName;
+        private Id(String defProp) {
+            _defaultPropertyName = defProp;
+        }
+        public String getDefaultPropertyName() {
+            return _defaultPropertyName;
+        }
+    }
+    public enum As {
+"        PROPERTY, WRAPPER_OBJECT, WRAPPER_ARRAY"
+    }
+    public Id use();
+    public As include() default As.PROPERTY;
+"    public String property() default """";"
+}
+
+Project Name: android-xbmcremote-master File Name: JsonTypeName.java
+@Target({ ElementType.TYPE })
+@Retention(RetentionPolicy.RUNTIME)
+@JacksonAnnotation
+public @interface JsonTypeName {
+"    public String value() default """";"
+}
+
+Project Name: android-xbmcremote-master File Name: JsonValue.java
+@Target({ ElementType.METHOD })
+@Retention(RetentionPolicy.RUNTIME)
+@JacksonAnnotation
+public @interface JsonValue {
+    boolean value() default true;
+}
+
+Project Name: android-xbmcremote-master File Name: JsonWriteNullProperties.java
+"@Target({ ElementType.TYPE, ElementType.METHOD })"
+@Retention(RetentionPolicy.RUNTIME)
+@JacksonAnnotation
+public @interface JsonWriteNullProperties {
+    boolean value() default true;
+}
+
+Project Name: android-xbmcremote-master File Name: JsonCachable.java
+@Target({ ElementType.TYPE })
+@Retention(RetentionPolicy.RUNTIME)
+@JacksonAnnotation
+public @interface JsonCachable {
+    boolean value() default true;
+}
+
+Project Name: android-xbmcremote-master File Name: JsonDeserialize.java
+"@Target({ ElementType.METHOD, ElementType.FIELD, ElementType.TYPE, ElementType.PARAMETER })"
+@Retention(RetentionPolicy.RUNTIME)
+@JacksonAnnotation
+public @interface JsonDeserialize {
+    public Class<? extends JsonDeserializer<?>> using() default JsonDeserializer.None.class;
+    public Class<? extends JsonDeserializer<?>> contentUsing() default JsonDeserializer.None.class;
+    public Class<? extends KeyDeserializer> keyUsing() default KeyDeserializer.None.class;
+    public Class<?> as() default NoClass.class;
+    public Class<?> keyAs() default NoClass.class;
+    public Class<?> contentAs() default NoClass.class;
+}
+
+Project Name: android-xbmcremote-master File Name: JsonSerialize.java
+"@Target({ ElementType.METHOD, ElementType.FIELD, ElementType.TYPE, ElementType.PARAMETER })"
+@Retention(RetentionPolicy.RUNTIME)
+@JacksonAnnotation
+public @interface JsonSerialize {
+    public Class<? extends JsonSerializer<?>> using() default JsonSerializer.None.class;
+    public Class<?> as() default NoClass.class;
+    public Typing typing() default Typing.DYNAMIC;
+    public Inclusion include() default Inclusion.ALWAYS;
+    public enum Inclusion {
+"        ALWAYS, NON_NULL, NON_DEFAULT"
+    }
+    public enum Typing {
+"        DYNAMIC, STATIC"
+    }
+}
+
+Project Name: android-xbmcremote-master File Name: JsonTypeIdResolver.java
+@Target({ ElementType.TYPE })
+@Retention(RetentionPolicy.RUNTIME)
+@JacksonAnnotation
+public @interface JsonTypeIdResolver {
+    public Class<? extends TypeIdResolver> value();
+}
+
+Project Name: android-xbmcremote-master File Name: JsonTypeResolver.java
+public @interface JsonTypeResolver {
+    public Class<? extends TypeResolverBuilder<?>> value();
+}
+
+Project Name: android-xbmcremote-master File Name: JsonView.java
+"@Target({ ElementType.METHOD, ElementType.FIELD })"
+@Retention(RetentionPolicy.RUNTIME)
+@JacksonAnnotation
+public @interface JsonView {
+    public Class<?>[] value() default {};
+}
+
+Project Name: android-xbmcremote-master File Name: JsonSerializableSchema.java
+@Target(ElementType.TYPE)
+@Retention(RetentionPolicy.RUNTIME)
+@JacksonAnnotation
+public @interface JsonSerializableSchema {
+"    String schemaType() default ""any"";"
+"    String schemaObjectPropertiesDefinition() default ""##irrelevant"";"
+"    String schemaItemDefinition() default ""##irrelevant"";"
+}
+
+Project Name: androidclient-master File Name: NumberValidator.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ BRAND_IMAGE_VECTOR, BRAND_IMAGE_SMALL, BRAND_IMAGE_MEDIUM, BRAND_IMAGE_LARGE, BRAND_IMAGE_HD })"
+public @interface BrandImageSize {
+}
+
+Project Name: androidclient-master File Name: MessageCenterService.java
+@Retention(value = RetentionPolicy.SOURCE)
+@Target(value = ElementType.METHOD)
+private @interface CommandHandler {
+    String[] name();
+}
+
+Project Name: androidclient-master File Name: MessagingNotification.java
+@Target(ElementType.FIELD)
+@Retention(RetentionPolicy.SOURCE)
+private @interface NotificationChannelId {
+    String value();
+}
+
+Project Name: AndroidDeepL-master File Name: LanguageManager.java
+"@StringDef({ AUTO, ENGLISH, GERMAN, FRENCH, SPANISH, ITALIAN, DUTCH, POLISH })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface Language {
+}
+
+Project Name: androidpn-client-master File Name: AfterPermissionGranted.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+public @interface AfterPermissionGranted {
+    int value();
+}
+
+Project Name: android_gisapp-master File Name: FloatingActionButton.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ SIZE_NORMAL, SIZE_MINI })"
+public @interface FAB_SIZE {
+}
+
+Project Name: andstatus-master File Name: ConditionalIgnore.java
+@Documented
+@Retention(RetentionPolicy.RUNTIME)
+"@Target({ ElementType.TYPE, ElementType.METHOD })"
+@Inherited
+"@SuppressWarnings(""unused"")"
+public @interface ConditionalIgnore {
+    Class<? extends IgnoreCondition> condition() default DefaultIgnoreCondition.class;
+"    String until() default ""1970-01-01"";"
+"    String value() default """";"
+}
+
+Project Name: AnExplorer-master File Name: MaterialProgressDrawable.java
+@Retention(RetentionPolicy.CLASS)
+"@IntDef({ DEFAULT, LARGE, XLARGE })"
+private @interface ProgressDrawableSize {
+}
+Project Name: ANNO1404-Warenrechner-App-master File Name: PerActivity.java
+@Scope
+@Retention(RetentionPolicy.RUNTIME)
+@interface PerActivity {
+}
+
+Project Name: AnyMemo-master File Name: ForActivity.java
+@Qualifier
+@Retention(RetentionPolicy.RUNTIME)
+public @interface ForActivity {
+}
+
+Project Name: AnyMemo-master File Name: ForApplication.java
+@Qualifier
+@Retention(RetentionPolicy.RUNTIME)
+public @interface ForApplication {
+}
+
+Project Name: AnyMemo-master File Name: ForFragment.java
+@Qualifier
+@Retention(RetentionPolicy.RUNTIME)
+public @interface ForFragment {
+}
+
+Project Name: AnyMemo-master File Name: PerActivity.java
+@Scope
+@Retention(RetentionPolicy.RUNTIME)
+public @interface PerActivity {
+}
+
+Project Name: AnyMemo-master File Name: PerApplication.java
+@Scope
+@Retention(RetentionPolicy.RUNTIME)
+public @interface PerApplication {
+}
+
+Project Name: AnyMemo-master File Name: PerFragment.java
+@Scope
+@Retention(RetentionPolicy.RUNTIME)
+public @interface PerFragment {
+}
+
+Project Name: AnySoftKeyboard-master File Name: KeyboardExtension.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ TYPE_BOTTOM, TYPE_TOP, TYPE_EXTENSION })"
+public @interface KeyboardExtensionType {
+}
+
+Project Name: AnySoftKeyboard-master File Name: AnyKeyboard.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ SHOW_KEY_ALWAYS, SHOW_KEY_IF_APPLICABLE, SHOW_KEY_NEVER })"
+public @interface ShowKeyInLayoutType {
+}
+
+Project Name: AnySoftKeyboard-master File Name: Keyboard.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ KEYBOARD_ROW_MODE_NONE, KEYBOARD_ROW_MODE_NORMAL, KEYBOARD_ROW_MODE_IM, KEYBOARD_ROW_MODE_URL, KEYBOARD_ROW_MODE_EMAIL, KEYBOARD_ROW_MODE_PASSWORD })"
+public @interface KeyboardRowModeId {
+}
+
+Project Name: AnySoftKeyboard-master File Name: Keyboard.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef(flag = true, value = { EDGE_LEFT, EDGE_RIGHT, EDGE_TOP, EDGE_BOTTOM })"
+public @interface KeyEdgeValue {
+}
+
+Project Name: AnySoftKeyboard-master File Name: KeyboardSwitcher.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ INPUT_MODE_TEXT, INPUT_MODE_SYMBOLS, INPUT_MODE_PHONE, INPUT_MODE_URL, INPUT_MODE_EMAIL, INPUT_MODE_IM, INPUT_MODE_DATETIME, INPUT_MODE_NUMBERS })"
+protected @interface InputModeId {
+}
+
+Project Name: AnySoftKeyboard-master File Name: PreviewPopupTheme.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ ANIMATION_STYLE_NONE, ANIMATION_STYLE_EXTEND, ANIMATION_STYLE_APPEAR })"
+public @interface PreviewAnimationType {
+}
+
+Project Name: AnySoftKeyboard-master File Name: ModifierKeyState.java
+"@IntDef({ INACTIVE, ACTIVE, LOCKED })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface LogicalState {
+}
+
+Project Name: AnySoftKeyboard-master File Name: ModifierKeyState.java
+"@IntDef({ RELEASING, PRESSING })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface PhysicalState {
+}
+
+Project Name: ApkTrack-master File Name: Column.java
+@Retention(RetentionPolicy.RUNTIME)
+public @interface Column {
+    String name();
+    boolean unique() default false;
+    boolean notNull() default false;
+}
+
+Project Name: ApkTrack-master File Name: Ignore.java
+@Retention(RetentionPolicy.RUNTIME)
+public @interface Ignore {
+}
+
+Project Name: ApkTrack-master File Name: NotNull.java
+@Retention(RetentionPolicy.RUNTIME)
+public @interface NotNull {
+}
+
+Project Name: ApkTrack-master File Name: Table.java
+@Retention(RetentionPolicy.RUNTIME)
+public @interface Table {
+"    String name() default """";"
+}
+
+Project Name: ApkTrack-master File Name: Unique.java
+@Retention(RetentionPolicy.RUNTIME)
+public @interface Unique {
+}
+
+Project Name: apps-android-wikipedia-master File Name: DefaultZoomableController.java
+"@IntDef(flag = true, value = { LIMIT_NONE, LIMIT_TRANSLATION_X, LIMIT_TRANSLATION_Y, LIMIT_SCALE, LIMIT_ALL })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface LimitFlag {
+}
+
+Project Name: apps-android-wikipedia-master File Name: Required.java
+@Documented
+@Retention(RetentionPolicy.RUNTIME)
+@Target(FIELD)
+public @interface Required {
+}
+
+Project Name: AsteroidOSSync-master File Name: CustomViewPager.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.TYPE)
+@Inherited
+public @interface DecorView {
+}
+
+Project Name: AsteroidOSSync-master File Name: Advanced.java
+@Retention(RetentionPolicy.CLASS)
+public @interface Advanced {
+}
+
+Project Name: AsteroidOSSync-master File Name: Alpha.java
+@Retention(RetentionPolicy.CLASS)
+public @interface Alpha {
+}
+
+Project Name: AsteroidOSSync-master File Name: Experimental.java
+"@Target(value = { ElementType.TYPE, ElementType.METHOD })"
+public @interface Experimental {
+}
+
+Project Name: AsteroidOSSync-master File Name: Extendable.java
+@Retention(RetentionPolicy.SOURCE)
+public @interface Extendable {
+}
+
+Project Name: AsteroidOSSync-master File Name: Immutable.java
+"@Target({ ElementType.TYPE, ElementType.FIELD })"
+@Retention(RetentionPolicy.CLASS)
+public @interface Immutable {
+}
+
+Project Name: AsteroidOSSync-master File Name: Lambda.java
+@Target(ElementType.TYPE)
+@Retention(RetentionPolicy.CLASS)
+public @interface Lambda {
+}
+
+Project Name: AsteroidOSSync-master File Name: Nullable.java
+@Retention(RetentionPolicy.RUNTIME)
+public @interface Nullable {
+    Prevalence value();
+    public static enum Prevalence {
+"        NORMAL, RARE, NEVER"
+    }
+}
+
+Project Name: AsteroidOSSync-master File Name: UnitTest.java
+@Retention(RetentionPolicy.SOURCE)
+public @interface UnitTest {
+}
+
+Project Name: basketbuild_downloader-master File Name: AfterPermissionGranted.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+public @interface AfterPermissionGranted {
+    int value();
+}
+
+Project Name: beaconloc-master File Name: UserScope.java
+@Scope
+@Retention(RetentionPolicy.RUNTIME)
+public @interface UserScope {
+}
+
+Project Name: BiglyBT-Android-master File Name: Thunk.java
+@Retention(RetentionPolicy.SOURCE)
+"@Target({ ElementType.METHOD, ElementType.FIELD, ElementType.CONSTRUCTOR, ElementType.TYPE })"
+public @interface Thunk {
+}
+
+Project Name: Bucket-develop File Name: ViewModelKey.java
+@Documented
+@Target({ ElementType.METHOD })
+@Retention(RetentionPolicy.RUNTIME)
+@MapKey
+@interface ViewModelKey {
+    Class<? extends ViewModel> value();
+}
+
+Project Name: chanu-ui-experimental File Name: Entry.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.TYPE)
+public @interface Table {
+    String value();
+}
+
+Project Name: chanu-ui-experimental File Name: Entry.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.FIELD)
+public @interface Column {
+    String value();
+    boolean indexed() default false;
+    boolean fullText() default false;
+"    String defaultValue() default """";"
+}
+
+Project Name: clear-todolist-master File Name: Column.java
+@Target(ElementType.FIELD)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface Column {
+    public enum ConflictAction {
+"        ROLLBACK, ABORT, FAIL, IGNORE, REPLACE"
+    }
+    public enum ForeignKeyAction {
+"        SET_NULL, SET_DEFAULT, CASCADE, RESTRICT, NO_ACTION"
+    }
+"    public String name() default """";"
+    public int length() default -1;
+    public boolean notNull() default false;
+    public ConflictAction onNullConflict() default ConflictAction.FAIL;
+    public ForeignKeyAction onDelete() default ForeignKeyAction.NO_ACTION;
+    public ForeignKeyAction onUpdate() default ForeignKeyAction.NO_ACTION;
+    public boolean unique() default false;
+    public ConflictAction onUniqueConflict() default ConflictAction.FAIL;
+    public String[] uniqueGroups() default {};
+    public ConflictAction[] onUniqueConflicts() default {};
+    public boolean index() default false;
+    public String[] indexGroups() default {};
+}
+
+Project Name: clear-todolist-master File Name: Table.java
+@Target(ElementType.TYPE)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface Table {
+"    public static final String DEFAULT_ID_NAME = ""Id"";"
+    public String name();
+    public String id() default DEFAULT_ID_NAME;
+}
+
+Project Name: Clover-dev File Name: FastScroller.java
+"@IntDef({ STATE_HIDDEN, STATE_VISIBLE, STATE_DRAGGING })"
+@Retention(RetentionPolicy.SOURCE)
+private @interface State {
+}
+
+Project Name: Clover-dev File Name: FastScroller.java
+"@IntDef({ DRAG_X, DRAG_Y, DRAG_NONE })"
+@Retention(RetentionPolicy.SOURCE)
+private @interface DragState {
+}
+
+Project Name: Clover-dev File Name: FastScroller.java
+"@IntDef({ ANIMATION_STATE_OUT, ANIMATION_STATE_FADING_IN, ANIMATION_STATE_IN, ANIMATION_STATE_FADING_OUT })"
+@Retention(RetentionPolicy.SOURCE)
+private @interface AnimationState {
+}
+
+Project Name: daily-dozen-android-master File Name: TimeScale.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ DAYS, MONTHS, YEARS })"
+public @interface Interface {
+}
+
+Project Name: daily-dozen-android-master File Name: Units.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ IMPERIAL, METRIC })"
+public @interface Interface {
+}
+
+Project Name: deltachat-android-master File Name: RecyclerView.java
+"@IntDef(flag = true, value = { STEP_START, STEP_LAYOUT, STEP_ANIMATIONS })"
+@Retention(RetentionPolicy.SOURCE)
+@interface LayoutState {
+}
+
+Project Name: deltachat-android-master File Name: RecyclerView.java
+"@IntDef(flag = true, value = { FLAG_CHANGED, FLAG_REMOVED, FLAG_MOVED, FLAG_INVALIDATED, FLAG_APPEARED_IN_PRE_LAYOUT })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface AdapterChanges {
+}
+
+Project Name: Dir-master File Name: PathController.java
+@Retention(SOURCE)
+"@IntDef({ STANDARD_INPUT, MANUAL_INPUT })"
+public @interface Mode {
+}
+
+Project Name: Dir-master File Name: Themer.java
+@Retention(SOURCE)
+"@IntDef({ DIR, GRAYSCALE, DARK })"
+public @interface Theme {
+}
+
+Project Name: Dir-master File Name: CopyHelper.java
+@Retention(SOURCE)
+"@IntDef({ COPY, CUT })"
+private @interface Operation {
+}
+
+Project Name: Dir-master File Name: PlayBillingManager.java
+@Retention(SOURCE)
+"@IntDef({ CONNECTED, CONNECTING, DISCONNECTED })"
+private @interface ConnectionStatus {
+}
+
+Project Name: document-viewer-master File Name: ActionMethod.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+@Inherited
+public @interface ActionMethod {
+    int[] ids();
+}
+
+Project Name: document-viewer-master File Name: InvocationContext.java
+public @interface InvocationContext {
+    InvokationType name() default InvokationType.Direct;
+}
+
+Project Name: dolphin-master File Name: EmulationActivity.java
+@Retention(SOURCE)
+"@IntDef({ MENU_ACTION_EDIT_CONTROLS_PLACEMENT, MENU_ACTION_TOGGLE_CONTROLS, MENU_ACTION_ADJUST_SCALE, MENU_ACTION_CHOOSE_CONTROLLER, MENU_ACTION_REFRESH_WIIMOTES, MENU_ACTION_TAKE_SCREENSHOT, MENU_ACTION_QUICK_SAVE, MENU_ACTION_QUICK_LOAD, MENU_ACTION_SAV"
+public @interface MenuAction {
+}
+
+Project Name: dolphin-master File Name: AppLinkHelper.java
+"@StringDef({ BROWSE, PLAY })"
+public @interface ActionFlags {
+}
+
+Project Name: droidfish-master File Name: FloatingActionButton.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ SIZE_NORMAL, SIZE_MINI })"
+public @interface FAB_SIZE {
+}
+
+Project Name: Easer-master File Name: ValidData.java
+public @interface ValidData {
+}
+
+Project Name: FastHub-Libre-liberated File Name: SettingsModel.java
+"@IntDef({ THEME, NOTIFICATION, CUSTOMIZATION, BEHAVIOR, BACKUP, LANGUAGE, CODE_THEME })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface SettingsType {
+}
+
+Project Name: FastHub-Libre-liberated File Name: NotificationService.java
+"@StringDef({ ISSUE_THREAD_CLASS, PULL_REQUEST_THREAD_CLASS })"
+@Retention(RetentionPolicy.SOURCE)
+@interface ThreadClass {
+}
+
+Project Name: FastHub-Libre-liberated File Name: NotificationService.java
+"@StringDef({ SUBSCRIBE, MUTE })"
+@Retention(RetentionPolicy.SOURCE)
+@interface ThreadId {
+}
+
+Project Name: FastHub-Libre-liberated File Name: BundleConstant.java
+"@StringDef({ FOR_RESULT_EXTRA, EDIT_GIST_COMMENT_EXTRA, NEW_GIST_COMMENT_EXTRA, EDIT_ISSUE_COMMENT_EXTRA, NEW_ISSUE_COMMENT_EXTRA, EDIT_COMMIT_COMMENT_EXTRA, NEW_COMMIT_COMMENT_EXTRA, NEW_REVIEW_COMMENT_EXTRA, EDIT_REVIEW_COMMENT_EXTRA })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface ExtraType {
+"    String FOR_RESULT_EXTRA = ""for_result_extra"";"
+"    String EDIT_GIST_COMMENT_EXTRA = ""edit_comment_extra"";"
+"    String NEW_GIST_COMMENT_EXTRA = ""new_gist_comment_extra"";"
+"    String EDIT_ISSUE_COMMENT_EXTRA = ""edit_issue_comment_extra"";"
+"    String NEW_ISSUE_COMMENT_EXTRA = ""new_issue_comment_extra"";"
+"    String EDIT_COMMIT_COMMENT_EXTRA = ""edit_commit_comment_extra"";"
+"    String NEW_COMMIT_COMMENT_EXTRA = ""new_commit_comment_extra"";"
+"    String NEW_REVIEW_COMMENT_EXTRA = ""new_review_comment_extra"";"
+"    String EDIT_REVIEW_COMMENT_EXTRA = ""edit_review_comment_extra"";"
+}
+
+Project Name: FastHub-Libre-liberated File Name: PrefGetter.java
+"@IntDef({ LIGHT, DARK, AMLOD, MID_NIGHT_BLUE, BLUISH })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface ThemeType {
+}
+
+Project Name: FastHub-Libre-liberated File Name: PrefGetter.java
+"@IntDef({ RED, PINK, PURPLE, DEEP_PURPLE, INDIGO, BLUE, LIGHT_BLUE, CYAN, TEAL, GREEN, LIGHT_GREEN, LIME, YELLOW, AMBER, ORANGE, DEEP_ORANGE })"
+@Retention(RetentionPolicy.SOURCE)
+@interface ThemeColor {
+}
+
+Project Name: FastHub-Libre-liberated File Name: GithubActionService.java
+"@IntDef({ STAR_REPO, UNSTAR_REPO, FORK_REPO, WATCH_REPO, UNWATCH_REPO, STAR_GIST, UNSTAR_GIST, FORK_GIST })"
+@Retention(RetentionPolicy.SOURCE)
+@interface GitActionType {
+}
+
+Project Name: FastHub-Libre-liberated File Name: ReactionsProvider.java
+"@IntDef({ HEADER, COMMENT, REVIEW_COMMENT, COMMIT })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface ReactionType {
+}
+
+Project Name: FastHub-Libre-liberated File Name: MainMvp.java
+"@IntDef({ FEEDS, ISSUES, PULL_REQUESTS, PROFILE })"
+@Retention(RetentionPolicy.SOURCE)
+@interface NavigationType {
+}
+
+Project Name: FastHub-Libre-liberated File Name: RepoMiscMVp.java
+"@IntDef({ WATCHERS, FORKS, STARS })"
+@Retention(RetentionPolicy.SOURCE)
+@interface MiscType {
+}
+
+Project Name: FastHub-Libre-liberated File Name: RepoPagerMvp.java
+"@IntDef({ CODE, ISSUES, PULL_REQUEST, PROJECTS, PROFILE })"
+@Retention(RetentionPolicy.SOURCE)
+@interface RepoNavigationType {
+}
+
+Project Name: FBEventSync-master File Name: ExternalFileDataProvider.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+public @interface ExternalFile {
+    String fileName();
+}
+
+Project Name: gloomy-dungeons-2-master File Name: Addons.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.TYPE)
+@Inherited
+public @interface Addons {
+    public Class<? extends IAddon>[] value() default {};
+}
+
+Project Name: gloomy-dungeons-2-master File Name: IAddon.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.TYPE)
+public @interface Addon {
+    public Class<? extends IAddon>[] conflict() default {};
+    public String[] conflictStrings() default {};
+    public boolean inhert() default false;
+    public int weight() default -1;
+}
+
+Project Name: gloomy-dungeons-2-master File Name: SystemServiceManager.java
+@Target(ElementType.TYPE)
+@Retention(RetentionPolicy.RUNTIME)
+public static @interface SystemService {
+    public String value();
+}
+
+Project Name: gobandroid-master File Name: GoDefinitions.java
+"@IntDef({ STONE_NONE, STONE_BLACK, STONE_WHITE })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface CellStatus {
+}
+
+Project Name: hackdash-master File Name: ChosenHackerSpaceName.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface ChosenHackerSpaceName {
+}
+
+Project Name: hackdash-master File Name: ChosenHackerSpaceUrl.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface ChosenHackerSpaceUrl {
+}
+
+Project Name: hubble_gallery-master File Name: ActivityScope.java
+@Scope
+public @interface ActivityScope {
+}
+
+Project Name: JumpGo-master File Name: Constants.java
+"@IntDef({ NO_PROXY, PROXY_ORBOT, PROXY_I2P, PROXY_MANUAL })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface Proxy {
+}
+
+Project Name: Lawnchair-alpha File Name: AbstractFloatingView.java
+"@IntDef(flag = true, value = { TYPE_FOLDER, TYPE_POPUP_CONTAINER_WITH_ARROW, TYPE_WIDGETS_BOTTOM_SHEET })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface FloatingViewType {
+}
+
+Project Name: Lawnchair-alpha File Name: PopupContainerWithArrow.java
+"@IntDef(flag = true, value = { ROUNDED_TOP_CORNERS, ROUNDED_BOTTOM_CORNERS })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface RoundedCornerFlags {
+}
+
+Project Name: Lawnchair-alpha File Name: Thunk.java
+@Retention(RetentionPolicy.SOURCE)
+"@Target({ ElementType.METHOD, ElementType.FIELD, ElementType.CONSTRUCTOR, ElementType.TYPE })"
+public @interface Thunk {
+}
+
+Project Name: linkasanote-master File Name: NextcloudAccount.java
+@Qualifier
+@Documented
+@Retention(RetentionPolicy.RUNTIME)
+public @interface NextcloudAccount {
+}
+
+Project Name: linkasanote-master File Name: FragmentScoped.java
+@Scope
+@Retention(RetentionPolicy.RUNTIME)
+public @interface FragmentScoped {
+}
+
+Project Name: linkasanote-master File Name: FavoriteId.java
+@Qualifier
+@Documented
+@Retention(RetentionPolicy.RUNTIME)
+public @interface FavoriteId {
+}
+
+Project Name: linkasanote-master File Name: LinkId.java
+@Qualifier
+@Documented
+@Retention(RetentionPolicy.RUNTIME)
+public @interface LinkId {
+}
+
+Project Name: linkasanote-master File Name: NoteId.java
+@Qualifier
+@Documented
+@Retention(RetentionPolicy.RUNTIME)
+public @interface NoteId {
+}
+
+Project Name: lumicall-master File Name: PreferenceField.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+public @interface PreferenceField {
+    String fieldName();
+}
+
+Project Name: materialistic-master File Name: PublicApi.java
+@Retention(RetentionPolicy.SOURCE)
+"@Target({ ElementType.CONSTRUCTOR, ElementType.METHOD, ElementType.TYPE })"
+public @interface PublicApi {
+}
+
+Project Name: materialistic-master File Name: Synthetic.java
+@Retention(RetentionPolicy.SOURCE)
+"@Target({ ElementType.FIELD, ElementType.CONSTRUCTOR, ElementType.METHOD, ElementType.TYPE })"
+public @interface Synthetic {
+}
+
+Project Name: materialistic-master File Name: AlgoliaPopularClient.java
+@Retention(RetentionPolicy.SOURCE)
+"@StringDef({ LAST_24H, PAST_WEEK, PAST_MONTH, PAST_YEAR })"
+public @interface Range {
+}
+
+Project Name: materialistic-master File Name: ItemManager.java
+@Retention(RetentionPolicy.SOURCE)
+"@StringDef({ TOP_FETCH_MODE, NEW_FETCH_MODE, ASK_FETCH_MODE, SHOW_FETCH_MODE, JOBS_FETCH_MODE, BEST_FETCH_MODE })"
+@interface FetchMode {
+}
+
+Project Name: materialistic-master File Name: ItemManager.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ MODE_DEFAULT, MODE_CACHE, MODE_NETWORK })"
+@interface CacheMode {
+}
+
+Project Name: materialistic-master File Name: WebItem.java
+@Retention(RetentionPolicy.SOURCE)
+"@StringDef({ JOB_TYPE, STORY_TYPE, COMMENT_TYPE, POLL_TYPE })"
+@interface Type {
+}
+
+Project Name: materialistic-master File Name: KeyDelegate.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ DIRECTION_NONE, DIRECTION_UP, DIRECTION_DOWN })"
+@interface Direction {
+}
+
+Project Name: materialistic-master File Name: KeyDelegate.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ SCROLL_ITEM, SCROLL_PAGE })"
+@interface ScrollMode {
+}
+
+Project Name: materialistic-master File Name: ParameterizedTestRunner.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+public @interface Parameters {
+"    String name() default ""{index}"";"
+}
+
+Project Name: metrodroid-master File Name: CardRawDataFragmentClass.java
+@Target(ElementType.TYPE)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface CardRawDataFragmentClass {
+    Class value();
+}
+
+Project Name: MissedNotificationsReminder-master File Name: IsInstrumentationTest.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface IsInstrumentationTest {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: AnimationSpeed.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface AnimationSpeed {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: PicassoDebugging.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface PicassoDebugging {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: PixelGridEnabled.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface PixelGridEnabled {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: PixelRatioEnabled.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface PixelRatioEnabled {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: ScalpelEnabled.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface ScalpelEnabled {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: ScalpelWireframeEnabled.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface ScalpelWireframeEnabled {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: SeenDebugDrawer.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface SeenDebugDrawer {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: DebugDrawerLayout.java
+"@IntDef({ STATE_IDLE, STATE_DRAGGING, STATE_SETTLING })"
+@Retention(RetentionPolicy.SOURCE)
+private @interface State {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: DebugDrawerLayout.java
+"@IntDef({ LOCK_MODE_UNLOCKED, LOCK_MODE_LOCKED_CLOSED, LOCK_MODE_LOCKED_OPEN })"
+@Retention(RetentionPolicy.SOURCE)
+private @interface LockMode {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: DebugDrawerLayout.java
+"@IntDef({ Gravity.LEFT, Gravity.RIGHT, GravityCompat.START, GravityCompat.END })"
+@Retention(RetentionPolicy.SOURCE)
+private @interface EdgeGravity {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: CreateDismissNotification.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface CreateDismissNotification {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: ForActivity.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface ForActivity {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: ForApplication.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface ForApplication {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: ForceWakeLock.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface ForceWakeLock {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: IgnorePersistentNotifications.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface IgnorePersistentNotifications {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: IoThreadScheduler.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface IoThreadScheduler {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: LimitReminderRepeats.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface LimitReminderRepeats {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: MainThreadScheduler.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface MainThreadScheduler {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: ReminderEnabled.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface ReminderEnabled {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: ReminderInterval.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface ReminderInterval {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: ReminderIntervalDefault.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface ReminderIntervalDefault {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: ReminderIntervalMax.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface ReminderIntervalMax {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: ReminderIntervalMin.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface ReminderIntervalMin {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: ReminderRepeats.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface ReminderRepeats {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: ReminderRepeatsDefault.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface ReminderRepeatsDefault {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: ReminderRepeatsMax.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface ReminderRepeatsMax {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: ReminderRepeatsMin.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface ReminderRepeatsMin {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: ReminderRingtone.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface ReminderRingtone {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: RemindWhenScreenIsOn.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface RemindWhenScreenIsOn {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: RespectPhoneCalls.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface RespectPhoneCalls {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: RespectRingerMode.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface RespectRingerMode {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: SchedulerEnabled.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface SchedulerEnabled {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: SchedulerMode.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface SchedulerMode {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: SchedulerRangeBegin.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface SchedulerRangeBegin {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: SchedulerRangeDefaultBegin.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface SchedulerRangeDefaultBegin {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: SchedulerRangeDefaultEnd.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface SchedulerRangeDefaultEnd {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: SchedulerRangeEnd.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface SchedulerRangeEnd {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: SchedulerRangeMax.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface SchedulerRangeMax {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: SchedulerRangeMin.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface SchedulerRangeMin {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: SelectedApplications.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface SelectedApplications {
+}
+
+Project Name: MissedNotificationsReminder-master File Name: Vibrate.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface Vibrate {
+}
+
+Project Name: More-For-GO-master File Name: IssueReporterActivity.java
+"@StringDef({ RESULT_OK, RESULT_BAD_CREDENTIALS, RESULT_INVALID_TOKEN, RESULT_ISSUES_NOT_ENABLED, RESULT_UNKNOWN })"
+@Retention(RetentionPolicy.SOURCE)
+private @interface Result {
+}
+
+Project Name: Music-Player-GO-master File Name: PlaybackInfoListener.java
+"@IntDef({ State.INVALID, State.PLAYING, State.PAUSED, State.COMPLETED, State.RESUMED })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface State {
+    int INVALID = -1;
+    int PLAYING = 0;
+    int PAUSED = 1;
+    int COMPLETED = 2;
+    int RESUMED = 3;
+}
+
+Project Name: muzei-master File Name: MuzeiArtSource.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ UPDATE_REASON_OTHER, UPDATE_REASON_INITIAL, UPDATE_REASON_USER_NEXT, UPDATE_REASON_SCHEDULED })"
+public @interface UpdateReason {
+}
+
+Project Name: muzei-master File Name: MuzeiContract.java
+@Retention(RetentionPolicy.SOURCE)
+"@StringDef({ META_FONT_TYPE_DEFAULT, META_FONT_TYPE_ELEGANT })"
+public @interface MetaFontType {
+}
+
+Project Name: MyExpenses-master File Name: DividerItemDecoration.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ DIVIDER_CONDITION_EITHER, DIVIDER_CONDITION_BOTH })"
+public @interface DividerCondition {
+}
+
+Project Name: MyExpenses-master File Name: Keep.java
+@Retention(CLASS)
+"@Target({ PACKAGE, TYPE, ANNOTATION_TYPE, CONSTRUCTOR, METHOD, FIELD })"
+public @interface Keep {
+}
+
+Project Name: MyExpenses-master File Name: VisibleForTesting.java
+@Retention(RetentionPolicy.SOURCE)
+public @interface VisibleForTesting {
+    enum Visibility {
+"        PROTECTED, PACKAGE, PRIVATE"
+    }
+    Visibility visibility() default Visibility.PRIVATE;
+}
+
+Project Name: Mysplash-master File Name: PhotosObject.java
+"@IntDef({ PHOTOS_TYPE_NORMAL, PHOTOS_TYPE_CURATED })"
+private @interface TypeRule {
+}
+
+Project Name: Mysplash-master File Name: DownloadMission.java
+"@FloatRange(from = 0.0, to = 100.0)"
+public @interface ProcessRangeRule {
+}
+
+Project Name: Mysplash-master File Name: AboutModel.java
+"@IntDef({ TYPE_HEADER, TYPE_CATEGORY, TYPE_APP, TYPE_TRANSLATOR, TYPE_LIBRARY })"
+@interface AboutTypeRule {
+}
+
+Project Name: Mysplash-master File Name: LoadModel.java
+"@IntDef({ LOADING_STATE, FAILED_STATE, NORMAL_STATE })"
+@interface StateRule {
+}
+
+Project Name: Mysplash-master File Name: LoginActivity.java
+"@IntDef({ NORMAL_STATE, AUTH_STATE })"
+private @interface StateRule {
+}
+
+Project Name: Mysplash-master File Name: SetWallpaperActivity.java
+"@IntDef({ CLIP_TYPE_SQUARE, CLIP_TYPE_RECT })"
+private @interface ClipRule {
+}
+
+Project Name: Mysplash-master File Name: SetWallpaperActivity.java
+"@IntDef({ ALIGN_TYPE_LEFT, ALIGN_TYPE_CENTER, ALIGN_TYPE_RIGHT })"
+private @interface AlignRule {
+}
+
+Project Name: Mysplash-master File Name: SetWallpaperActivity.java
+"@IntDef({ WHERE_WALLPAPER, WHERE_LOCKSCREEN, WHERE_WALL_LOCK })"
+public @interface WallpaperWhereRule {
+}
+
+Project Name: Mysplash-master File Name: UpdateMeActivity.java
+"@IntDef({ INPUT_STATE, UPDATE_STATE })"
+private @interface StateRule {
+}
+
+Project Name: Mysplash-master File Name: FollowingAdapter.java
+"@IntDef({ TitleHolder.VIEW_TYPE_TITLE, PhotoHolder.VIEW_TYPE_PHOTO, UserHolder.VIEW_TYPE_USER, MoreHolder.VIEW_TYPE_MORE })"
+@interface ViewTypeRule {
+}
+
+Project Name: Mysplash-master File Name: DeleteCollectionPhotoDialog.java
+"@IntDef({ CONFIRM_STATE, DELETE_STATE })"
+private @interface StateRule {
+}
+
+Project Name: Mysplash-master File Name: SelectCollectionDialog.java
+"@IntDef({ SHOW_COLLECTIONS_STATE, INPUT_COLLECTION_STATE, CREATE_COLLECTION_STATE })"
+private @interface StateRule {
+}
+
+Project Name: Mysplash-master File Name: UpdateCollectionDialog.java
+"@IntDef({ INPUT_STATE, UPDATE_STATE, CONFIRM_STATE, DELETE_STATE })"
+private @interface StateRule {
+}
+
+Project Name: Mysplash-master File Name: CollectionMenuPopupWindow.java
+"@IntDef({ ITEM_EDIT, ITEM_DOWNLOAD, ITEM_SET_AS_SOURCE })"
+private @interface MenuItemRule {
+}
+
+Project Name: Mysplash-master File Name: MeMenuPopupWindow.java
+"@IntDef({ ITEM_SUBMIT, ITEM_PORTFOLIO, ITEM_SHARE })"
+private @interface MenuItemRule {
+}
+
+Project Name: Mysplash-master File Name: PhotoMenuPopupWindow.java
+"@IntDef({ ITEM_DOWNLOAD_PAGE, ITEM_STORY_PAGE })"
+private @interface MenuItemRule {
+}
+
+Project Name: Mysplash-master File Name: PhotoOrderPopupWindow.java
+"@IntDef({ NORMAL_TYPE, CATEGORY_TYPE, NO_RANDOM_TYPE })"
+private @interface TypeRule {
+}
+
+Project Name: Mysplash-master File Name: CircularProgressIcon.java
+"@IntDef({ STATE_PROGRESS, STATE_RESULT })"
+private @interface StateRule {
+}
+
+Project Name: Mysplash-master File Name: FreedomImageView.java
+@IntRange(from = 0)
+private @interface SizeRule {
+}
+
+Project Name: Mysplash-master File Name: NestedScrollFrameLayout.java
+"@IntDef({ DIR_TOP, DIR_BOTTOM, DIR_NULL })"
+private @interface DirectionRule {
+}
+
+Project Name: Mysplash-master File Name: SwipeBackCoordinatorLayout.java
+"@IntDef({ NULL_DIR, UP_DIR, DOWN_DIR })"
+public @interface DirectionRule {
+}
+
+Project Name: Mysplash-master File Name: MaterialProgressDrawable.java
+@Retention(RetentionPolicy.CLASS)
+"@IntDef({ LARGE, DEFAULT })"
+public @interface ProgressDrawableSize {
+}
+
+Project Name: Mysplash-master File Name: DownloadHelper.java
+"@IntDef({ DownloadHelper.DOWNLOAD_TYPE, DownloadHelper.SHARE_TYPE, DownloadHelper.WALLPAPER_TYPE, DownloadHelper.COLLECTION_TYPE })"
+public @interface DownloadTypeRule {
+}
+
+Project Name: Mysplash-master File Name: DownloadHelper.java
+"@IntDef({ DownloadHelper.RESULT_DOWNLOADING, DownloadHelper.RESULT_SUCCEED, DownloadHelper.RESULT_FAILED })"
+public @interface DownloadResultRule {
+}
+
+Project Name: Mysplash-master File Name: AuthManager.java
+"@IntDef({ FREEDOM_STATE, LOADING_ME_STATE, LOADING_USER_STATE })"
+private @interface StateRule {
+}
+
+Project Name: Mysplash-master File Name: MyFollowObject.java
+"@IntDef({ FOLLOW_TYPE_FOLLOWERS, FOLLOW_TYPE_FOLLOWING })"
+public @interface FollowTypeRule {
+}
+
+Project Name: Mysplash-master File Name: PhotosObject.java
+"@IntDef({ PHOTOS_TYPE_PHOTOS, PHOTOS_TYPE_LIKES })"
+public @interface PhotoTypeRule {
+}
+
+Project Name: Mysplash-master File Name: Mysplash.java
+"@StringDef({ DOWNLOAD_PHOTO_FORMAT, DOWNLOAD_COLLECTION_FORMAT })"
+public @interface DownloadFormatRule {
+}
+
+Project Name: Mysplash-master File Name: Mysplash.java
+"@IntRange(from = 1, to = 30)"
+public @interface PerPageRule {
+}
+
+Project Name: Mysplash-master File Name: Mysplash.java
+@IntRange(from = 1)
+public @interface PageRule {
+}
+
+Project Name: Mysplash-master File Name: Mysplash.java
+"@IntDef({ CATEGORY_TOTAL_NEW, CATEGORY_TOTAL_FEATURED })"
+public @interface PhotosTypeRule {
+}
+
+Project Name: Mysplash-master File Name: Mysplash.java
+"@IntDef({ CATEGORY_BUILDINGS_ID, CATEGORY_FOOD_DRINK_ID, CATEGORY_NATURE_ID, CATEGORY_OBJECTS_ID, CATEGORY_PEOPLE_ID, CATEGORY_TECHNOLOGY_ID })"
+public @interface CategoryIdRule {
+}
+
+Project Name: Mysplash-master File Name: Mysplash.java
+"@IntDef({ COLLECTION_TYPE_FEATURED, COLLECTION_TYPE_ALL, COLLECTION_TYPE_CURATED })"
+public @interface CollectionTypeRule {
+}
+
+Project Name: Mysplash-master File Name: SearchPageView.java
+"@IntDef({ SEARCH_PHOTOS_TYPE, SEARCH_COLLECTIONS_TYPE, SEARCH_USERS_TYPE })"
+private @interface TypeRule {
+}
+
+Project Name: Mysplash-master File Name: PhotosObject.java
+"@IntDef({ PHOTOS_TYPE_PHOTOS, PHOTOS_TYPE_LIKES })"
+private @interface TypeRule {
+}
+
+Project Name: Mysplash-master File Name: UserActivity.java
+"@IntDef({ PAGE_PHOTO, PAGE_LIKE, PAGE_COLLECTION })"
+public @interface UserPageRule {
+}
+
+Project Name: NewPipe-dev File Name: PlayerHelper.java
+@Retention(SOURCE)
+"@IntDef({ MINIMIZE_ON_EXIT_MODE_NONE, MINIMIZE_ON_EXIT_MODE_BACKGROUND, MINIMIZE_ON_EXIT_MODE_POPUP })"
+public @interface MinimizeMode {
+    int MINIMIZE_ON_EXIT_MODE_NONE = 0;
+    int MINIMIZE_ON_EXIT_MODE_BACKGROUND = 1;
+    int MINIMIZE_ON_EXIT_MODE_POPUP = 2;
+}
+
+Project Name: NewPipe-dev File Name: CollapsibleView.java
+@Retention(SOURCE)
+"@IntDef({ COLLAPSED, EXPANDED })"
+public @interface ViewMode {
+}
+
+Project Name: nock-nock-master File Name: ServerStatus.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ OK, WAITING, CHECKING, ERROR })"
+public @interface Enum {
+}
+
+Project Name: nock-nock-master File Name: ValidationMode.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ STATUS_CODE, TERM_SEARCH, JAVASCRIPT })"
+public @interface Enum {
+}
+
+Project Name: nusic-develop File Name: RemoteMusicDatabaseServiceMusicBrainz.java
+@Retention(RetentionPolicy.RUNTIME)
+"@Target({ ElementType.FIELD, ElementType.PARAMETER })"
+@BindingAnnotation
+public @interface ApplicationName {
+}
+
+Project Name: nusic-develop File Name: RemoteMusicDatabaseServiceMusicBrainz.java
+@Retention(RetentionPolicy.RUNTIME)
+"@Target({ ElementType.FIELD, ElementType.PARAMETER })"
+@BindingAnnotation
+public @interface ApplicationVersion {
+}
+
+Project Name: nusic-develop File Name: RemoteMusicDatabaseServiceMusicBrainz.java
+@Retention(RetentionPolicy.RUNTIME)
+"@Target({ ElementType.FIELD, ElementType.PARAMETER })"
+@BindingAnnotation
+public @interface ApplicationContact {
+}
+
+Project Name: open-event-orga-app-development File Name: ViewModelKey.java
+@Documented
+@Target({ ElementType.METHOD })
+@Retention(RetentionPolicy.RUNTIME)
+@MapKey
+@interface ViewModelKey {
+    Class<? extends ViewModel> value();
+}
+
+Project Name: open-keychain-master File Name: ViewKeyActivity.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ REQUEST_QR_FINGERPRINT, REQUEST_BACKUP, REQUEST_CERTIFY, REQUEST_DELETE })"
+private @interface RequestType {
+}
+
+Project Name: openfoodfacts-androidapp-master File Name: ActivityScope.java
+@Scope
+public @interface ActivityScope {
+}
+
+Project Name: openfoodfacts-androidapp-master File Name: FragmentScope.java
+@Scope
+public @interface FragmentScope {
+}
+
+Project Name: openfoodfacts-androidapp-master File Name: Qualifiers.java
+@Qualifier
+public @interface ForApplication {
+}
+
+Project Name: openfoodfacts-androidapp-master File Name: Qualifiers.java
+@Qualifier
+public @interface ForActivity {
+}
+
+Project Name: openfoodfacts-androidapp-master File Name: NavigationDrawerListener.java
+@Retention(SOURCE)
+"@IntDef({ ITEM_HOME, ITEM_SEARCH_BY_CODE, ITEM_CATEGORIES, ITEM_SCAN, ITEM_HISTORY, ITEM_LOGIN, ITEM_ALERT, ITEM_PREFERENCES, ITEM_OFFLINE, ITEM_ABOUT, ITEM_CONTRIBUTE, ITEM_OBF, ITEM_ADVANCED_SEARCH, ITEM_MY_CONTRIBUTIONS, ITEM_LOGOUT, ITEM_INCOMPLETE_PR"
+@interface NavigationDrawerType {
+}
+
+Project Name: openfoodfacts-androidapp-master File Name: ProductInfoState.java
+@Retention(SOURCE)
+"@StringDef({ LOADING, EMPTY })"
+public @interface ProductInfoState {
+"    String LOADING = ""loading"";"
+"    String EMPTY = ""empty"";"
+}
+
+Project Name: openfoodfacts-androidapp-master File Name: SearchType.java
+@Retention(SOURCE)
+"@StringDef({ ADDITIVE, ALLERGEN, BRAND, CATEGORY, COUNTRY, EMB, LABEL, PACKAGING, SEARCH, STORE, TRACE, CONTRIBUTOR, STATE, INCOMPLETE_PRODUCT })"
+public @interface SearchType {
+"    String ADDITIVE = ""additive"";"
+"    String ALLERGEN = ""allergen"";"
+"    String BRAND = ""brand"";"
+"    String CATEGORY = ""category"";"
+"    String COUNTRY = ""country"";"
+"    String EMB = ""emb"";"
+"    String LABEL = ""label"";"
+"    String PACKAGING = ""packaging"";"
+"    String SEARCH = ""search"";"
+"    String STORE = ""store"";"
+"    String TRACE = ""trace"";"
+"    String CONTRIBUTOR = ""contributor"";"
+"    String INCOMPLETE_PRODUCT = ""incomplete_product"";"
+"    String STATE = ""state"";"
+"    HashMap<String, String> URLS = new HashMap<String, String>() {"
+        {
+"            put(ALLERGEN, BuildConfig.OFWEBSITE + ""allergen/"");"
+"            put(EMB, BuildConfig.OFWEBSITE + ""packager-code/"");"
+"            put(TRACE, BuildConfig.OFWEBSITE + ""trace/"");"
+        }
+    };
+}
+
+Project Name: opengapps_downloader-master File Name: AfterPermissionGranted.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+public @interface AfterPermissionGranted {
+    int value();
+}
+
+Project Name: OpenLinkWith-master File Name: TutorialShown.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface TutorialShown {
+}
+
+Project Name: OpenLinkWith-master File Name: UsageAccess.java
+@Qualifier
+@Retention(RUNTIME)
+public @interface UsageAccess {
+}
+
+Project Name: OpenLinkWith-master File Name: PerActivity.java
+@Scope
+@Retention(RUNTIME)
+public @interface PerActivity {
+}
+
+Project Name: OpenLinkWith-master File Name: ReturnTypesAreNonnullByDefault.java
+@Documented
+@Nonnull
+@TypeQualifierDefault(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface ReturnTypesAreNonnullByDefault {
+}
+
+Project Name: OpenManga-master File Name: VerticalScrollingBehavior.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ ScrollDirection.SCROLL_DIRECTION_UP, ScrollDirection.SCROLL_DIRECTION_DOWN })"
+public @interface ScrollDirection {
+    int SCROLL_DIRECTION_UP = 1;
+    int SCROLL_DIRECTION_DOWN = -1;
+    int SCROLL_NONE = 0;
+}
+
+Project Name: OpenManga-master File Name: MangaLocale.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ MangaLocale.EN, MangaLocale.RU, MangaLocale.JP, MangaLocale.TR, MangaLocale.MULTI, MangaLocale.VIE, MangaLocale.FR })"
+public @interface MangaLocale {
+    int EN = 0;
+    int RU = 1;
+    int JP = 2;
+    int TR = 3;
+    int MULTI = 4;
+    int VIE = 5;
+    int FR = 6;
+}
+
+Project Name: OpenManga-master File Name: MangaStatus.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ MangaStatus.STATUS_UNKNOWN, MangaStatus.STATUS_COMPLETED, MangaStatus.STATUS_ONGOING })"
+public @interface MangaStatus {
+    int STATUS_UNKNOWN = 0;
+    int STATUS_COMPLETED = 1;
+    int STATUS_ONGOING = 2;
+}
+
+Project Name: OpenManga-master File Name: CName.java
+@Retention(RetentionPolicy.SOURCE)
+"@StringDef({ DesumeProvider.CNAME, ExhentaiProvider.CNAME, ReadmangaruProvider.CNAME, MintmangaProvider.CNAME, SelfmangaProvider.CNAME })"
+public @interface CName {
+}
+
+Project Name: OpenManga-master File Name: BookmarksListAdapter.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ ItemViewType.TYPE_ITEM_BOOKMARK, ItemViewType.TYPE_ITEM_HEADER })"
+public @interface ItemViewType {
+    int TYPE_ITEM_BOOKMARK = 0;
+    int TYPE_ITEM_HEADER = 1;
+}
+
+Project Name: OpenManga-master File Name: DiscoverAdapter.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ ItemViewType.TYPE_ITEM_DEFAULT, ItemViewType.TYPE_ITEM_WITH_ICON, ItemViewType.TYPE_HEADER })"
+public @interface ItemViewType {
+    int TYPE_ITEM_DEFAULT = 0;
+    int TYPE_ITEM_WITH_ICON = 1;
+    int TYPE_HEADER = 3;
+}
+
+Project Name: OpenManga-master File Name: FilterSortAdapter.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ ItemViewType.TYPE_ITEM_HEADER, ItemViewType.TYPE_ITEM_SORT, ItemViewType.TYPE_ITEM_GENRE })"
+public @interface ItemViewType {
+    int TYPE_ITEM_HEADER = 0;
+    int TYPE_ITEM_SORT = 1;
+    int TYPE_ITEM_GENRE = 2;
+}
+
+Project Name: OpenManga-master File Name: MangaListAdapter.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ ItemViewType.TYPE_ITEM_MANGA, ItemViewType.TYPE_ITEM_PROGRESS })"
+public @interface ItemViewType {
+    int TYPE_ITEM_MANGA = 0;
+    int TYPE_ITEM_PROGRESS = 1;
+}
+
+Project Name: OpenManga-master File Name: SearchAdapter.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ ItemViewType.TYPE_ITEM_MANGA, ItemViewType.TYPE_ITEM_PROGRESS, ItemViewType.TYPE_ITEM_SUBHEADER })"
+public @interface ItemViewType {
+    int TYPE_ITEM_MANGA = 0;
+    int TYPE_ITEM_PROGRESS = 1;
+    int TYPE_ITEM_SUBHEADER = 2;
+}
+
+Project Name: OpenManga-master File Name: ShelfItemType.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ ShelfItemType.TYPE_ITEM_DEFAULT, ShelfItemType.TYPE_ITEM_SMALL, ShelfItemType.TYPE_HEADER, ShelfItemType.TYPE_TIP, ShelfItemType.TYPE_RECENT })"
+public @interface ShelfItemType {
+    int TYPE_ITEM_DEFAULT = 0;
+    int TYPE_ITEM_SMALL = 1;
+    int TYPE_TIP = 2;
+    int TYPE_HEADER = 3;
+    int TYPE_RECENT = 4;
+}
+
+Project Name: OpenManga-master File Name: SettingsAdapter.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ ItemType.TYPE_ITEM_DEFAULT, ItemType.TYPE_TIP })"
+public @interface ItemType {
+    int TYPE_ITEM_DEFAULT = 0;
+    int TYPE_TIP = 1;
+}
+
+Project Name: Osmand-master File Name: MapMarkersHelper.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ BY_NAME, BY_DISTANCE_DESC, BY_DISTANCE_ASC, BY_DATE_ADDED_DESC, BY_DATE_ADDED_ASC })"
+public @interface MapMarkersSortByDef {
+}
+
+Project Name: Osmand-master File Name: OsmEditsFragment.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ EXPORT_TYPE_ALL, EXPORT_TYPE_POI, EXPORT_TYPE_NOTES })"
+@interface ExportTypesDef {
+}
+
+Project Name: Osmand-master File Name: OsmEditsFragment.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ FILE_TYPE_OSC, FILE_TYPE_GPX })"
+@interface FileTypesDef {
+}
+
+Project Name: Osmand-master File Name: ExtendedBottomSheetBehavior.java
+@RestrictTo(LIBRARY_GROUP)
+"@IntDef({ STATE_EXPANDED, STATE_COLLAPSED, STATE_DRAGGING, STATE_SETTLING, STATE_HIDDEN, STATE_MANUALLY_MOVED })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface State {
+}
+
+Project Name: Overchan-Android-master File Name: MaterialProgressDrawable.java
+@Retention(RetentionPolicy.CLASS)
+"@IntDef({ LARGE, DEFAULT })"
+public @interface ProgressDrawableSize {
+}
+
+Project Name: Paper-Wallet-master File Name: Address.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ TYPE_NONE, TYPE_MAINNET, TYPE_TESTNET, TYPE_P2SH, TYPE_P2SH_TESTNET })"
+private @interface KeyhashType {
+}
+
+Project Name: Paper-Wallet-master File Name: Address.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ PUBLIC_KEY_TO_ADDRESS_LEGACY, PUBLIC_KEY_TO_ADDRESS_P2WKH, PUBLIC_KEY_TO_ADDRESS_P2SH_P2WKH })"
+@interface PublicKeyRepresentation {
+}
+
+Project Name: Paper-Wallet-master File Name: BTCUtils.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ TYPE_WIF, TYPE_MINI, TYPE_BRAIN_WALLET, TYPE_BIP38 })"
+@interface PrivateKeyType {
+}
+
+Project Name: Paper-Wallet-master File Name: BTCUtils.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ TRANSACTION_TYPE_LEGACY, TRANSACTION_TYPE_BITCOIN_CASH, TRANSACTION_TYPE_SEGWIT })"
+public @interface TransactionType {
+}
+
+Project Name: PapuhWalls-master File Name: Corner.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ Corner.TOP_LEFT, Corner.TOP_RIGHT, Corner.BOTTOM_LEFT, Corner.BOTTOM_RIGHT })"
+public @interface Corner {
+    int TOP_LEFT = 0;
+    int TOP_RIGHT = 1;
+    int BOTTOM_RIGHT = 2;
+    int BOTTOM_LEFT = 3;
+}
+
+Project Name: PapuhWalls-master File Name: FloatingActionButton.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ SIZE_NORMAL, SIZE_MINI })"
+public @interface FAB_SIZE {
+}
+
+Project Name: PassAndroid-master File Name: Visibility.java
+"@IntDef({ VISIBLE, INVISIBLE, GONE })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface Visibility {
+}
+
+Project Name: pOT-Droid-master File Name: MaterialProgressDrawable.java
+@Retention(RetentionPolicy.CLASS)
+"@IntDef({ LARGE, DEFAULT })"
+public @interface ProgressDrawableSize {
+}
+
+Project Name: Puff-Android-master File Name: OnNavigationBlockedListener.java
+"@IntDef({ DIRECTION_FORWARD, DIRECTION_BACKWARD })"
+@Retention(RetentionPolicy.SOURCE)
+@interface Direction {
+}
+
+Project Name: Puff-Android-master File Name: SwipeBlockableViewPager.java
+"@IntDef({ SWIPE_DIRECTION_LEFT, SWIPE_DIRECTION_NONE, SWIPE_DIRECTION_RIGHT })"
+@Retention(RetentionPolicy.SOURCE)
+private @interface SwipeDirection {
+}
+
+Project Name: QuasselDroid-master File Name: Syncable.java
+@Retention(RetentionPolicy.RUNTIME)
+"@Target({ ElementType.FIELD, ElementType.METHOD, ElementType.PARAMETER })"
+public @interface Syncable {
+"    public String name() default """";"
+    public QVariantType type() default QVariantType.UserType;
+"    public String userType() default """";"
+    public QVariantType[] paramTypes() default {};
+}
+
+Project Name: QuickLyric-master File Name: Reflection.java
+public @interface Reflection {
+}
+
+Project Name: quitesleep-master File Name: ActionBarSherlock.java
+@Target(ElementType.TYPE)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface Implementation {
+    static final int DEFAULT_API = -1;
+    static final int DEFAULT_DPI = -1;
+    int api() default DEFAULT_API;
+    int dpi() default DEFAULT_DPI;
+}
+
+Project Name: reddit-android-appstore-dev File Name: ApplicationScope.java
+@Documented
+@Scope
+@Retention(RetentionPolicy.RUNTIME)
+public @interface ApplicationScope {
+}
+
+Project Name: reddit-android-appstore-dev File Name: FragmentScope.java
+@Documented
+@Scope
+@Retention(RetentionPolicy.RUNTIME)
+public @interface FragmentScope {
+}
+
+Project Name: RedReader-master File Name: CacheRequest.java
+"@IntDef({ DOWNLOAD_QUEUE_REDDIT_API, DOWNLOAD_QUEUE_IMGUR_API, DOWNLOAD_QUEUE_IMMEDIATE, DOWNLOAD_QUEUE_IMAGE_PRECACHE })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface DownloadQueueType {
+}
+
+Project Name: RedReader-master File Name: CacheRequest.java
+"@IntDef({ REQUEST_FAILURE_CONNECTION, REQUEST_FAILURE_REQUEST, REQUEST_FAILURE_STORAGE, REQUEST_FAILURE_CACHE_MISS, REQUEST_FAILURE_CANCELLED, REQUEST_FAILURE_MALFORMED_URL, REQUEST_FAILURE_PARSE, REQUEST_FAILURE_DISK_SPACE, REQUEST_FAILURE_REDDIT_REDIREC"
+@Retention(RetentionPolicy.SOURCE)
+public @interface RequestFailureType {
+}
+
+Project Name: RedReader-master File Name: MainMenuFragment.java
+"@IntDef({ MENU_MENU_ACTION_FRONTPAGE, MENU_MENU_ACTION_PROFILE, MENU_MENU_ACTION_INBOX, MENU_MENU_ACTION_SUBMITTED, MENU_MENU_ACTION_UPVOTED, MENU_MENU_ACTION_DOWNVOTED, MENU_MENU_ACTION_SAVED, MENU_MENU_ACTION_MODMAIL, MENU_MENU_ACTION_HIDDEN, MENU_MENU_"
+@Retention(RetentionPolicy.SOURCE)
+public @interface MainMenuAction {
+}
+
+Project Name: RedReader-master File Name: WritableObject.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.FIELD)
+@interface WritableObjectVersion {
+}
+
+Project Name: RedReader-master File Name: WritableObject.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.FIELD)
+@interface WritableObjectKey {
+}
+
+Project Name: RedReader-master File Name: WritableObject.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.FIELD)
+@interface WritableObjectTimestamp {
+}
+
+Project Name: RedReader-master File Name: WritableObject.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.FIELD)
+@interface WritableField {
+}
+
+Project Name: RedReader-master File Name: JsonBuffered.java
+"@IntDef({ STATUS_LOADING, STATUS_LOADED, STATUS_FAILED })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface Status {
+}
+
+Project Name: RedReader-master File Name: JsonValue.java
+"@IntDef({ TYPE_OBJECT, TYPE_ARRAY, TYPE_NULL, TYPE_BOOLEAN, TYPE_STRING, TYPE_FLOAT, TYPE_INTEGER })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface Type {
+}
+
+Project Name: RedReader-master File Name: RedditAPI.java
+"@IntDef({ ACTION_UPVOTE, ACTION_UNVOTE, ACTION_DOWNVOTE, ACTION_SAVE, ACTION_HIDE, ACTION_UNSAVE, ACTION_UNHIDE, ACTION_REPORT, ACTION_DELETE })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface RedditAction {
+}
+
+Project Name: RedReader-master File Name: RedditAPI.java
+"@IntDef({ SUBSCRIPTION_ACTION_SUBSCRIBE, SUBSCRIPTION_ACTION_UNSUBSCRIBE })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface RedditSubredditAction {
+}
+
+Project Name: RedReader-master File Name: RedditURLParser.java
+"@IntDef({ SUBREDDIT_POST_LISTING_URL, USER_POST_LISTING_URL, SEARCH_POST_LISTING_URL, UNKNOWN_POST_LISTING_URL, USER_PROFILE_URL, USER_COMMENT_LISTING_URL, UNKNOWN_COMMENT_LISTING_URL, POST_COMMENT_LISTING_URL, MULTIREDDIT_POST_LISTING_URL })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface PathType {
+}
+
+Project Name: RedReader-master File Name: BezelSwipeOverlay.java
+"@IntDef({ LEFT, RIGHT })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface SwipeEdge {
+}
+
+Project Name: RetroShare-master File Name: UsedByNativeCode.java
+public @interface UsedByNativeCode {
+}
+
+Project Name: rgb-tool-master File Name: PrintJobDialogFragment.java
+"@IntDef({ PRINT_COLOR_JOB, PRINT_PALETTE_JOB, PRINT_COLOR_DETAILS_JOB })"
+public @interface JobType {
+}
+
+Project Name: riot-android-develop File Name: PhoneNumberHandler.java
+"@IntDef({ DISPLAY_COUNTRY_FULL_NAME, DISPLAY_COUNTRY_ISO_CODE })"
+@Retention(RetentionPolicy.SOURCE)
+@interface DisplayMode {
+}
+
+Project Name: riot-android-develop File Name: ReadMarkerManager.java
+"@IntDef({ LIVE_MODE, PREVIEW_MODE })"
+@Retention(RetentionPolicy.SOURCE)
+@interface UpdateMode {
+}
+
+Project Name: riot-android-develop File Name: UnreadCounterBadgeView.java
+"@IntDef({ HIGHLIGHTED, NOTIFIED, DEFAULT })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface Status {
+}
+
+Project Name: rpicheck-master File Name: Exported.java
+@Documented
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface Exported {
+"    String value() default """";"
+}
+
+Project Name: rtl_tcp_andro--master File Name: UsedByJni.java
+@Retention(RetentionPolicy.SOURCE)
+"@Target({ ElementType.FIELD, ElementType.METHOD, ElementType.CONSTRUCTOR })"
+public @interface UsedByJni {
+}
+
+Project Name: sgtpuzzles-master File Name: UsedByJNI.java
+public @interface UsedByJNI {
+}
+
+Project Name: Silence-master File Name: VisibleForTesting.java
+public @interface VisibleForTesting {
+}
+
+Project Name: simple-keyboard-master File Name: ExternallyReferenced.java
+public @interface ExternallyReferenced {
+}
+
+Project Name: simple-keyboard-master File Name: UsedForTesting.java
+public @interface UsedForTesting {
+}
+
+Project Name: simple-keyboard-master File Name: UserManagerCompatUtils.java
+@Retention(SOURCE)
+"@IntDef({ LOCK_STATE_UNKNOWN, LOCK_STATE_UNLOCKED, LOCK_STATE_LOCKED })"
+public @interface LockState {
+}
+
+Project Name: SimpleSmsRemote-master File Name: ExecSequentially.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target({ ElementType.METHOD })
+public @interface ExecSequentially {
+    String value();
+}
+
+Project Name: SmartGadget-Android-master File Name: SectionManagerMobile.java
+"@IntDef(flag = false, value = { POSITION_DASHBOARD, POSITION_COMFORT_ZONE, POSITION_HISTORY, POSITION_SETTINGS })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface AvailableSections {
+}
+
+Project Name: SmartGadget-Android-master File Name: SectionManagerTablet.java
+"@IntDef(flag = false, value = { POSITION_DASHBOARD, POSITION_COMFORT_ZONE, POSITION_HISTORY, POSITION_DEVICE_SCAN, POSITION_SETTINGS })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface AvailableSections {
+}
+
+Project Name: SmartReceiptsLibrary-master File Name: ActivityScope.java
+@Scope
+@Retention(RUNTIME)
+public @interface ActivityScope {
+}
+
+Project Name: SmartReceiptsLibrary-master File Name: ApplicationScope.java
+@Scope
+@Retention(RUNTIME)
+public @interface ApplicationScope {
+}
+
+Project Name: SmartReceiptsLibrary-master File Name: FragmentScope.java
+@Scope
+public @interface FragmentScope {
+}
+
+Project Name: SmartReceiptsLibrary-master File Name: ServiceScope.java
+@Scope
+@Retention(RUNTIME)
+public @interface ServiceScope {
+}
+
+Project Name: SmartReceiptsLibrary-master File Name: PdfRendererCompat.java
+"@IntDef({ Page.RENDER_MODE_FOR_DISPLAY, Page.RENDER_MODE_FOR_PRINT })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface RenderMode {
+}
+
+Project Name: SoundWaves-master File Name: TestUtils.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ LEFT, RIGHT })"
+public @interface Direction {
+}
+
+Project Name: SoundWaves-master File Name: EpisodeViewHolder.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ EXPANDED, COLLAPSED, COLLAPSED_WITH_DESCRIPTION, COLLAPSED_LISTENED })"
+public @interface DisplayState {
+}
+
+Project Name: SoundWaves-master File Name: EpisodeViewHolder.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ GONE, SHORT, LONG })"
+public @interface DescriptionLength {
+}
+
+Project Name: SoundWaves-master File Name: FeedViewAdapter.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ RECENT_FIRST, OLDEST_FIRST })"
+public @interface Order {
+}
+
+Project Name: SoundWaves-master File Name: PlaylistAdapter.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ TYPE_EXPAND, TYPE_COLLAPSE })"
+@interface EpisodeViewState {
+}
+
+Project Name: SoundWaves-master File Name: SubscriptionSelectorCallback.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ NONE, ALL, SOME })"
+public @interface PinState {
+}
+
+Project Name: SoundWaves-master File Name: EventLogger.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ SUBSCRIBE_PODCAST, UNSUBSCRIBE_PODCAST, LISTEN_EPISODE, LISTEN_PODCAST, START_APP })"
+public @interface EventType {
+}
+
+Project Name: SoundWaves-master File Name: DiscoveryFragment.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ GPODDER_INDEX, ITUNES_INDEX })"
+public @interface SearchEngine {
+}
+
+Project Name: SoundWaves-master File Name: Constants.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ IN_VEHICLE, OTHER, DEBUGGING, STILL })"
+public @interface Activities {
+}
+
+Project Name: SoundWaves-master File Name: FragmentContainerActivity.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ PLAYLIST, SUBSCRIPTION, DISCOVER })"
+public @interface FragmentNumber {
+}
+
+Project Name: SoundWaves-master File Name: PlayerStatusObservable.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ PLAYING, PAUSED, STOPPED, PREPARING })"
+public @interface PlayerStatus {
+}
+
+Project Name: SoundWaves-master File Name: EpisodeChanged.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ ADDED, REMOVED, CHANGED, PARSED, PLAYING_PROGRESS, DOWNLOADED, DOWNLOAD_PROGRESS, FILE_DELETED })"
+public @interface Action {
+}
+
+Project Name: SoundWaves-master File Name: SubscriptionChanged.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ ADDED, REMOVED, CHANGED, SUBSCRIBED, LOADED })"
+public @interface Action {
+}
+
+Project Name: SoundWaves-master File Name: Library.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ DATE_NEW_FIRST, DATE_OLD_FIRST, NOT_SET, ALPHABETICALLY, ALPHABETICALLY_REVERSE, LAST_UPDATE, NEW_EPISODES, SCORE })"
+public @interface SortOrder {
+}
+
+Project Name: SoundWaves-master File Name: LibraryPersistency.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ UPDATED, INSERTED, IGNORED, ERROR })"
+public @interface PersistencyResult {
+}
+
+Project Name: SoundWaves-master File Name: FeedParser.java
+@Retention(RetentionPolicy.SOURCE)
+"@StringDef({ FEED_TYPE_RSS, FEED_TYPE_ATOM, FEED_TYPE_ITUNES })"
+public @interface FeedType {
+}
+
+Project Name: SoundWaves-master File Name: FeedParser.java
+@Retention(RetentionPolicy.SOURCE)
+"@StringDef({ EPISODE_TITLE_TAG, EPISODE_LINK_TAG, EPISODE_DESCRIPTION_TAG, EPISODE_AUTHOR_TAG, EPISODE_CATEGORY_TAG, EPISODE_COMMENTS_TAG, EPISODE_ENCLOSURE_TAG, EPISODE_GUID_TAG, EPISODE_PUB_DATE_TAG, EPISODE_SOURCE_TAG })"
+@interface RssItemTag {
+}
+
+Project Name: SoundWaves-master File Name: FeedParser.java
+@Retention(RetentionPolicy.SOURCE)
+"@StringDef({ ITUNES_DURATION_TAG, ITUNES_IMAGE_TAG, ITUNES_SUMMARY_TAG })"
+public @interface ItunesItemTag {
+}
+
+Project Name: SoundWaves-master File Name: ExoPlayerWrapper.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ RENDERER_COUNT, TYPE_VIDEO, TYPE_AUDIO, TYPE_TEXT, TYPE_METADATA })"
+public @interface PlayerType {
+}
+
+Project Name: SoundWaves-master File Name: SoundWavesPlayerBase.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ STATE_IDLE, STATE_BUFFERING, STATE_READY, STATE_ENDED })"
+public @interface PlayerState {
+}
+
+Project Name: SoundWaves-master File Name: SubscriptionFilter.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ SHOW_ALL, SHOW_NONE, SHOW_SELECTED })"
+public @interface Mode {
+}
+
+Project Name: SoundWaves-master File Name: IDbItem.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ SUBSCRIPTION, EPISODE })"
+@interface DbItemType {
+}
+
+Project Name: SoundWaves-master File Name: IEpisode.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ PREFER_LOCAL, REQUIRE_LOCAL, REQUIRE_REMOTE })"
+@interface Location {
+}
+
+Project Name: SoundWaves-master File Name: ISubscription.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ DEFAULT, SLIM, AUDIOBOOK })"
+@interface Type {
+}
+
+Project Name: SoundWaves-master File Name: Subscription.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ STATUS_SUBSCRIBED, STATUS_UNSUBSCRIBED })"
+public @interface Subscribed {
+}
+
+Project Name: SoundWaves-master File Name: SoundWavesDownloadManager.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ OK, NO_STORAGE, OUT_OF_STORAGE, NO_CONNECTION, NEED_PERMISSION })"
+public @interface Result {
+}
+
+Project Name: SoundWaves-master File Name: SoundWavesDownloadManager.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ FIRST, LAST, ANYWHERE, STARTED_MANUALLY })"
+public @interface QueuePosition {
+}
+
+Project Name: SoundWaves-master File Name: SoundWavesDownloadManager.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ NETWORK_OK, NETWORK_RESTRICTED, NETWORK_DISCONNECTED })"
+public @interface NetworkState {
+}
+
+Project Name: SoundWaves-master File Name: SoundWavesDownloadManager.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ ACTION_REFRESH_SUBSCRIPTION, ACTION_STREAM_EPISODE, ACTION_DOWNLOAD_MANUALLY, ACTION_DOWNLOAD_AUTOMATICALLY })"
+public @interface Action {
+}
+
+Project Name: SoundWaves-master File Name: SoundWavesDownloadManager.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ ADDED, REMOVED, CLEARED, UNDEFINED })"
+public @interface DownloadManagerEvent {
+}
+
+Project Name: SoundWaves-master File Name: PlayerService.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ NONE, NEW_TRACK, NEXT_IN_PLAYLIST })"
+public @interface NextTrack {
+}
+
+Project Name: SoundWaves-master File Name: TopActivity.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ PERMISSION_TO_DOWNLOAD, PERMISSION_TO_IMPORT_EXPORT, PERMISSION_TO_USE_CAMERA })"
+public @interface PermissionCallback {
+}
+
+Project Name: SoundWaves-master File Name: ImageLoaderUtils.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ NETWORK, NO_NETWORK, DEFAULT })"
+public @interface NetworkPolicy {
+}
+
+Project Name: SoundWaves-master File Name: UserAgentInterceptor.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ NONE, SUBSCRIPTION_REFRESH, GPODDER, GENERIC_SEARCH, AUDIOSEARCH, DOWNLOAD_EPISODE })"
+public @interface TrafficTag {
+}
+
+Project Name: SoundWaves-master File Name: StorageUtils.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ AUDIO, VIDEO, OTHER })"
+public @interface MimeType {
+}
+
+Project Name: SoundWaves-master File Name: DialogOPML.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ IMPORT, EXPORT, NONE })"
+public @interface Action {
+}
+
+Project Name: SoundWaves-master File Name: DialogPlaybackSpeed.java
+"@IntDef({ EPISODE, SUBSCRIPTION, GLOBAL })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface Scope {
+}
+
+Project Name: SoundWaves-master File Name: PlayPauseDrawable.java
+"@IntDef({ IS_PLAYING, IS_PAUSED })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface IconState {
+}
+
+Project Name: SoundWaves-master File Name: OnTouchSeekListener.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ FORWARD, BACKWARDS })"
+public @interface Direction {
+}
+
+Project Name: SoundWaves-master File Name: PlayPauseButton.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ PLAYLIST, FEEDVIEW, DISCOVERY_FEEDVIEW, OTHER })"
+public @interface ButtonLocation {
+}
+
+Project Name: SoundWaves-master File Name: GEpisodeAction.java
+"@StringDef({ DOWNLOAD, DELETE, PLAY, NEW, FLATTR })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface Action {
+}
+
+Project Name: SoundWaves-master File Name: GPodderAPI.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ SYNCHRONIZATION_OK, AUTHENTICATION_ERROR, SERVER_ERROR })"
+public @interface SynchronizationResult {
+}
+
+Project Name: SoundWaves-master File Name: IDirectoryProvider.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ SEARCH_RESULTS, BY_AUTHOR, POPULAR, TRENDING })"
+@interface ListMode {
+}
+
+Project Name: stardroid-master File Name: VisibleForTesting.java
+@Retention(RetentionPolicy.CLASS)
+"@Target({ ElementType.METHOD, ElementType.FIELD, ElementType.CONSTRUCTOR })"
+public @interface VisibleForTesting {
+}
+
+Project Name: stardroid-master File Name: PerActivity.java
+@Scope
+@Retention(RetentionPolicy.RUNTIME)
+public @interface PerActivity {
+}
+
+Project Name: talkback-master File Name: Compositor.java
+"@IntDef({ FLAVOR_NONE, FLAVOR_ARC, FLAVOR_TV, FLAVOR_SWITCH_ACCESS })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface Flavor {
+}
+
+Project Name: talkback-master File Name: Compositor.java
+"@IntDef({ EVENT_SPOKEN_FEEDBACK_ON, EVENT_SPOKEN_FEEDBACK_SUSPENDED, EVENT_SPOKEN_FEEDBACK_RESUMED, EVENT_SPOKEN_FEEDBACK_DISABLED, EVENT_CAPS_LOCK_ON, EVENT_CAPS_LOCK_OFF, EVENT_NUM_LOCK_ON, EVENT_NUM_LOCK_OFF, EVENT_SCROLL_LOCK_ON, EVENT_SCROLL_LOCK_OFF"
+@Retention(RetentionPolicy.SOURCE)
+public @interface Event {
+}
+
+Project Name: talkback-master File Name: Compositor.java
+"@IntDef({ DESC_ORDER_ROLE_NAME_STATE_POSITION, DESC_ORDER_STATE_NAME_ROLE_POSITION, DESC_ORDER_NAME_ROLE_STATE_POSITION })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface DescriptionOrder {
+}
+
+Project Name: talkback-master File Name: UsedByReflection.java
+@Retention(RetentionPolicy.SOURCE)
+public @interface UsedByReflection {
+    String value();
+}
+
+Project Name: talkback-master File Name: Analytics.java
+"@IntDef({ TYPE_UNKNOWN, TYPE_PREFERENCE_SETTING, TYPE_GESTURE, TYPE_CONTEXT_MENU, TYPE_SELECTOR })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface UserActionType {
+}
+
+Project Name: talkback-master File Name: TelevisionNavigationController.java
+"@IntDef({ MODE_NAVIGATE, MODE_SEEK_CONTROL })"
+@Retention(RetentionPolicy.SOURCE)
+private @interface RemoteMode {
+}
+
+Project Name: talkback-master File Name: TouchExplorationAction.java
+"@IntDef({ TOUCH_INTERACTION_START, HOVER_ENTER, TOUCH_INTERACTION_END })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface ActionType {
+}
+
+Project Name: talkback-master File Name: FocusActionInfo.java
+"@IntDef({ UNKNOWN, MANUAL_SCROLL, TOUCH_EXPLORATION })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface SourceAction {
+}
+
+Project Name: talkback-master File Name: SavedNode.java
+"@IntDef({ NODE_REGULAR, NODE_ANCHOR, NODE_ANCHORED })"
+@Retention(RetentionPolicy.SOURCE)
+private @interface SavedNodeType {
+}
+
+Project Name: talkback-master File Name: TelevisionDPadManager.java
+"@IntDef({ STATE_RESUMED, STATE_RESUMED_PENDING, STATE_SUSPENDED, STATE_SUSPENDED_PENDING })"
+@Retention(RetentionPolicy.SOURCE)
+@interface State {
+}
+
+Project Name: talkback-master File Name: TestController.java
+"@IntDef({ ORDER_DEFAULT, ORDER_ALPHABET, ORDER_MOST_FREQUENTLY_USED, ORDER_MOST_RECENTLY_USED })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface OrderType {
+}
+
+Project Name: talkback-master File Name: CollectionState.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ NAVIGATE_NONE, NAVIGATE_ENTER, NAVIGATE_EXIT, NAVIGATE_INTERIOR })"
+public @interface CollectionTransition {
+}
+
+Project Name: talkback-master File Name: CollectionState.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef(flag = true, value = { TYPE_NONE, TYPE_ROW, TYPE_COLUMN })"
+public @interface RowColumnTransition {
+}
+
+Project Name: talkback-master File Name: CollectionState.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ TYPE_NONE, TYPE_ROW, TYPE_COLUMN, TYPE_INDETERMINATE })"
+public @interface TableHeadingType {
+}
+
+Project Name: talkback-master File Name: CollectionState.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ ALIGNMENT_VERTICAL, ALIGNMENT_HORIZONTAL })"
+public @interface CollectionAlignment {
+}
+
+Project Name: talkback-master File Name: InputModeManager.java
+"@IntDef({ INPUT_MODE_UNKNOWN, INPUT_MODE_TOUCH, INPUT_MODE_KEYBOARD, INPUT_MODE_TV_REMOTE, INPUT_MODE_NON_ALPHABETIC_KEYBOARD })"
+public @interface InputMode {
+}
+
+Project Name: talkback-master File Name: ParseTree.java
+"@IntDef({ VARIABLE_BOOL, VARIABLE_INTEGER, VARIABLE_NUMBER, VARIABLE_STRING, VARIABLE_ENUM, VARIABLE_REFERENCE, VARIABLE_ARRAY, VARIABLE_CHILD_ARRAY })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface VariableType {
+}
+
+Project Name: talkback-master File Name: ParseTree.java
+"@IntDef({ OPERATOR_CLASS_NONE, OPERATOR_CLASS_PLUS, OPERATOR_CLASS_MULTIPLY, OPERATOR_CLASS_EQUALS, OPERATOR_CLASS_AND, OPERATOR_CLASS_TOKEN })"
+@Retention(RetentionPolicy.SOURCE)
+@interface OperatorClass {
+}
+
+Project Name: talkback-master File Name: ParseTree.java
+"@IntDef({ OPERATOR_PLUS, OPERATOR_MINUS, OPERATOR_MULTIPLY, OPERATOR_DIVIDE, OPERATOR_EQUALS, OPERATOR_NEQUALS, OPERATOR_LT, OPERATOR_GT, OPERATOR_LE, OPERATOR_GE, OPERATOR_AND, OPERATOR_OR, OPERATOR_POW })"
+@Retention(RetentionPolicy.SOURCE)
+@interface Operator {
+}
+
+Project Name: talkback-master File Name: ParseTreeResourceNode.java
+"@IntDef({ TYPE_STRING, TYPE_PLURALS, TYPE_RESOURCE_ID })"
+@Retention(RetentionPolicy.SOURCE)
+@interface Type {
+}
+
+Project Name: talkback-master File Name: Performance.java
+"@IntDef({ STAGE_FRAMEWORK, STAGE_INLINE_HANDLING, STAGE_FEEDBACK_QUEUED, STAGE_FEEDBACK_HEARD })"
+public @interface StageId {
+}
+
+Project Name: talkback-master File Name: Performance.java
+"@IntDef({ EVENT_TYPE_ACCESSIBILITY, EVENT_TYPE_KEY, EVENT_TYPE_KEY_COMBO, EVENT_TYPE_VOLUME_KEY_COMBO, EVENT_TYPE_GESTURE, EVENT_TYPE_ROTATE, EVENT_TYPE_FINGERPRINT_GESTURE })"
+public @interface EventTypeId {
+}
+
+Project Name: talkback-master File Name: PureFunction.java
+@Documented
+@Target(ElementType.TYPE)
+@Inherited
+@Retention(RetentionPolicy.RUNTIME)
+public @interface PureFunction {
+}
+
+Project Name: talkback-master File Name: Role.java
+"@IntDef({ ROLE_NONE, ROLE_BUTTON, ROLE_CHECK_BOX, ROLE_CHECKED_TEXT_VIEW, ROLE_DROP_DOWN_LIST, ROLE_EDIT_TEXT, ROLE_GRID, ROLE_IMAGE, ROLE_IMAGE_BUTTON, ROLE_LIST, ROLE_PAGER, ROLE_RADIO_BUTTON, ROLE_SEEK_CONTROL, ROLE_SWITCH, ROLE_TAB_BAR, ROLE_TOGGLE_BU"
+@Retention(RetentionPolicy.SOURCE)
+public @interface RoleName {
+}
+
+Project Name: talkback-master File Name: TraversalStrategy.java
+"@IntDef({ SEARCH_FOCUS_FORWARD, SEARCH_FOCUS_BACKWARD, SEARCH_FOCUS_LEFT, SEARCH_FOCUS_RIGHT, SEARCH_FOCUS_UP, SEARCH_FOCUS_DOWN })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface SearchDirection {
+}
+
+Project Name: talkback-master File Name: TraversalStrategy.java
+"@IntDef({ SEARCH_FOCUS_UNKNOWN, SEARCH_FOCUS_FORWARD, SEARCH_FOCUS_BACKWARD, SEARCH_FOCUS_LEFT, SEARCH_FOCUS_RIGHT, SEARCH_FOCUS_UP, SEARCH_FOCUS_DOWN })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface SearchDirectionOrUnknown {
+}
+
+Project Name: talkback-master File Name: VolumeButtonPatternDetector.java
+"@IntDef({ SHORT_PRESS_PATTERN, TWO_BUTTONS_LONG_PRESS_PATTERN, TWO_BUTTONS_THREE_PRESS_PATTERN })"
+public @interface ButtonSequence {
+}
+
+Project Name: talkback-master File Name: VolumeButtonPatternDetector.java
+"@IntDef({ VOLUME_UP, VOLUME_DOWN, TWO_BUTTONS })"
+public @interface ButtonsUsed {
+}
+
+Project Name: tasks-master File Name: Task.java
+@Retention(SOURCE)
+"@IntDef({ Priority.HIGH, Priority.MEDIUM, Priority.LOW, Priority.NONE })"
+public @interface Priority {
+    int HIGH = 0;
+    int MEDIUM = 1;
+    int LOW = 2;
+    int NONE = 3;
+}
+
+Project Name: tasks-master File Name: SkusAdapter.java
+@Retention(SOURCE)
+"@IntDef({ TYPE_HEADER, TYPE_NORMAL })"
+public @interface RowTypeDef {
+}
+
+Project Name: tasks-master File Name: ActivityScope.java
+@Scope
+@Retention(RetentionPolicy.RUNTIME)
+@interface ActivityScope {
+}
+
+Project Name: tasks-master File Name: ApplicationScope.java
+@Scope
+@Retention(RetentionPolicy.RUNTIME)
+public @interface ApplicationScope {
+}
+
+Project Name: tasks-master File Name: ForActivity.java
+@Qualifier
+"@Target({ FIELD, PARAMETER, METHOD })"
+@Documented
+@Retention(RUNTIME)
+public @interface ForActivity {
+}
+
+Project Name: tasks-master File Name: ForApplication.java
+@Qualifier
+"@Target({ FIELD, PARAMETER, METHOD })"
+@Documented
+@Retention(RUNTIME)
+public @interface ForApplication {
+}
+
+Project Name: Telegram-FOSS-master File Name: Ac3Util.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ STREAM_TYPE_UNDEFINED, STREAM_TYPE_TYPE0, STREAM_TYPE_TYPE1, STREAM_TYPE_TYPE2 })"
+public @interface StreamType {
+}
+
+Project Name: Telegram-FOSS-master File Name: AudioTimestampPoller.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ STATE_INITIALIZING, STATE_TIMESTAMP, STATE_TIMESTAMP_ADVANCING, STATE_NO_TIMESTAMP, STATE_ERROR })"
+private @interface State {
+}
+
+Project Name: Telegram-FOSS-master File Name: AudioTrackPositionTracker.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ PLAYSTATE_STOPPED, PLAYSTATE_PAUSED, PLAYSTATE_PLAYING })"
+private @interface PlayState {
+}
+
+Project Name: Telegram-FOSS-master File Name: DefaultAudioSink.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ START_NOT_SET, START_IN_SYNC, START_NEED_SYNC })"
+private @interface StartMediaTimeState {
+}
+
+Project Name: Telegram-FOSS-master File Name: SilenceSkippingAudioProcessor.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ STATE_NOISY, STATE_MAYBE_SILENT, STATE_SILENT })"
+private @interface State {
+}
+
+Project Name: Telegram-FOSS-master File Name: SimpleDecoderAudioRenderer.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ REINITIALIZATION_STATE_NONE, REINITIALIZATION_STATE_SIGNAL_END_OF_STREAM, REINITIALIZATION_STATE_WAIT_END_OF_STREAM })"
+private @interface ReinitializationState {
+}
+
+Project Name: Telegram-FOSS-master File Name: C.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ CRYPTO_MODE_UNENCRYPTED, CRYPTO_MODE_AES_CTR, CRYPTO_MODE_AES_CBC })"
+public @interface CryptoMode {
+}
+
+Project Name: Telegram-FOSS-master File Name: C.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ Format.NO_VALUE, ENCODING_INVALID, ENCODING_PCM_8BIT, ENCODING_PCM_16BIT, ENCODING_PCM_24BIT, ENCODING_PCM_32BIT, ENCODING_PCM_FLOAT, ENCODING_AC3, ENCODING_E_AC3, ENCODING_DTS, ENCODING_DTS_HD, ENCODING_DOLBY_TRUEHD })"
+public @interface Encoding {
+}
+
+Project Name: Telegram-FOSS-master File Name: C.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ Format.NO_VALUE, ENCODING_INVALID, ENCODING_PCM_8BIT, ENCODING_PCM_16BIT, ENCODING_PCM_24BIT, ENCODING_PCM_32BIT, ENCODING_PCM_FLOAT })"
+public @interface PcmEncoding {
+}
+
+Project Name: Telegram-FOSS-master File Name: C.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ STREAM_TYPE_ALARM, STREAM_TYPE_DTMF, STREAM_TYPE_MUSIC, STREAM_TYPE_NOTIFICATION, STREAM_TYPE_RING, STREAM_TYPE_SYSTEM, STREAM_TYPE_VOICE_CALL, STREAM_TYPE_USE_DEFAULT })"
+public @interface StreamType {
+}
+
+Project Name: Telegram-FOSS-master File Name: C.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ CONTENT_TYPE_MOVIE, CONTENT_TYPE_MUSIC, CONTENT_TYPE_SONIFICATION, CONTENT_TYPE_SPEECH, CONTENT_TYPE_UNKNOWN })"
+public @interface AudioContentType {
+}
+
+Project Name: Telegram-FOSS-master File Name: C.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef(flag = true, value = { FLAG_AUDIBILITY_ENFORCED })"
+public @interface AudioFlags {
+}
+
+Project Name: Telegram-FOSS-master File Name: C.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ USAGE_ALARM, USAGE_ASSISTANCE_ACCESSIBILITY, USAGE_ASSISTANCE_NAVIGATION_GUIDANCE, USAGE_ASSISTANCE_SONIFICATION, USAGE_GAME, USAGE_MEDIA, USAGE_NOTIFICATION, USAGE_NOTIFICATION_COMMUNICATION_DELAYED, USAGE_NOTIFICATION_COMMUNICATION_INSTANT, US"
+public @interface AudioUsage {
+}
+
+Project Name: Telegram-FOSS-master File Name: C.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef(flag = true, value = { BUFFER_FLAG_KEY_FRAME, BUFFER_FLAG_END_OF_STREAM, BUFFER_FLAG_ENCRYPTED, BUFFER_FLAG_DECODE_ONLY })"
+public @interface BufferFlags {
+}
+
+Project Name: Telegram-FOSS-master File Name: C.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef(value = { VIDEO_SCALING_MODE_SCALE_TO_FIT, VIDEO_SCALING_MODE_SCALE_TO_FIT_WITH_CROPPING })"
+public @interface VideoScalingMode {
+}
+
+Project Name: Telegram-FOSS-master File Name: C.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef(flag = true, value = { SELECTION_FLAG_DEFAULT, SELECTION_FLAG_FORCED, SELECTION_FLAG_AUTOSELECT })"
+public @interface SelectionFlags {
+}
+
+Project Name: Telegram-FOSS-master File Name: C.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ TYPE_DASH, TYPE_SS, TYPE_HLS, TYPE_OTHER })"
+public @interface ContentType {
+}
+
+Project Name: Telegram-FOSS-master File Name: C.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ Format.NO_VALUE, STEREO_MODE_MONO, STEREO_MODE_TOP_BOTTOM, STEREO_MODE_LEFT_RIGHT, STEREO_MODE_STEREO_MESH })"
+public @interface StereoMode {
+}
+
+Project Name: Telegram-FOSS-master File Name: C.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ Format.NO_VALUE, COLOR_SPACE_BT709, COLOR_SPACE_BT601, COLOR_SPACE_BT2020 })"
+public @interface ColorSpace {
+}
+
+Project Name: Telegram-FOSS-master File Name: C.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ Format.NO_VALUE, COLOR_TRANSFER_SDR, COLOR_TRANSFER_ST2084, COLOR_TRANSFER_HLG })"
+public @interface ColorTransfer {
+}
+
+Project Name: Telegram-FOSS-master File Name: C.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ Format.NO_VALUE, COLOR_RANGE_LIMITED, COLOR_RANGE_FULL })"
+public @interface ColorRange {
+}
+
+Project Name: Telegram-FOSS-master File Name: DecoderInputBuffer.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ BUFFER_REPLACEMENT_MODE_DISABLED, BUFFER_REPLACEMENT_MODE_NORMAL, BUFFER_REPLACEMENT_MODE_DIRECT })"
+public @interface BufferReplacementMode {
+}
+
+Project Name: Telegram-FOSS-master File Name: DefaultRenderersFactory.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ EXTENSION_RENDERER_MODE_OFF, EXTENSION_RENDERER_MODE_ON, EXTENSION_RENDERER_MODE_PREFER })"
+public @interface ExtensionRendererMode {
+}
+
+Project Name: Telegram-FOSS-master File Name: DefaultDrmSessionManager.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ MODE_PLAYBACK, MODE_QUERY, MODE_DOWNLOAD, MODE_RELEASE })"
+public @interface Mode {
+}
+
+Project Name: Telegram-FOSS-master File Name: DrmSession.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ STATE_RELEASED, STATE_ERROR, STATE_OPENING, STATE_OPENED, STATE_OPENED_WITH_KEYS })"
+public @interface State {
+}
+
+Project Name: Telegram-FOSS-master File Name: UnsupportedDrmException.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ REASON_UNSUPPORTED_SCHEME, REASON_INSTANTIATION_ERROR })"
+public @interface Reason {
+}
+
+Project Name: Telegram-FOSS-master File Name: ExoPlaybackException.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ TYPE_SOURCE, TYPE_RENDERER, TYPE_UNEXPECTED })"
+public @interface Type {
+}
+
+Project Name: Telegram-FOSS-master File Name: FlacExtractor.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef(flag = true, value = { FLAG_DISABLE_ID3_METADATA })"
+public @interface Flags {
+}
+
+Project Name: Telegram-FOSS-master File Name: FlvExtractor.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ STATE_READING_FLV_HEADER, STATE_SKIPPING_TO_TAG_HEADER, STATE_READING_TAG_HEADER, STATE_READING_TAG_DATA })"
+private @interface States {
+}
+
+Project Name: Telegram-FOSS-master File Name: DefaultEbmlReader.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ ELEMENT_STATE_READ_ID, ELEMENT_STATE_READ_CONTENT_SIZE, ELEMENT_STATE_READ_CONTENT })"
+private @interface ElementState {
+}
+
+Project Name: Telegram-FOSS-master File Name: EbmlReaderOutput.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ TYPE_UNKNOWN, TYPE_MASTER, TYPE_UNSIGNED_INT, TYPE_STRING, TYPE_BINARY, TYPE_FLOAT })"
+@interface ElementType {
+}
+
+Project Name: Telegram-FOSS-master File Name: MatroskaExtractor.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef(flag = true, value = { FLAG_DISABLE_SEEK_FOR_CUES })"
+public @interface Flags {
+}
+
+Project Name: Telegram-FOSS-master File Name: Mp3Extractor.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef(flag = true, value = { FLAG_ENABLE_CONSTANT_BITRATE_SEEKING, FLAG_DISABLE_ID3_METADATA })"
+public @interface Flags {
+}
+
+Project Name: Telegram-FOSS-master File Name: FragmentedMp4Extractor.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef(flag = true, value = { FLAG_WORKAROUND_EVERY_VIDEO_FRAME_IS_SYNC_FRAME, FLAG_WORKAROUND_IGNORE_TFDT_BOX, FLAG_ENABLE_EMSG_TRACK, FLAG_SIDELOADED, FLAG_WORKAROUND_IGNORE_EDIT_LISTS })"
+public @interface Flags {
+}
+
+Project Name: Telegram-FOSS-master File Name: Mp4Extractor.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef(flag = true, value = { FLAG_WORKAROUND_IGNORE_EDIT_LISTS })"
+public @interface Flags {
+}
+
+Project Name: Telegram-FOSS-master File Name: Mp4Extractor.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ STATE_READING_ATOM_HEADER, STATE_READING_ATOM_PAYLOAD, STATE_READING_SAMPLE })"
+private @interface State {
+}
+
+Project Name: Telegram-FOSS-master File Name: Track.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ TRANSFORMATION_NONE, TRANSFORMATION_CEA608_CDAT })"
+public @interface Transformation {
+}
+
+Project Name: Telegram-FOSS-master File Name: Ac3Reader.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ STATE_FINDING_SYNC, STATE_READING_HEADER, STATE_READING_SAMPLE })"
+private @interface State {
+}
+
+Project Name: Telegram-FOSS-master File Name: DefaultTsPayloadReaderFactory.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef(flag = true, value = { FLAG_ALLOW_NON_IDR_KEYFRAMES, FLAG_IGNORE_AAC_STREAM, FLAG_IGNORE_H264_STREAM, FLAG_DETECT_ACCESS_UNITS, FLAG_IGNORE_SPLICE_INFO_STREAM, FLAG_OVERRIDE_CAPTION_DESCRIPTORS })"
+public @interface Flags {
+}
+
+Project Name: Telegram-FOSS-master File Name: TsExtractor.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ MODE_MULTI_PMT, MODE_SINGLE_PMT, MODE_HLS })"
+public @interface Mode {
+}
+
+Project Name: Telegram-FOSS-master File Name: MediaCodecRenderer.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ KEEP_CODEC_RESULT_NO, KEEP_CODEC_RESULT_YES_WITHOUT_RECONFIGURATION, KEEP_CODEC_RESULT_YES_WITH_RECONFIGURATION })"
+protected @interface KeepCodecResult {
+}
+
+Project Name: Telegram-FOSS-master File Name: MediaCodecRenderer.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ RECONFIGURATION_STATE_NONE, RECONFIGURATION_STATE_WRITE_PENDING, RECONFIGURATION_STATE_QUEUE_PENDING })"
+private @interface ReconfigurationState {
+}
+
+Project Name: Telegram-FOSS-master File Name: MediaCodecRenderer.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ REINITIALIZATION_STATE_NONE, REINITIALIZATION_STATE_SIGNAL_END_OF_STREAM, REINITIALIZATION_STATE_WAIT_END_OF_STREAM })"
+private @interface ReinitializationState {
+}
+
+Project Name: Telegram-FOSS-master File Name: MediaCodecRenderer.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ ADAPTATION_WORKAROUND_MODE_NEVER, ADAPTATION_WORKAROUND_MODE_SAME_RESOLUTION, ADAPTATION_WORKAROUND_MODE_ALWAYS })"
+private @interface AdaptationWorkaroundMode {
+}
+
+Project Name: Telegram-FOSS-master File Name: DownloadManager.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ STATE_QUEUED, STATE_STARTED, STATE_COMPLETED, STATE_CANCELED, STATE_FAILED })"
+public @interface State {
+}
+
+Project Name: Telegram-FOSS-master File Name: DownloadManager.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ STATE_QUEUED, STATE_STARTED, STATE_COMPLETED, STATE_CANCELED, STATE_FAILED, STATE_QUEUED_CANCELING, STATE_STARTED_CANCELING, STATE_STARTED_STOPPING })"
+public @interface InternalState {
+}
+
+Project Name: Telegram-FOSS-master File Name: Player.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ REPEAT_MODE_OFF, REPEAT_MODE_ONE, REPEAT_MODE_ALL })"
+public @interface RepeatMode {
+}
+
+Project Name: Telegram-FOSS-master File Name: Player.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ DISCONTINUITY_REASON_PERIOD_TRANSITION, DISCONTINUITY_REASON_SEEK, DISCONTINUITY_REASON_SEEK_ADJUSTMENT, DISCONTINUITY_REASON_AD_INSERTION, DISCONTINUITY_REASON_INTERNAL })"
+public @interface DiscontinuityReason {
+}
+
+Project Name: Telegram-FOSS-master File Name: Player.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ TIMELINE_CHANGE_REASON_PREPARED, TIMELINE_CHANGE_REASON_RESET, TIMELINE_CHANGE_REASON_DYNAMIC })"
+public @interface TimelineChangeReason {
+}
+
+Project Name: Telegram-FOSS-master File Name: Renderer.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ STATE_DISABLED, STATE_ENABLED, STATE_STARTED })"
+@interface State {
+}
+
+Project Name: Telegram-FOSS-master File Name: Requirements.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ NETWORK_TYPE_NONE, NETWORK_TYPE_ANY, NETWORK_TYPE_UNMETERED, NETWORK_TYPE_NOT_ROAMING, NETWORK_TYPE_METERED })"
+public @interface NetworkType {
+}
+
+Project Name: Telegram-FOSS-master File Name: AdPlaybackState.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ AD_STATE_UNAVAILABLE, AD_STATE_AVAILABLE, AD_STATE_SKIPPED, AD_STATE_PLAYED, AD_STATE_ERROR })"
+public @interface AdState {
+}
+
+Project Name: Telegram-FOSS-master File Name: AdsMediaSource.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ TYPE_AD, TYPE_AD_GROUP, TYPE_ALL_ADS, TYPE_UNEXPECTED })"
+public @interface Type {
+}
+
+Project Name: Telegram-FOSS-master File Name: ClippingMediaSource.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ REASON_INVALID_PERIOD_COUNT, REASON_NOT_SEEKABLE_TO_START, REASON_START_EXCEEDS_END })"
+public @interface Reason {
+}
+
+Project Name: Telegram-FOSS-master File Name: DashMediaPeriod.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ CATEGORY_PRIMARY, CATEGORY_EMBEDDED, CATEGORY_MANIFEST_EVENTS })"
+public @interface TrackGroupCategory {
+}
+
+Project Name: Telegram-FOSS-master File Name: HlsSampleStreamWrapper.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ PRIMARY_TYPE_NONE, PRIMARY_TYPE_TEXT, PRIMARY_TYPE_AUDIO, PRIMARY_TYPE_VIDEO })"
+private @interface PrimaryTrackType {
+}
+
+Project Name: Telegram-FOSS-master File Name: HlsMediaPlaylist.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ PLAYLIST_TYPE_UNKNOWN, PLAYLIST_TYPE_VOD, PLAYLIST_TYPE_EVENT })"
+public @interface PlaylistType {
+}
+
+Project Name: Telegram-FOSS-master File Name: RenditionKey.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ TYPE_VARIANT, TYPE_AUDIO, TYPE_SUBTITLE })"
+public @interface Type {
+}
+
+Project Name: Telegram-FOSS-master File Name: MergingMediaSource.java
+@Retention(RetentionPolicy.SOURCE)
+@IntDef({ REASON_PERIOD_COUNT_MISMATCH })
+public @interface Reason {
+}
+
+Project Name: Telegram-FOSS-master File Name: CaptionStyleCompat.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ EDGE_TYPE_NONE, EDGE_TYPE_OUTLINE, EDGE_TYPE_DROP_SHADOW, EDGE_TYPE_RAISED, EDGE_TYPE_DEPRESSED })"
+public @interface EdgeType {
+}
+
+Project Name: Telegram-FOSS-master File Name: Cue.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ TYPE_UNSET, ANCHOR_TYPE_START, ANCHOR_TYPE_MIDDLE, ANCHOR_TYPE_END })"
+public @interface AnchorType {
+}
+
+Project Name: Telegram-FOSS-master File Name: Cue.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ TYPE_UNSET, LINE_TYPE_FRACTION, LINE_TYPE_NUMBER })"
+public @interface LineType {
+}
+
+Project Name: Telegram-FOSS-master File Name: Cue.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ TYPE_UNSET, TEXT_SIZE_TYPE_FRACTIONAL, TEXT_SIZE_TYPE_FRACTIONAL_IGNORE_PADDING, TEXT_SIZE_TYPE_ABSOLUTE })"
+public @interface TextSizeType {
+}
+
+Project Name: Telegram-FOSS-master File Name: TextRenderer.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ REPLACEMENT_STATE_NONE, REPLACEMENT_STATE_SIGNAL_END_OF_STREAM, REPLACEMENT_STATE_WAIT_END_OF_STREAM })"
+private @interface ReplacementState {
+}
+
+Project Name: Telegram-FOSS-master File Name: TtmlStyle.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef(flag = true, value = { UNSPECIFIED, STYLE_NORMAL, STYLE_BOLD, STYLE_ITALIC, STYLE_BOLD_ITALIC })"
+public @interface StyleFlags {
+}
+
+Project Name: Telegram-FOSS-master File Name: TtmlStyle.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ UNSPECIFIED, FONT_SIZE_UNIT_PIXEL, FONT_SIZE_UNIT_EM, FONT_SIZE_UNIT_PERCENT })"
+public @interface FontSizeUnit {
+}
+
+Project Name: Telegram-FOSS-master File Name: TtmlStyle.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ UNSPECIFIED, OFF, ON })"
+private @interface OptionalBoolean {
+}
+
+Project Name: Telegram-FOSS-master File Name: WebvttCssStyle.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef(flag = true, value = { UNSPECIFIED, STYLE_NORMAL, STYLE_BOLD, STYLE_ITALIC, STYLE_BOLD_ITALIC })"
+public @interface StyleFlags {
+}
+
+Project Name: Telegram-FOSS-master File Name: WebvttCssStyle.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ UNSPECIFIED, FONT_SIZE_UNIT_PIXEL, FONT_SIZE_UNIT_EM, FONT_SIZE_UNIT_PERCENT })"
+public @interface FontSizeUnit {
+}
+
+Project Name: Telegram-FOSS-master File Name: WebvttCssStyle.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ UNSPECIFIED, OFF, ON })"
+private @interface OptionalBoolean {
+}
+
+Project Name: Telegram-FOSS-master File Name: MappingTrackSelector.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ RENDERER_SUPPORT_NO_TRACKS, RENDERER_SUPPORT_UNSUPPORTED_TRACKS, RENDERER_SUPPORT_EXCEEDS_CAPABILITIES_TRACKS, RENDERER_SUPPORT_PLAYABLE_TRACKS })"
+@interface RendererSupport {
+}
+
+Project Name: Telegram-FOSS-master File Name: AspectRatioFrameLayout.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ RESIZE_MODE_FIT, RESIZE_MODE_FIXED_WIDTH, RESIZE_MODE_FIXED_HEIGHT, RESIZE_MODE_FILL, RESIZE_MODE_ZOOM })"
+public @interface ResizeMode {
+}
+
+Project Name: Telegram-FOSS-master File Name: CacheDataSource.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef(flag = true, value = { FLAG_BLOCK_ON_CACHE, FLAG_IGNORE_CACHE_ON_ERROR, FLAG_IGNORE_CACHE_FOR_UNSET_LENGTH_REQUESTS })"
+public @interface Flags {
+}
+
+Project Name: Telegram-FOSS-master File Name: CacheDataSource.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ CACHE_IGNORED_REASON_ERROR, CACHE_IGNORED_REASON_UNSET_LENGTH })"
+public @interface CacheIgnoredReason {
+}
+
+Project Name: Telegram-FOSS-master File Name: DataSpec.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef(flag = true, value = { FLAG_ALLOW_GZIP, FLAG_ALLOW_CACHING_UNKNOWN_LENGTH })"
+public @interface Flags {
+}
+
+Project Name: Telegram-FOSS-master File Name: HttpDataSource.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ TYPE_OPEN, TYPE_READ, TYPE_CLOSE })"
+public @interface Type {
+}
+
+Project Name: Telegram-FOSS-master File Name: Loader.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ RETRY, RETRY_RESET_ERROR_COUNT, DONT_RETRY, DONT_RETRY_FATAL })"
+public @interface RetryAction {
+}
+
+Project Name: Telegram-FOSS-master File Name: EGLSurfaceTexture.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ SECURE_MODE_NONE, SECURE_MODE_SURFACELESS_CONTEXT, SECURE_MODE_PROTECTED_PBUFFER })"
+public @interface SecureMode {
+}
+
+Project Name: Telegram-FOSS-master File Name: NotificationUtil.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ IMPORTANCE_UNSPECIFIED, IMPORTANCE_NONE, IMPORTANCE_MIN, IMPORTANCE_LOW, IMPORTANCE_DEFAULT, IMPORTANCE_HIGH })"
+public @interface Importance {
+}
+
+Project Name: Telegram-FOSS-master File Name: RepeatModeUtil.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef(flag = true, value = { REPEAT_TOGGLE_MODE_NONE, REPEAT_TOGGLE_MODE_ONE, REPEAT_TOGGLE_MODE_ALL })"
+public @interface RepeatToggleModes {
+}
+
+Project Name: Telegram-FOSS-master File Name: CustomTabsService.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ RESULT_SUCCESS, RESULT_FAILURE_DISALLOWED, RESULT_FAILURE_REMOTE_ERROR, RESULT_FAILURE_MESSAGING_ERROR })"
+public @interface Result {
+}
+
+Project Name: Telegram-FOSS-master File Name: FastScroller.java
+"@IntDef({ STATE_HIDDEN, STATE_VISIBLE, STATE_DRAGGING })"
+@Retention(RetentionPolicy.SOURCE)
+private @interface State {
+}
+
+Project Name: Telegram-FOSS-master File Name: FastScroller.java
+"@IntDef({ DRAG_X, DRAG_Y, DRAG_NONE })"
+@Retention(RetentionPolicy.SOURCE)
+private @interface DragState {
+}
+
+Project Name: Telegram-FOSS-master File Name: FastScroller.java
+"@IntDef({ ANIMATION_STATE_OUT, ANIMATION_STATE_FADING_IN, ANIMATION_STATE_IN, ANIMATION_STATE_FADING_OUT })"
+@Retention(RetentionPolicy.SOURCE)
+private @interface AnimationState {
+}
+
+Project Name: Telegram-FOSS-master File Name: RecyclerView.java
+@RestrictTo(LIBRARY_GROUP)
+"@IntDef({ HORIZONTAL, VERTICAL })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface Orientation {
+}
+
+Project Name: Telegram-FOSS-master File Name: RecyclerView.java
+@Retention(RetentionPolicy.SOURCE)
+"@IntDef({ DIRECTION_LEFT, DIRECTION_TOP, DIRECTION_RIGHT, DIRECTION_BOTTOM })"
+public @interface EdgeDirection {
+}
+
+Project Name: Telegram-FOSS-master File Name: RecyclerView.java
+"@IntDef(flag = true, value = { STEP_START, STEP_LAYOUT, STEP_ANIMATIONS })"
+@Retention(RetentionPolicy.SOURCE)
+@interface LayoutState {
+}
+
+Project Name: Telegram-FOSS-master File Name: RecyclerView.java
+"@IntDef(flag = true, value = { FLAG_CHANGED, FLAG_REMOVED, FLAG_MOVED, FLAG_INVALIDATED, FLAG_APPEARED_IN_PRE_LAYOUT })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface AdapterChanges {
+}
+
+Project Name: Telegram-FOSS-master File Name: ViewBoundsCheck.java
+"@IntDef(flag = true, value = { FLAG_CVS_GT_PVS, FLAG_CVS_EQ_PVS, FLAG_CVS_LT_PVS, FLAG_CVS_GT_PVE, FLAG_CVS_EQ_PVE, FLAG_CVS_LT_PVE, FLAG_CVE_GT_PVS, FLAG_CVE_EQ_PVS, FLAG_CVE_LT_PVS, FLAG_CVE_GT_PVE, FLAG_CVE_EQ_PVE, FLAG_CVE_LT_PVE })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface ViewBounds {
+}
+
+Project Name: termux-app-master File Name: TermuxPreferences.java
+"@IntDef({ BELL_VIBRATE, BELL_BEEP, BELL_IGNORE })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface AsciiBellBehaviour {
+}
+
+Project Name: TinyTravelTracker-master File Name: FromString.java
+"@Target({ ElementType.METHOD, ElementType.CONSTRUCTOR })"
+@Retention(RetentionPolicy.RUNTIME)
+public @interface FromString {
+}
+
+Project Name: TinyTravelTracker-master File Name: ToString.java
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface ToString {
+}
+
+Project Name: transistor-master File Name: AudioFocusRequestCompat.java
+@Retention(SOURCE)
+"@IntDef({ AudioManager.AUDIOFOCUS_GAIN, AudioManager.AUDIOFOCUS_GAIN_TRANSIENT, AudioManager.AUDIOFOCUS_GAIN_TRANSIENT_MAY_DUCK })"
+public @interface FocusGain {
+}
+
+Project Name: Transportr-master File Name: ViewModelKey.java
+@Documented
+@Target({ ElementType.METHOD })
+@Retention(RetentionPolicy.RUNTIME)
+@MapKey
+@interface ViewModelKey {
+    Class<? extends ViewModel> value();
+}
+
+Project Name: Twidere-Android-master File Name: AutoRefreshType.java
+"@StringDef({ AutoRefreshType.HOME_TIMELINE, AutoRefreshType.INTERACTIONS_TIMELINE, AutoRefreshType.DIRECT_MESSAGES })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface AutoRefreshType {
+"    String HOME_TIMELINE = ""home_timeline"";"
+"    String INTERACTIONS_TIMELINE = ""interactions_timeline"";"
+"    String DIRECT_MESSAGES = ""direct_messages"";"
+"    String[] ALL = { HOME_TIMELINE, INTERACTIONS_TIMELINE, DIRECT_MESSAGES };"
+}
+
+Project Name: Twidere-Android-master File Name: CacheFileType.java
+"@StringDef({ CacheFileType.IMAGE, CacheFileType.VIDEO, CacheFileType.JSON })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface CacheFileType {
+"    String IMAGE = ""image"";"
+"    String VIDEO = ""video"";"
+"    String JSON = ""json"";"
+}
+
+Project Name: Twidere-Android-master File Name: ContentType.java
+"@StringDef({ ContentType.STATUS, ContentType.USER })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface ContentType {
+"    String STATUS = ""status"";"
+"    String USER = ""user"";"
+}
+
+Project Name: Twidere-Android-master File Name: ImageShapeStyle.java
+"@IntDef({ ImageShapeStyle.SHAPE_CIRCLE, ImageShapeStyle.SHAPE_RECTANGLE })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface ImageShapeStyle {
+    int SHAPE_CIRCLE = 0x1;
+    int SHAPE_RECTANGLE = 0x2;
+}
+
+Project Name: Twidere-Android-master File Name: NavbarStyle.java
+"@StringDef({ NavbarStyle.DEFAULT, NavbarStyle.COLORED, NavbarStyle.TRANSPARENT })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface NavbarStyle {
+"    String DEFAULT = ""default"";"
+"    String COLORED = ""colored"";"
+"    String TRANSPARENT = ""transparent"";"
+}
+
+Project Name: Twidere-Android-master File Name: NotificationType.java
+"@StringDef({ NotificationType.INTERACTIONS, NotificationType.HOME_TIMELINE, NotificationType.DIRECT_MESSAGES })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface NotificationType {
+    @NotificationType
+"    String INTERACTIONS = ""interactions"";"
+    @NotificationType
+"    String HOME_TIMELINE = ""home_timeline"";"
+    @NotificationType
+"    String DIRECT_MESSAGES = ""direct_messages"";"
+}
+
+Project Name: Twidere-Android-master File Name: PreviewStyle.java
+"@IntDef({ PreviewStyle.NONE, PreviewStyle.SCALE, PreviewStyle.CROP, PreviewStyle.ACTUAL_SIZE })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface PreviewStyle {
+    int NONE = 0;
+    int CROP = 1;
+    int SCALE = 2;
+    int ACTUAL_SIZE = 3;
+}
+
+Project Name: Twidere-Android-master File Name: ProfileImageSize.java
+"@StringDef({ ProfileImageSize.NORMAL, ProfileImageSize.BIGGER, ProfileImageSize.REASONABLY_SMALL, ProfileImageSize.ORIGINAL })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface ProfileImageSize {
+"    String REASONABLY_SMALL = ""reasonably_small"";"
+"    String BIGGER = ""bigger"";"
+"    String NORMAL = ""normal"";"
+"    String ORIGINAL = ""original"";"
+}
+
+Project Name: Twidere-Android-master File Name: ReadPositionTag.java
+"@StringDef({ ReadPositionTag.ACTIVITIES_ABOUT_ME, ReadPositionTag.HOME_TIMELINE, ReadPositionTag.DIRECT_MESSAGES, ReadPositionTag.CUSTOM_TIMELINE })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface ReadPositionTag {
+"    String HOME_TIMELINE = ""home_timeline"";"
+"    String ACTIVITIES_ABOUT_ME = ""activities_about_me"";"
+"    String DIRECT_MESSAGES = ""direct_messages"";"
+"    String CUSTOM_TIMELINE = ""custom_timeline"";"
+}
+
+Project Name: Twidere-Android-master File Name: TabAccountFlags.java
+"@IntDef(value = { TabAccountFlags.FLAG_HAS_ACCOUNT, TabAccountFlags.FLAG_ACCOUNT_REQUIRED, TabAccountFlags.FLAG_ACCOUNT_MULTIPLE, TabAccountFlags.FLAG_ACCOUNT_MUTABLE }, flag = true)"
+@Retention(RetentionPolicy.SOURCE)
+public @interface TabAccountFlags {
+    int FLAG_HAS_ACCOUNT = 1;
+    int FLAG_ACCOUNT_REQUIRED = 2;
+    int FLAG_ACCOUNT_MULTIPLE = 4;
+    int FLAG_ACCOUNT_MUTABLE = 8;
+}
+
+Project Name: Twidere-Android-master File Name: LikeAnimationDrawable.java
+"@IntDef({ Style.LIKE, Style.FAVORITE })"
+public @interface Style {
+    int LIKE = 1;
+    int FAVORITE = 2;
+}
+
+Project Name: Twidere-Android-master File Name: FavoriteTaskEvent.java
+"@IntDef({ Action.CREATE, Action.DESTROY })"
+public @interface Action {
+    int CREATE = 1;
+    int DESTROY = 2;
+}
+
+Project Name: Twidere-Android-master File Name: FriendshipTaskEvent.java
+"@IntDef({ Action.ACCEPT, Action.DENY, Action.FOLLOW, Action.UNFOLLOW, Action.BLOCK, Action.UNBLOCK, Action.MUTE, Action.UNMUTE, Action.FILTER, Action.UNFILTER })"
+public @interface Action {
+    int ACCEPT = 1;
+    int DENY = 2;
+    int FOLLOW = 3;
+    int UNFOLLOW = 4;
+    int BLOCK = 5;
+    int UNBLOCK = 6;
+    int MUTE = 7;
+    int UNMUTE = 8;
+    int FILTER = 9;
+    int UNFILTER = 10;
+}
+
+Project Name: Twidere-Android-master File Name: UserListMembersChangedEvent.java
+"@IntDef({ Action.ADDED, Action.REMOVED })"
+public @interface Action {
+    int ADDED = 1;
+    int REMOVED = 2;
+}
+
+Project Name: Twidere-Android-master File Name: UserListSubscriptionEvent.java
+"@IntDef({ Action.SUBSCRIBE, Action.UNSUBSCRIBE })"
+public @interface Action {
+    int SUBSCRIBE = 1;
+    int UNSUBSCRIBE = 2;
+}
+
+Project Name: Twidere-Android-master File Name: TwidereLinkify.java
+"@IntDef({ VALUE_LINK_HIGHLIGHT_OPTION_CODE_NONE, VALUE_LINK_HIGHLIGHT_OPTION_CODE_HIGHLIGHT, VALUE_LINK_HIGHLIGHT_OPTION_CODE_UNDERLINE, VALUE_LINK_HIGHLIGHT_OPTION_CODE_BOTH })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface HighlightStyle {
+}
+
+Project Name: Twidere-Android-master File Name: TabPagerIndicator.java
+"@IntDef({ DisplayOption.ICON, DisplayOption.LABEL, DisplayOption.BOTH })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface DisplayOption {
+    int LABEL = 0x1;
+    int ICON = 0x2;
+    int BOTH = LABEL | ICON;
+}
+
+Project Name: Twidere-Android-master File Name: AuthScope.java
+"@StringDef({ AuthScope.READ, AuthScope.WRITE, AuthScope.FOLLOW })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface AuthScope {
+"    String READ = ""read"";"
+"    String WRITE = ""write"";"
+"    String FOLLOW = ""follow"";"
+}
+
+Project Name: Twidere-Android-master File Name: StatusVisibility.java
+"@StringDef({ StatusVisibility.DIRECT, StatusVisibility.PRIVATE, StatusVisibility.UNLISTED, StatusVisibility.PUBLIC })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface StatusVisibility {
+"    String DIRECT = ""direct"";"
+"    String PRIVATE = ""private"";"
+"    String UNLISTED = ""unlisted"";"
+"    String PUBLIC = ""public"";"
+}
+
+Project Name: Twidere-Android-master File Name: Notification.java
+"@StringDef({ Type.MENTION, Type.REBLOG, Type.FAVOURITE, Type.FOLLOW })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface Type {
+"    String MENTION = ""mention"", REBLOG = ""reblog"", FAVOURITE = ""favourite"", FOLLOW = ""follow"";"
+}
+
+Project Name: Twidere-Android-master File Name: MediaCategory.java
+@Retention(RetentionPolicy.SOURCE)
+"@StringDef({ MediaCategory.TWEET_IMAGE, MediaCategory.TWEET_GIF, MediaCategory.TWEET_VIDEO, MediaCategory.DM_IMAGE, MediaCategory.DM_GIF, MediaCategory.DM_VIDEO })"
+public @interface MediaCategory {
+"    String TWEET_IMAGE = ""tweet_image"";"
+"    String TWEET_GIF = ""tweet_gif"";"
+"    String TWEET_VIDEO = ""tweet_video"";"
+"    String DM_IMAGE = ""dm_image"";"
+"    String DM_GIF = ""dm_gif"";"
+"    String DM_VIDEO = ""dm_video"";"
+}
+
+Project Name: Twidere-Android-master File Name: StreamWith.java
+@Retention(RetentionPolicy.SOURCE)
+"@StringDef({ StreamWith.USER, StreamWith.FOLLOWING })"
+public @interface StreamWith {
+"    String USER = ""user"";"
+"    String FOLLOWING = ""following"";"
+}
+
+Project Name: Twidere-Android-master File Name: Activity.java
+"@StringDef({ Action.FAVORITE, Action.FOLLOW, Action.MENTION, Action.REPLY, Action.RETWEET, Action.LIST_MEMBER_ADDED, Action.LIST_CREATED, Action.FAVORITED_RETWEET, Action.RETWEETED_RETWEET, Action.QUOTE, Action.RETWEETED_MENTION, Action.FAVORITED_MENTION,"
+@Retention(RetentionPolicy.SOURCE)
+public @interface Action {
+"    String FAVORITE = ""favorite"";"
+"    String FOLLOW = ""follow"";"
+"    String MENTION = ""mention"";"
+"    String REPLY = ""reply"";"
+"    String RETWEET = ""retweet"";"
+"    String LIST_MEMBER_ADDED = ""list_member_added"";"
+"    String LIST_CREATED = ""list_created"";"
+"    String FAVORITED_RETWEET = ""favorited_retweet"";"
+"    String RETWEETED_RETWEET = ""retweeted_retweet"";"
+"    String QUOTE = ""quote"";"
+"    String RETWEETED_MENTION = ""retweeted_mention"";"
+"    String FAVORITED_MENTION = ""favorited_mention"";"
+"    String JOINED_TWITTER = ""joined_twitter"";"
+"    String MEDIA_TAGGED = ""media_tagged"";"
+"    String FAVORITED_MEDIA_TAGGED = ""favorited_media_tagged"";"
+"    String RETWEETED_MEDIA_TAGGED = ""retweeted_media_tagged"";"
+"    String INVALID = ""invalid"";"
+"    String[] MENTION_ACTIONS = { MENTION, REPLY, QUOTE };"
+}
+
+Project Name: Twidere-Android-master File Name: DMResponse.java
+"@StringDef({ DMResponse.Status.HAS_MORE, DMResponse.Status.AT_END })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface Status {
+"    String HAS_MORE = ""HAS_MORE"";"
+"    String AT_END = ""AT_END"";"
+}
+
+Project Name: Twidere-Android-master File Name: DMResponse.java
+"@StringDef({ Type.ONE_TO_ONE, Type.GROUP_DM })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface Type {
+"    String ONE_TO_ONE = ""ONE_TO_ONE"", GROUP_DM = ""GROUP_DM"";"
+}
+
+Project Name: Twidere-Android-master File Name: ExtendedProfile.java
+"@StringDef({ Visibility.MUTUALFOLLOW, Visibility.PUBLIC })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface Visibility {
+"    String MUTUALFOLLOW = ""mutualfollow"";"
+"    String PUBLIC = ""public"";"
+}
+
+Project Name: Twidere-Android-master File Name: MediaEntity.java
+public @interface Type {
+"    String PHOTO = ""photo"";"
+"    String VIDEO = ""video"";"
+"    String ANIMATED_GIF = ""animated_gif"";"
+}
+
+Project Name: Twidere-Android-master File Name: MediaEntity.java
+"@StringDef({ ScaleType.THUMB, ScaleType.SMALL, ScaleType.MEDIUM, ScaleType.LARGE })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface SizeType {
+}
+
+Project Name: Twidere-Android-master File Name: MediaEntity.java
+"@IntDef({ ScaleType.FIT, ScaleType.CROP })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface ScaleType {
+    int CROP = 101;
+    int FIT = 100;
+"    String THUMB = ""thumb"";"
+"    String SMALL = ""small"";"
+"    String MEDIUM = ""medium"";"
+"    String LARGE = ""large"";"
+}
+
+Project Name: Twidere-Android-master File Name: MediaUploadResponse.java
+"@StringDef({ State.PENDING, State.IN_PROGRESS, State.FAILED, State.SUCCEEDED })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface State {
+"    String PENDING = ""pending"";"
+"    String IN_PROGRESS = ""in_progress"";"
+"    String FAILED = ""failed"";"
+"    String SUCCEEDED = ""succeeded"";"
+}
+
+Project Name: Twidere-Android-master File Name: ScheduledStatus.java
+"@StringDef({ State.SCHEDULED, State.FAILED, State.CANCELED })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface State {
+"    String SCHEDULED = ""scheduled"", FAILED = ""failed"", CANCELED = ""canceled"";"
+}
+
+Project Name: Twidere-Android-master File Name: SearchQuery.java
+@interface Unit {
+"    String MILES = ""mi"", KILOMETERS = ""km"";"
+}
+
+Project Name: Twidere-Android-master File Name: TwitterResponse.java
+"@IntDef({ AccessLevel.NONE, AccessLevel.READ, AccessLevel.READ_WRITE, AccessLevel.READ_WRITE_DIRECTMESSAGES })"
+@Retention(RetentionPolicy.SOURCE)
+@interface AccessLevel {
+    int NONE = 0;
+    int READ = 1;
+    int READ_WRITE = 2;
+    int READ_WRITE_DIRECTMESSAGES = 3;
+}
+
+Project Name: Twidere-Android-master File Name: TwitterStreamObject.java
+@Retention(RetentionPolicy.SOURCE)
+"@StringDef({ Type.STATUS, Type.DIRECT_MESSAGE, Type.DELETE, Type.LIMIT, Type.STALL_WARNING, Type.SCRUB_GEO, Type.FRIENDS, Type.FAVORITE, Type.UNFAVORITE, Type.FOLLOW, Type.UNFOLLOW, Type.USER_LIST_MEMBER_ADDED, Type.USER_LIST_MEMBER_DELETED, Type.USER_LIS"
+public @interface Type {
+"    String STATUS = ""status"";"
+"    String DIRECT_MESSAGE = ""direct_message"";"
+"    String DELETE = ""delete"";"
+"    String LIMIT = ""limit"";"
+"    String STALL_WARNING = ""stall_warning"";"
+"    String SCRUB_GEO = ""scrub_geo"";"
+"    String FRIENDS = ""friends"";"
+"    String FAVORITE = ""favorite"";"
+"    String UNFAVORITE = ""unfavorite"";"
+"    String FOLLOW = ""follow"";"
+"    String UNFOLLOW = ""unfollow"";"
+"    String USER_LIST_MEMBER_ADDED = ""user_list_member_added"";"
+"    String USER_LIST_MEMBER_DELETED = ""user_list_member_deleted"";"
+"    String USER_LIST_SUBSCRIBED = ""user_list_subscribed"";"
+"    String USER_LIST_UNSUBSCRIBED = ""user_list_unsubscribed"";"
+"    String USER_LIST_CREATED = ""user_list_created"";"
+"    String USER_LIST_UPDATED = ""user_list_updated"";"
+"    String USER_LIST_DESTROYED = ""user_list_destroyed"";"
+"    String USER_UPDATE = ""user_update"";"
+"    String BLOCK = ""block"";"
+"    String UNBLOCK = ""unblock"";"
+"    String DISCONNECTION = ""disconnection"";"
+"    String QUOTED_TWEET = ""quoted_tweet"";"
+"    String FAVORITED_RETWEET = ""favorited_retweet"";"
+"    String RETWEETED_RETWEET = ""retweeted_retweet"";"
+"    String UNKNOWN = ""unknown"";"
+}
+
+Project Name: Twidere-Android-master File Name: UniversalSearchQuery.java
+"@StringDef({ Filter.IMAGES, Filter.VIDEOS, Filter.PERISCOPE, Filter.NEWS })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface Filter {
+"    String IMAGES = ""images"";"
+"    String VIDEOS = ""videos"";"
+"    String PERISCOPE = ""periscope"";"
+"    String NEWS = ""news"";"
+}
+
+Project Name: Twidere-Android-master File Name: UniversalSearchQuery.java
+"@StringDef({ Module.TWEET, Module.USER_GALLERY, Module.NEWS, Module.MEDIA_GALLERY, Module.SUGGESTION, Module.EVENT, Module.TWEET_GALLERY, Module.FOLLOWS_TWEET_GALLERY, Module.NEARBY_TWEET_GALLERY, Module.SUMMARY, Module.EVENT_SUMMARY })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface Module {
+"    String TWEET = ""tweet"";"
+"    String USER_GALLERY = ""user_gallery"";"
+"    String NEWS = ""news"";"
+"    String MEDIA_GALLERY = ""media_gallery"";"
+"    String SUGGESTION = ""suggestion"";"
+"    String EVENT = ""event"";"
+"    String TWEET_GALLERY = ""tweet_gallery"";"
+"    String FOLLOWS_TWEET_GALLERY = ""follows_tweet_gallery"";"
+"    String NEARBY_TWEET_GALLERY = ""nearby_tweet_gallery"";"
+"    String SUMMARY = ""summary"";"
+"    String EVENT_SUMMARY = ""event_summary"";"
+}
+
+Project Name: Twidere-Android-master File Name: UniversalSearchQuery.java
+"@StringDef({ ResultType.RECENT, ResultType.FOLLOWS })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface ResultType {
+"    String RECENT = ""recent"";"
+"    String FOLLOWS = ""follows"";"
+}
+
+Project Name: Twidere-Android-master File Name: UniversalSearchResult.java
+"@StringDef({ ResultType.NORMAL, ResultType.TOP })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface ResultType {
+"    String NORMAL = ""normal"";"
+"    String TOP = ""top"";"
+}
+
+Project Name: Twidere-Android-master File Name: UserList.java
+"@StringDef({ Mode.PRIVATE, Mode.PUBLIC })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface Mode {
+"    String PUBLIC = ""public"";"
+"    String PRIVATE = ""private"";"
+}
+
+Project Name: Twidere-Android-master File Name: AccountType.java
+"@StringDef({ AccountType.TWITTER, AccountType.STATUSNET, AccountType.FANFOU, AccountType.MASTODON })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface AccountType {
+"    String TWITTER = ""twitter"";"
+"    String STATUSNET = ""statusnet"";"
+"    String FANFOU = ""fanfou"";"
+"    String MASTODON = ""mastodon"";"
+}
+
+Project Name: Twidere-Android-master File Name: AuthTypeInt.java
+"@IntDef({ AuthTypeInt.OAUTH, AuthTypeInt.XAUTH, AuthTypeInt.BASIC, AuthTypeInt.TWIP_O_MODE, AuthTypeInt.OAUTH2 })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface AuthTypeInt {
+    int OAUTH = 0;
+    int XAUTH = 1;
+    int BASIC = 2;
+    int TWIP_O_MODE = 3;
+    int OAUTH2 = 4;
+}
+
+Project Name: Twidere-Android-master File Name: CustomTabType.java
+"@StringDef({ CustomTabType.HOME_TIMELINE, CustomTabType.NOTIFICATIONS_TIMELINE, CustomTabType.TRENDS_SUGGESTIONS, CustomTabType.DIRECT_MESSAGES, CustomTabType.FAVORITES, CustomTabType.USER_TIMELINE, CustomTabType.SEARCH_STATUSES, CustomTabType.LIST_TIMELI"
+@Retention(RetentionPolicy.SOURCE)
+public @interface CustomTabType {
+"    String HOME_TIMELINE = ""home_timeline"";"
+"    String NOTIFICATIONS_TIMELINE = ""notifications_timeline"";"
+"    String TRENDS_SUGGESTIONS = ""trends_suggestions"";"
+"    String DIRECT_MESSAGES = ""direct_messages"";"
+"    String FAVORITES = ""favorites"";"
+"    String USER_TIMELINE = ""user_timeline"";"
+"    String SEARCH_STATUSES = ""search_statuses"";"
+"    String LIST_TIMELINE = ""list_timeline"";"
+"    String PUBLIC_TIMELINE = ""public_timeline"";"
+"    String NETWORK_PUBLIC_TIMELINE = ""network_public_timeline"";"
+}
+
+Project Name: Twidere-Android-master File Name: FilterScope.java
+"@IntDef(value = { FilterScope.HOME, FilterScope.INTERACTIONS, FilterScope.MESSAGES, FilterScope.SEARCH_RESULTS, FilterScope.LIST_GROUP_TIMELINE, FilterScope.FAVORITES, FilterScope.USER_TIMELINE, FilterScope.PUBLIC_TIMELINE, FilterScope.UGC_TIMELINE, Filte"
+@Retention(RetentionPolicy.SOURCE)
+public @interface FilterScope {
+    int HOME = 0x1;
+    int INTERACTIONS = 0x2;
+    int MESSAGES = 0x4;
+    int SEARCH_RESULTS = 0x8;
+    int LIST_GROUP_TIMELINE = 0x10;
+    int FAVORITES = 0x20;
+    int USER_TIMELINE = 0x40;
+    int PUBLIC_TIMELINE = 0x80;
+    int UGC_TIMELINE = LIST_GROUP_TIMELINE | FAVORITES | USER_TIMELINE | PUBLIC_TIMELINE;
+    int TARGET_NAME = 0x80000000;
+    int TARGET_TEXT = 0x40000000;
+    int TARGET_DESCRIPTION = 0x20000000;
+    int MASK_TARGET = 0xFF000000;
+    int MASK_SCOPE = 0x00FFFFFF;
+    int VALID_MASKS_USERS = MASK_SCOPE;
+    int VALID_MASKS_KEYWORDS = MASK_SCOPE | MASK_TARGET;
+    int VALID_MASKS_SOURCES = MASK_SCOPE & ~MESSAGES;
+    int VALID_MASKS_LINKS = MASK_SCOPE;
+    int ALL = 0xFFFFFFFF;
+"    @SuppressWarnings(""PointlessBitwiseExpression"")"
+    int DEFAULT = ALL & ~(TARGET_NAME | TARGET_DESCRIPTION);
+}
+
+Project Name: Twidere-Android-master File Name: Credentials.java
+"@StringDef({ Type.OAUTH, Type.XAUTH, Type.BASIC, Type.EMPTY, Type.OAUTH2 })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface Type {
+"    String OAUTH = ""oauth"";"
+"    String XAUTH = ""xauth"";"
+"    String BASIC = ""basic"";"
+"    String EMPTY = ""empty"";"
+"    String OAUTH2 = ""oauth2"";"
+}
+
+Project Name: Twidere-Android-master File Name: Draft.java
+"@StringDef({ Action.UPDATE_STATUS, Action.REPLY, Action.QUOTE, Action.SEND_DIRECT_MESSAGE, Action.FAVORITE, Action.RETWEET })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface Action {
+"    String UPDATE_STATUS = ""update_status"";"
+"    String UPDATE_STATUS_COMPAT_1 = ""0"";"
+"    String UPDATE_STATUS_COMPAT_2 = ""1"";"
+"    String REPLY = ""reply"";"
+"    String QUOTE = ""quote"";"
+"    String SEND_DIRECT_MESSAGE = ""send_direct_message"";"
+"    String SEND_DIRECT_MESSAGE_COMPAT = ""2"";"
+"    String FAVORITE = ""favorite"";"
+"    String RETWEET = ""retweet"";"
+}
+
+Project Name: Twidere-Android-master File Name: ParcelableMedia.java
+"@IntDef({ Type.UNKNOWN, Type.IMAGE, Type.VIDEO, Type.ANIMATED_GIF, Type.CARD_ANIMATED_GIF, Type.EXTERNAL_PLAYER, Type.VARIABLE_TYPE })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface Type {
+    int UNKNOWN = 0;
+    int IMAGE = 1;
+    int VIDEO = 2;
+    int ANIMATED_GIF = 3;
+    int CARD_ANIMATED_GIF = 4;
+    int EXTERNAL_PLAYER = 5;
+    int VARIABLE_TYPE = 6;
+}
+
+Project Name: Twidere-Android-master File Name: ParcelableMessage.java
+"@StringDef({ MessageType.TEXT, MessageType.STICKER, MessageType.CONVERSATION_CREATE, MessageType.JOIN_CONVERSATION, MessageType.PARTICIPANTS_LEAVE })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface MessageType {
+"    String CONVERSATION_CREATE = ""conversation_create"";"
+"    String JOIN_CONVERSATION = ""join_conversation"";"
+"    String PARTICIPANTS_LEAVE = ""participants_leave"";"
+"    String PARTICIPANTS_JOIN = ""participants_join"";"
+"    String CONVERSATION_NAME_UPDATE = ""conversation_name_update"";"
+"    String CONVERSATION_AVATAR_UPDATE = ""conversation_avatar_update"";"
+"    String TEXT = ""text"";"
+"    String STICKER = ""sticker"";"
+}
+
+Project Name: Twidere-Android-master File Name: ParcelableMessageConversation.java
+"@StringDef({ ConversationType.ONE_TO_ONE, ConversationType.GROUP })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface ConversationType {
+"    String ONE_TO_ONE = ""one_to_one"";"
+"    String GROUP = ""group"";"
+}
+
+Project Name: Twidere-Android-master File Name: ParcelableMessageConversation.java
+"@StringDef({ ExtrasType.DEFAULT, ExtrasType.TWITTER_OFFICIAL })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface ExtrasType {
+"    String DEFAULT = ""default"";"
+"    String TWITTER_OFFICIAL = ""twitter_official"";"
+}
+
+Project Name: Twidere-Android-master File Name: ParcelableStatus.java
+"@IntDef(value = { FilterFlags.QUOTE_NOT_AVAILABLE, FilterFlags.BLOCKING_USER, FilterFlags.BLOCKED_BY_USER, FilterFlags.POSSIBLY_SENSITIVE }, flag = true)"
+@Retention(RetentionPolicy.SOURCE)
+public @interface FilterFlags {
+    long QUOTE_NOT_AVAILABLE = 0x1;
+    long BLOCKING_USER = 0x2;
+    long BLOCKED_BY_USER = 0x4;
+    long POSSIBLY_SENSITIVE = 0x8;
+    long HAS_MEDIA = 0x10;
+}
+
+Project Name: Twidere-Android-master File Name: SpanItem.java
+"@IntDef({ SpanType.HIDE, SpanType.LINK, SpanType.ACCT_MENTION, SpanType.HASHTAG })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface SpanType {
+    int HIDE = -1;
+    int LINK = 0;
+    int ACCT_MENTION = 1;
+    int HASHTAG = 2;
+}
+
+Project Name: UFP-master File Name: NoAutoscan.java
+public @interface NoAutoscan {
+}
+
+Project Name: UFP-master File Name: SystemProperties.java
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
+private @interface ValidateMe {
+}
+
+Project Name: uhabits-dev File Name: ActivityContext.java
+@Qualifier
+@Documented
+@Retention(RetentionPolicy.RUNTIME)
+public @interface ActivityContext {
+}
+
+Project Name: uhabits-dev File Name: ActivityScope.java
+@Scope
+public @interface ActivityScope {
+}
+
+Project Name: uhabits-dev File Name: AppContext.java
+@Qualifier
+@Documented
+@Retention(RetentionPolicy.RUNTIME)
+public @interface AppContext {
+}
+
+Project Name: uhabits-dev File Name: ReceiverScope.java
+@Scope
+public @interface ReceiverScope {
+}
+
+Project Name: uhabits-dev File Name: AppScope.java
+@Scope
+public @interface AppScope {
+}
+
+Project Name: uhabits-dev File Name: Column.java
+@Retention(RetentionPolicy.RUNTIME)
+public @interface Column {
+"    String name() default """";"
+}
+
+Project Name: uhabits-dev File Name: Table.java
+@Target(ElementType.TYPE)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface Table {
+    String name();
+"    String id() default ""id"";"
+}
+
+Project Name: UnitConverterUltimate-develop File Name: Conversion.java
+"@IntDef({ AREA, COOKING, CURRENCY, STORAGE, ENERGY, FUEL, LENGTH, MASS, POWER, PRESSURE, SPEED, TEMPERATURE, TIME, TORQUE, VOLUME })"
+public @interface id {
+}
+
+Project Name: UnitConverterUltimate-develop File Name: Unit.java
+"@IntDef({ SQ_KILOMETRES, SQ_METRES, SQ_CENTIMETRES, HECTARE, SQ_MILE, SQ_YARD, SQ_FOOT, SQ_INCH, ACRE, AUD, BGN, BRL, CDN, CHF, CNY, CZK, DKK, EUR, GBP, HKD, HRK, HUF, IDR, ILS, INR, JPY, KRW, MXN, MYR, NOK, NZD, PHP, PLN, RON, RUB, SEK, SGD, THB, LIRA, U"
+public @interface id {
+}
+
+Project Name: VinylMusicPlayer-master File Name: BugReportActivity.java
+"@StringDef({ RESULT_OK, RESULT_BAD_CREDENTIALS, RESULT_INVALID_TOKEN, RESULT_ISSUES_NOT_ENABLED, RESULT_UNKNOWN })"
+@Retention(RetentionPolicy.SOURCE)
+private @interface Result {
+}
+
+Project Name: vuze-remote-for-android-master File Name: FlexboxLayout.java
+"@IntDef({ FLEX_DIRECTION_ROW, FLEX_DIRECTION_ROW_REVERSE, FLEX_DIRECTION_COLUMN, FLEX_DIRECTION_COLUMN_REVERSE })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface FlexDirection {
+}
+
+Project Name: vuze-remote-for-android-master File Name: FlexboxLayout.java
+"@IntDef({ FLEX_WRAP_NOWRAP, FLEX_WRAP_WRAP, FLEX_WRAP_WRAP_REVERSE })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface FlexWrap {
+}
+
+Project Name: vuze-remote-for-android-master File Name: FlexboxLayout.java
+"@IntDef({ JUSTIFY_CONTENT_FLEX_START, JUSTIFY_CONTENT_FLEX_END, JUSTIFY_CONTENT_CENTER, JUSTIFY_CONTENT_SPACE_BETWEEN, JUSTIFY_CONTENT_SPACE_AROUND })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface JustifyContent {
+}
+
+Project Name: vuze-remote-for-android-master File Name: FlexboxLayout.java
+"@IntDef({ ALIGN_ITEMS_FLEX_START, ALIGN_ITEMS_FLEX_END, ALIGN_ITEMS_CENTER, ALIGN_ITEMS_BASELINE, ALIGN_ITEMS_STRETCH })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface AlignItems {
+}
+
+Project Name: vuze-remote-for-android-master File Name: FlexboxLayout.java
+"@IntDef({ ALIGN_CONTENT_FLEX_START, ALIGN_CONTENT_FLEX_END, ALIGN_CONTENT_CENTER, ALIGN_CONTENT_SPACE_BETWEEN, ALIGN_CONTENT_SPACE_AROUND, ALIGN_CONTENT_STRETCH })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface AlignContent {
+}
+
+Project Name: vuze-remote-for-android-master File Name: FlexboxLayout.java
+"@IntDef(flag = true, value = { SHOW_DIVIDER_NONE, SHOW_DIVIDER_BEGINNING, SHOW_DIVIDER_MIDDLE, SHOW_DIVIDER_END })"
+@Retention(RetentionPolicy.SOURCE)
+public @interface DividerMode {
+}
+
+Project Name: vuze-remote-for-android-master File Name: Thunk.java
+@Retention(RetentionPolicy.SOURCE)
+"@Target({ ElementType.METHOD, ElementType.FIELD, ElementType.CONSTRUCTOR, ElementType.TYPE })"
+public @interface Thunk {
+}
+
+Project Name: weechat-android-master File Name: Cat.java
+@Retention(RetentionPolicy.RUNTIME)
+"@Target({ TYPE, METHOD, CONSTRUCTOR })"
+public @interface Cat {
+"    String value() default """";"
+    boolean linger() default false;
+    boolean exit() default false;
+}
+
+Project Name: weechat-android-master File Name: CatD.java
+@Retention(RetentionPolicy.RUNTIME)
+"@Target({ TYPE, METHOD, CONSTRUCTOR })"
+public @interface CatD {
+"    String value() default """";"
+    boolean linger() default false;
+    boolean exit() default false;
+}
+
+Project Name: weechat-android-master File Name: Root.java
+@Retention(RetentionPolicy.CLASS)
+@Target(FIELD)
+public @interface Root {
+}
+
+Project Name: xposed_downloader-master File Name: AfterPermissionGranted.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+public @interface AfterPermissionGranted {
+    int value();
+}
+
+Project Name: zanavi-master File Name: AfterPermissionGranted.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+public @interface AfterPermissionGranted {
+    int value();
+}
+
+Project Name: zanavi-master File Name: IntroActivity.java
+"@IntDef({ BUTTON_NEXT_FUNCTION_NEXT, BUTTON_NEXT_FUNCTION_NEXT_FINISH })"
+@Retention(RetentionPolicy.SOURCE)
+@interface ButtonNextFunction {
+}
+
+Project Name: zanavi-master File Name: IntroActivity.java
+"@IntDef({ BUTTON_BACK_FUNCTION_BACK, BUTTON_BACK_FUNCTION_SKIP })"
+@Retention(RetentionPolicy.SOURCE)
+@interface ButtonBackFunction {
+}
+
+Project Name: zanavi-master File Name: IntroActivity.java
+"@IntDef({ BUTTON_CTA_TINT_MODE_BACKGROUND, BUTTON_CTA_TINT_MODE_TEXT })"
+@Retention(RetentionPolicy.SOURCE)
+@interface ButtonCtaTintMode {
+}
+
+Project Name: zanavi-master File Name: OnNavigationBlockedListener.java
+"@IntDef({ DIRECTION_FORWARD, DIRECTION_BACKWARD })"
+@Retention(RetentionPolicy.SOURCE)
+@interface Direction {
+}
+
+Project Name: zanavi-master File Name: SwipeBlockableViewPager.java
+"@IntDef({ SWIPE_DIRECTION_LEFT, SWIPE_DIRECTION_NONE, SWIPE_DIRECTION_RIGHT })"
+@Retention(RetentionPolicy.SOURCE)
+private @interface SwipeDirection {
+}

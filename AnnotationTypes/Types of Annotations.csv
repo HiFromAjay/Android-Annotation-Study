@@ -1,0 +1,2007 @@
+"382,074 Annotations (845 unique annotations) present in 1137 apps."
+--------------------------------------------------------------------
+"Override or java.lang.Override  257,578 in 1129 apps."
+"NonNull or Nonnull or android.support.annotation.NonNull  33,610 in 459 apps."
+"Test or org.junit.Test 17,476 in 362 apps."
+"Nullable or android.support.annotation.Nullable  14,391 in 396 apps."
+"SuppressWarnings or java.lang.SuppressWarnings  6,830 in 559 apps."
+"BindView  4,589 in 62 apps."
+"SuppressLint or android.annotation.SuppressLint  2,819 in 433 apps."
+"Inject  2,652 in 43 apps."
+"TargetApi  2,644 in 421 apps."
+"RunWith  1,447 in 213 apps."
+"Deprecated or java.lang.Deprecated  1,419 in 141 apps."
+"Before or org.junit.Before  1,366 in 140 apps."
+"StringRes  1,334 in 134 apps."
+"JsonField  1,222 in 2 apps."
+"Thunk  1,060 in 3 apps."
+"JsonProperty  1,055 in 14 apps."
+"Mock  1,042 in 32 apps."
+Query or android.arch.persistence.room.Query  994 in 41 apps.
+SerializedName  769 in 30 apps.
+OnClick  766 in 51 apps.
+ColorInt  716 in 91 apps.
+Provides  665 in 38 apps.
+GET  656 in 44 apps.
+Path  638 in 25 apps.
+DrawableRes  542 in 100 apps.
+VisibleForTesting  539 in 44 apps.
+DatabaseField  538 in 7 apps.
+Retention  518 in 98 apps.
+Rule or org.junit.Rule  485 in 86 apps.
+Bind  463 in 11 apps.
+SmallTest  440 in 17 apps.
+Singleton  427 in 38 apps.
+After  421 in 64 apps.
+RequiresApi  418 in 95 apps.
+Config  397 in 45 apps.
+Column  384 in 17 apps.
+JavascriptInterface or android.webkit.JavascriptInterface  349 in 60 apps.
+Subscribe  335 in 30 apps.
+ColorRes  326 in 53 apps.
+NotNull  320 in 25 apps.
+IntDef  318 in 53 apps.
+ColumnInfo  296 in 13 apps.
+Expose  296 in 11 apps.
+LayoutRes  295 in 139 apps.
+POST  284 in 29 apps.
+WorkerThread  280 in 37 apps.
+MainThread  278 in 19 apps.
+JsonObject  274 in 2 apps.
+ValidData  257 in 1 app.
+IdRes  250 in 69 apps.
+Ignore  231 in 39 apps.
+CursorField  229 in 1 app.
+CsvColumn  219 in 2 apps.
+ApplicationScope  210 in 4 apps.
+ViewById  196 in 10 apps.
+Autowired  195 in 1 app.
+Module  191 in 35 apps.
+ParcelableThisPlease  191 in 1 app.
+UiThread  188 in 31 apps.
+State  175 in 10 apps.
+Named  168 in 11 apps.
+LargeTest  162 in 44 apps.
+Keep  159 in 11 apps.
+Headers  154 in 11 apps.
+Bean  151 in 4 apps.
+Advanced or com.idevicesinc.sweetblue.annotations.Advanced  149 in 1 app.
+ContributesAndroidInjector  147 in 5 apps.
+Body  135 in 25 apps.
+AndroidFindBy  134 in 2 apps.
+Synthetic  131 in 1 app.
+ParcelablePlease  129 in 1 app.
+AttrRes  127 in 37 apps.
+Tag  125 in 1 app.
+Entity  120 in 26 apps.
+Param  120 in 1 app.
+GuardedBy  119 in 4 apps.
+Field  118 in 9 apps.
+CallSuper  112 in 31 apps.
+ActionMethod  110 in 1 app.
+Generated  109 in 9 apps.
+Getter  106 in 3 apps.
+Data  106 in 2 apps.
+PrimaryKey  105 in 23 apps.
+InjectView  105 in 4 apps.
+BeforeClass  104 in 30 apps.
+com.evernote.android.state.State  103 in 1 app.
+ExportedProperty or ViewDebug.ExportedProperty  103 in 9 apps.
+Component  100 in 31 apps.
+StyleRes  98 in 35 apps.
+Cat  95 in 1 app.
+ExportablePreference  93 in 1 app.
+Target  90 in 42 apps.
+AnyThread  90 in 7 apps.
+Attribute  88 in 6 apps.
+BindString  85 in 4 apps.
+ForApplication  80 in 3 apps.
+OptionsItem  78 in 3 apps.
+Header  77 in 9 apps.
+Root  76 in 7 apps.
+Binds  76 in 6 apps.
+NoArgsConstructor  75 in 2 apps.
+Implementation (org.robolectric.annotation.)  74 in 10 apps.
+Captor  74 in 8 apps.
+Element  74 in 7 apps.
+Bindable  72 in 3 apps.
+RequestFailureType or CacheRequest.RequestFailureType  71 in 1 app.
+Index  69 in 16 apps.
+AutoValue  69 in 5 apps.
+IntRange  68 in 18 apps.
+DatabaseTable  66 in 6 apps.
+FragmentScope  66 in 4 apps.
+Setter  66 in 2 apps.
+CallOnMainThread  65 in 2 apps.
+Qualifier  64 in 11 apps.
+Background  63 in 8 apps.
+Convert  63 in 3 apps.
+BindingAdapter  62 in 7 apps.
+Category  62 in 4 apps.
+PreferenceField  62 in 1 app.
+ValidateMe  62 in 1 app.
+Table or Entry.Table  60 in 14 apps.
+JsonIgnore  59 in 11 apps.
+Syncable  57 in 1 app.
+Parameterized.Parameters or Parameters (org.junit.runners.Parameterized)  56 in 14 apps.
+DELETE (retrofit2.http.)  55 in 16 apps.
+Insert  55 in 13 apps.
+Parcel  55 in 2 apps.
+Scope  54 in 16 apps.
+AfterViews  54 in 9 apps.
+StringDef  53 in 13 apps.
+EActivity  53 in 10 apps.
+DimenRes  51 in 17 apps.
+CheckResult  51 in 13 apps.
+PrepareForTest  51 in 12 apps.
+JsonDeserialize  51 in 3 apps.
+PerActivity  50 in 4 apps.
+Validate  49 in 1 app.
+RequiresPermission  48 in 8 apps.
+KeyValue  48 in 1 app.
+Exported  48 in 1 app.
+Id  47 in 10 apps.
+AfterClass  46 in 11 apps.
+FloatRange  46 in 10 apps.
+FixMethodOrder  46 in 7 apps.
+KeyByString  46 in 1 app.
+Dao  45 in 13 apps.
+Url  45 in 6 apps.
+JsonInclude  45 in 5 apps.
+InstanceState  44 in 5 apps.
+AllArgsConstructor  44 in 3 apps.
+CacheLookup  44 in 2 apps.
+SearchDirection or TraversalStrategy.SearchDirection  44 in 1 app.
+MediumTest  43 in 5 apps.
+RepeatMode or Player.RepeatMode  43 in 3 apps.
+BaliseCsv  43 in 1 app.
+FormUrlEncoded  42 in 9 apps.
+Params  42 in 1 app.
+Immutable or com.idevicesinc.sweetblue.annotations.Immutable  42 in 1 app.
+IntoMap  41 in 3 apps.
+Type  40 in 7 apps.
+Required  40 in 3 apps.
+RawRes  39 in 20 apps.
+FieldAccessor  39 in 1 app.
+OnTextChanged  37 in 9 apps.
+JsonSetter  37 in 1 app.
+Smoke  36 in 1 app.
+ReportsCrashes  35 in 33 apps.
+Implements  35 in 11 apps.
+Click  35 in 8 apps.
+NonNls  35 in 2 apps.
+JsonAnySetter  34 in 4 apps.
+"Parameter (com.beust.jcommander.Parameter, org.dmfs.android.retentionmagic.annotations.Parameter)  34 in 3 apps."
+ForeignKey  33 in 6 apps.
+JsonPropertyOrder  33 in 3 apps.
+JsonAnyGetter  33 in 3 apps.
+Mysplash.PageRule  33 in 1 app.
+Flags  32 in 1 app.
+CsvFile  31 in 1 app.
+PUT  30 in 11 apps.
+TypeConverter  30 in 6 apps.
+PerApplication  30 in 1 app.
+AutoInjector  30 in 1 app.
+ActivityScope  29 in 6 apps.
+JsonIgnoreProperties  29 in 4 apps.
+UiThreadTest  29 in 4 apps.
+ContextSingleton  29 in 4 apps.
+CommandHandler  29 in 1 app.
+StateRule or LoadModel.StateRule  29 in 1 app.
+VariableType or ParseTree.VariableType  28 in 1 app.
+PATCH  27 in 9 apps.
+Extra  27 in 7 apps.
+SuppressFBWarnings  27 in 4 apps.
+ViewModelKey  27 in 2 apps.
+EFragment  26 in 5 apps.
+ToString  26 in 3 apps.
+Lambda or com.idevicesinc.sweetblue.annotations.Lambda  26 in 1 app.
+Encoding or C.Encoding  26 in 1 app.
+XmlRes  25 in 12 apps.
+Delete (android.arch.persistence.room.)  25 in 9 apps.
+OnItemSelected  25 in 8 apps.
+DebugLog  25 in 5 apps.
+ParametersAreNonnullByDefault or javax.annotation.ParametersAreNonnullByDefault  25 in 3 apps.
+BodyType  25 in 1 app.
+SafeVarargs  24 in 18 apps.
+ElementList  24 in 5 apps.
+Key  24 in 3 apps.
+UsedByJNI  24 in 1 app.
+KeyboardRowModeId or Keyboard.KeyboardRowModeId  24 in 1 app.
+ExecSequentially  24 in 1 app.
+C.SelectionFlags  24 in 1 app.
+OnLongClick  23 in 14 apps.
+JacksonAnnotation  23 in 1 app.
+Update  22 in 6 apps.
+Subcomponent  22 in 4 apps.
+EBean  22 in 4 apps.
+Action  22 in 2 apps.
+ArrayRes  21 in 11 apps.
+InjectMocks  21 in 5 apps.
+Builder (lombok.Builder)  21 in 2 apps.
+ForActivity  21 in 2 apps.
+Observes  21 in 1 app.
+Relationship  21 in 1 app.
+JsonNaming  21 in 1 app.
+AnchorType or Cue.AnchorType (com.google.android.exoplayer2.text)  21 in 1 app.
+MenuRes  20 in 13 apps.
+BindColor  20 in 3 apps.
+BindInt  20 in 2 apps.
+FromString  20 in 1 app.
+UsedByReflection  20 in 1 app.
+FXML  20 in 1 app.
+Database or android.arch.persistence.room.Database  20 in 17 apps.
+AutoValue.Builder (com.google.auto.value.AutoValue)  19 in 5 apps.
+OnActivityResult  19 in 5 apps.
+io.requery.Nullable  19 in 1 app.
+CacheMode or ItemManager.CacheMode  19 in 1 app.
+Documented  18 in 12 apps.
+Retain  18 in 1 app.
+OptionsMenu  17 in 2 apps.
+ProtoField  17 in 1 app.
+C.BufferFlags  17 in 1 app.
+Configuration  17 in 1 app.
+Mysplash.PerPageRule  17 in 1 app.
+NoAutoscan  17 in 1 app.
+C.PcmEncoding  17 in 1 app.
+BoolRes  16 in 8 apps.
+SystemService  16 in 5 apps.
+Migration  16 in 2 apps.
+ViewDebug.IntToString  16 in 2 apps.
+Column
+Name  16 in 1 app.
+Event or Compositor.Event  16 in 1 app.
+PlayerState or SoundWavesPlayerBase.PlayerState  16 in 1 app.
+Direction  15 in 5 apps.
+Mode  15 in 4 apps.
+ViewDebug.CapturedViewProperty  15 in 4 apps.
+Part  15 in 2 apps.
+EViewGroup  15 in 2 apps.
+FlakyTest  15 in 2 apps.
+CursorObject  15 in 1 app.
+ParcelableNoThanks  15 in 1 app.
+Optional  14 in 5 apps.
+AfterPermissionGranted  14 in 4 apps.
+TypeRule  14 in 1 app.
+ClassKey  14 in 1 app.
+Conversion.id  14 in 1 app.
+RemoveMethod  14 in 1 app.
+SearchDirectionOrUnknown or TraversalStrategy.SearchDirectionOrUnknown  14 in 1 app.
+GlideModule  13 in 13 apps.
+OnCheckedChanged  13 in 7 apps.
+RealObject  13 in 6 apps.
+RestrictTo  13 in 5 apps.
+NeedsPermission  13 in 5 apps.
+FragmentArg  13 in 4 apps.
+ActivityContext  13 in 2 apps.
+ExtensionRendererMode or DefaultRenderersFactory.ExtensionRendererMode  13 in 2 app.
+Extendable  13 in 1 app.
+RoleName or Role.RoleName  13 in 1 app.
+OnJsonParseComplete  13 in 1 app.
+Range.Positive  13 in 1 app.
+OnTouch  12 in 7 apps.
+BindViews  12 in 6 apps.
+QueryMap  12 in 4 apps.
+BillingResponse or BillingClient.BillingResponse (com.android.billingclient.api.)  12 in 4 apps.
+Contract  12 in 3 apps.
+RootContext  12 in 2 apps.
+Transaction  12 in 2 apps.
+DiscontinuityReason or Player.DiscontinuityReason  12 in 2 apps.
+DraggableItemStateFlags  12 in 2 apps.
+AppScope  12 in 1 app.
+RetryAction or Loader.RetryAction  12 in 1 app.
+ClassRule  11 in 6 apps.
+OnFocusChange  11 in 3 apps.
+Json  11 in 2 apps.
+CatD  11 in 1 app.
+ScrollDirection  11 in 1 app.
+FragmentScoped  11 in 1 app.
+EdgeGravity  11 in 1 app.
+CustomTabType  11 in 1 app.
+AcraCore  10 in 10 apps.
+Eservice  10 in 5 apps.
+OnLifecycleEvent  10 in 5 apps.
+Produce  10 in 3 apps.
+Unique  10 in 2 apps.
+EqualsAndHashCode  10 in 2 apps.
+UseDataProvider  10 in 2 apps.
+PathType or RedditURLParser.PathType  10 in 1 app.
+ItemViewType  10 in 1 app.
+MainBibleActivityScope  10 in 1 app.
+NotificationChannelId  10 in 1 app.
+OnEditorAction  9 in 4 apps.
+AnimRes  9 in 4 apps.
+IncludeCategory or Categories.IncludeCategory (org.junit.experimental.categories.)  9 in 3 apps.
+Px  9 in 3 apps.
+DataProvider  9 in 2 apps.
+TimelineChangeReason or Player.TimelineChangeReason  9 in 2 apps.
+LineType or Cue.LineType  9 in 1 app.
+AdState  9 in 1 app.
+FichierCsv  9 in 1 app.
+TimeScale.Interface  9 in 1 app.
+Mysplash.CategoryIdRule  9 in 1 app.
+ViewBounds or ViewBoundsCheck.ViewBounds  9 in 1 app.
+IntegerRes  8 in 6 apps.
+RuntimePermissions  8 in 5 apps.
+JsonCreator  8 in 4 apps.
+OnPermissionDenied  8 in 4 apps.
+Size  8 in 3 apps.
+BindingConversion  8 in 3 apps.
+ContentType or C.ContentType  8 in 3 apps.
+ThreadSafe  8 in 2 apps.
+TestScanPackage  8 in 2 apps.
+TestClassPrefix  8 in 2 apps.
+TestClassSuffix  8 in 2 apps.
+AdapterChanges  8 in 2 apps.
+ItemClick  8 in 2 apps.
+NavigationDrawerType  8 in 1 app.
+RepoNavigationType or RepoPagerMvp.RepoNavigationType  8 in 1 app.
+ReactionType or ReactionsProvider.ReactionType  8 in 1 app.
+Reason  8 in 1 app.
+FragmentById  8 in 1 app.
+StreamType or C.StreamType  8 in 1 app.
+Address.PublicKeyRepresentation  8 in 1 app.
+PlaybackStateCompat.State  8 in 1 app.
+OptionsMenuItem  8 in 1 app.
+CName  8 in 1 app.
+Language  8 in 1 app.
+OptionalBoolean  8 in 1 app.
+Provided  8 in 1 app.
+KeyboardExtensionType or KeyboardExtension.KeyboardExtensionType  8 in 1 app.
+ThemeType or PrefGetter.ThemeType  8 in 1 app.
+AccessLevel or TwitterResponse.AccessLevel  8 in 1 app.
+TypeConverters  7 in 7 apps.
+PluralsRes  7 in 7 apps.
+OnPageChange  7 in 5 apps.
+AnyRes  7 in 5 apps.
+FunctionalInterface  7 in 4 apps.
+OnShowRationale  7 in 4 apps.
+Suppress  7 in 4 apps.
+Result or SoundWavesDownloadManager.Result  7 in 4 apps.
+ExcludeCategory or Categories.ExcludeCategory (org.junit.experimental.)  7 in 3 apps.
+Theory  7 in 3 apps.
+BindDrawable  7 in 3 apps.
+Status  7 in 3 apps.
+Pointcut  7 in 2 apps.
+io.reactivex.annotations.NonNull  7 in 2 apps.
+UsedForTesting  7 in 1 app.
+CalculationType  7 in 1 app.
+AppContext  7 in 1 app.
+Produces  7 in 1 app.
+SecureMode  7 in 1 app.
+DirectionRule or SwipeBackCoordinatorLayout.DirectionRule  7 in 1 app.
+org.apache.cxf.jaxrs.model.wadl.Description  7 in 1 app.
+FlexDirection  7 in 1 app.
+C.AudioUsage  7 in 1 app.
+Bagger  7 in 1 app.
+ParameterizedTestRunner.Parameters  7 in 1 app.
+Unit.id  7 in 1 app.
+AutoFactory  7 in 1 app.
+WritableField  7 in 1 app.
+LimitFlag  7 in 1 app.
+DataObject  7 in 1 app.
+AcraHttpSender  6 in 6 apps.
+JsonValue  6 in 3 apps.
+OnNeverAskAgain  6 in 3 apps.
+FAB_SIZE  6 in 3 apps.
+Value.Immutable (org.immutables.value.Value)  6 in 3 apps.
+Proxy or Constants.Proxy  6 in 2 apps.
+ToMany  6 in 2 apps.
+Shortcut  6 in 2 apps.
+ApiMethod  6 in 2 apps.
+BindBool  6 in 2 apps.
+PostConstruct  6 in 1 app.
+DisplayState or EpisodeViewHolder.DisplayState  6 in 1 app.
+SearchEngine or DiscoveryFragment.SearchEngine  6 in 1 app.
+SortOrder or Library.SortOrder  6 in 1 app.
+CardRawDataFragmentClass  6 in 1 app.
+RowColumnTransition  6 in 1 app.
+FilterScope  6 in 1 app.
+DataType  6 in 1 app.
+XmlLayout  6 in 1 app.
+C.AudioContentType  6 in 1 app.
+C.VideoScalingMode  6 in 1 app.
+SkuType  6 in 1 app.
+XmlMenu  6 in 1 app.
+StageId  6 in 1 app.
+RecyclerView.Orientation  6 in 1 app.
+LinkId  6 in 1 app.
+Inherited  5 in 5 apps.
+BindsInstance  5 in 3 apps.
+DataPoints  5 in 3 apps.
+Multipart  5 in 3 apps.
+Transient  5 in 2 apps.
+StyleableRes  5 in 2 apps.
+ResizeMode or AspectRatioFrameLayout.ResizeMode - 5 in 2 apps.
+Parameterized.Parameter (org.junit.runners.Parameterized)  5 in 2 apps.
+AfterCursorObjectCreated  5 in 1 app.
+NamedQuery  5 in 1 app.
+JoinProperty  5 in 1 app.
+Priority  5 in 1 app.
+InverseMethod  5 in 1 app.
+Delegate  5 in 1 app.
+Mysplash.PhotosTypeRule  5 in 1 app.
+LockMode  5 in 1 app.
+UserActionType  5 in 1 app.
+RealmClass  5 in 1 app.
+Corner  5 in 1 app.
+PlayerStatusObservable.PlayerStatus  5 in 1 app.
+InternalState  5 in 1 app.
+C.StereoMode  5 in 1 app.
+ButtonSequence  5 in 1 app.
+RowTypeDef  5 in 1 app.
+ButtonsUsed  5 in 1 app.
+AvailableSections  5 in 1 app.
+Queries  5 in 1 app.
+MapMarkersSortByDef  5 in 1 app.
+Order or FeedViewAdapter.Order  5 in 1 app.
+MiscType or RepoMiscMVp.MiscType  5 in 1 app.
+ReturnTypesAreNonnullByDefault or com.tasomaniac.openwith.ReturnTypesAreNonnullByDefault  5 in 1 app.
+MainMenuAction or MainMenuFragment.MainMenuAction  5 in 1 app.
+C.CryptoMode  5 in 1 app.
+TableModelSpec  5 in 1 app.
+InjectDependency  5 in 1 app.
+Lazy  5 in 1 app.
+Type.ClientTypeInt  5 in 1 app.
+TableInterface  5 in 1 app.
+DividerMode or FlexboxLayout.DividerMode  5 in 1 app.
+PreviewAnimationType or PreviewPopupTheme.PreviewAnimationType  5 in 1 app.
+TrafficTag or UserAgentInterceptor.TrafficTag  5 in 1 app.
+ResultType or ModuleMetadata.ResultType  5 in 1 app.
+KustomDir or KustomUtil.KustomDir  5 in 1 app.
+NavigationType or MainMvp.NavigationType  5 in 1 app.
+FetchMode or ItemManager.FetchMode  5 in 1 app.
+Operator or ParseTree.Operator  5 in 1 app.
+OnPreJsonSerialize  5 in 1 app.
+AcraDialog  4 in 4 apps.
+SdkSuppress  4 in 4 apps.
+Component.Builder (dagger.Component)  4 in 4 apps.
+ProgressDrawableSize  4 in 4 apps.
+SuiteClasses or Suite.SuiteClasses (org.junit.runners.)  4 in 3 apps.
+RemoteView or RemoteViews.RemoteView  4 in 3 apps.
+Gson.TypeAdapters  4 in 3 apps.
+Api  4 in 2 apps.
+Reusable  4 in 2 apps.
+ApiNamespace  4 in 2 apps.
+JsonSerialize  4 in 2 apps.
+Around  4 in 2 apps.
+SettingsType or SettingsModel.SettingsType  4 in 1 app.
+SwipeEdge or BezelSwipeOverlay.SwipeEdge  4 in 1 app.
+ColumnIgnore  4 in 1 app.
+SelectedApplications  4 in 1 app.
+TableHeadingType  4 in 1 app.
+FavoriteId  4 in 1 app.
+CheckedChange  4 in 1 app.
+PlaybackInfoListener.State  4 in 1 app.
+SoundWavesDownloadManager.NetworkState  4 in 1 app.
+RedditSubredditAction or RedditAPI.RedditSubredditAction  4 in 1 app.
+IconState or PlayPauseDrawable.IconState  4 in 1 app.
+RedditAction or RedditAPI.RedditAction  4 in 1 app.
+TextSizeType or Cue.TextSizeType  4 in 1 app.
+OperatorClass or ParseTree.OperatorClass  4 in 1 app.
+NetworkPolicy  4 in 1 app.
+SubscriptionChanged.Action  4 in 1 app.
+PublicApi  4 in 1 app.
+NoteId  4 in 1 app.
+ProductInfoState  4 in 1 app.
+GinModules  4 in 1 app.
+Mysplash.CollectionTypeRule  4 in 1 app.
+EpisodeChanged.Action  4 in 1 app.
+UsedByJni  4 in 1 app.
+C.AudioFlags  4 in 1 app.
+DrmSession.State  4 in 1 app.
+Flavor or Compositor.Flavor  4 in 1 app.
+SynchronizationResult or GPodderAPI.SynchronizationResult  4 in 1 app.
+MuzeiContract.Artwork.MetaFontType  4 in 1 app.
+Visibility  4 in 1 app.
+RequiredArgsConstructor  4 in 1 app.
+TransactionType  4 in 1 app.
+PathParam  4 in 1 app.
+ViewMode  4 in 1 app.
+MangaStatus  4 in 1 app.
+DividerCondition  4 in 1 app.
+FontSizeUnit  4 in 1 app.
+AccountType  4 in 1 app.
+AcraMailSender  3 in 3 apps.
+JsonAutoDetect  3 in 3 apps.
+EApplication  3 in 3 apps.
+MapKey  3 in 3 apps.
+Aspect  3 in 2 apps.
+PreferenceScreen  3 in 2 apps.
+FromJson  3 in 2 apps.
+Text  3 in 2 apps.
+AfterInject  3 in 2 apps.
+ToJson  3 in 2 apps.
+DownloadQueueType  3 in 1 app.
+PullBackLayout.Direction  3 in 1 app.
+ColumnSpec  3 in 1 app.
+ZooperDir  3 in 1 app.
+CheckReturnValue  3 in 1 app.
+IgnorePersistentNotifications  3 in 1 app.
+InjectFragment  3 in 1 app.
+RespectPhoneCalls  3 in 1 app.
+RespectRingerMode  3 in 1 app.
+RemindWhenScreenIsOn  3 in 1 app.
+FloatingViewType  3 in 1 app.
+AsonName  3 in 1 app.
+Units.Interface  3 in 1 app.
+ReactMethod  3 in 1 app.
+TabIndex  3 in 1 app.
+NextcloudServer  3 in 1 app.
+ButtonNextFunction  3 in 1 app.
+ButtonBackFunction  3 in 1 app.
+ButtonCtaTintMode  3 in 1 app.
+InputModeId  3 in 1 app.
+Launcher  3 in 1 app.
+CanBeEmpty  3 in 1 app.
+GitActionType  3 in 1 app.
+WebFilter  3 in 1 app.
+EventTypeId  3 in 1 app.
+InputMode  3 in 1 app.
+PixelGridEnabled  3 in 1 app.
+PixelRatioEnabled  3 in 1 app.
+ScalpelEnabled  3 in 1 app.
+RemoteMode  3 in 1 app.
+SourceAction  3 in 1 app.
+ScalpelWireframeEnabled  3 in 1 app.
+SchedulerEnabled  3 in 1 app.
+SchedulerMode  3 in 1 app.
+SchedulerRangeBegin  3 in 1 app.
+SchedulerRangeEnd  3 in 1 app.
+FlexWrap  3 in 1 app.
+ReminderEnabled  3 in 1 app.
+Constants.Activities  3 in 1 app.
+DbItemType  3 in 1 app.
+Location  3 in 1 app.
+ForceWakeLock  3 in 1 app.
+LimitReminderRepeats  3 in 1 app.
+BindingAnnotation  3 in 1 app.
+CreateDismissNotification  3 in 1 app.
+DownloadHelper.DownloadTypeRule  3 in 1 app.
+PersistencyResult or LibraryPersistency.PersistencyResult  3 in 1 app.
+ButtonLocation or PlayPauseButton.ButtonLocation  3 in 1 app.
+DescriptionOrder or Compositor.DescriptionOrder  3 in 1 app.
+PinState or SubscriptionSelectorCallback.PinState  3 in 1 app.
+PlaylistType or HlsMediaPlaylist.PlaylistType  3 in 1 app.
+Transformation or Track.Transformation  3 in 1 app.
+RendererSupport  3 in 1 app.
+CacheDataSource.Flags  3 in 1 app.
+KeepCodecResult  3 in 1 app.
+DownloadManagerEvent  3 in 1 app.
+QueuePosition  3 in 1 app.
+ReminderRingtone  3 in 1 app.
+Range or AlgoliaPopularClient.Range  3 in 1 app.
+MenuItemRule  3 in 1 app.
+Vibrate  3 in 1 app.
+ImageShapeStyle  3 in 1 app.
+EReceiver  3 in 1 app.
+ItemSelect  3 in 1 app.
+ReminderIntervalMin  3 in 1 app.
+org.jetbrains.annotations.Nullable  3 in 1 app.
+StatusVisibility  3 in 1 app.
+NotificationType  3 in 1 app.
+Style  3 in 1 app.
+Credentials.Type  3 in 1 app.
+Introspectable  3 in 1 app.
+C.ColorSpace  3 in 1 app.
+C.ColorTransfer  3 in 1 app.
+C.ColorRange  3 in 1 app.
+ReminderInterval  3 in 1 app.
+ReminderRepeats  3 in 1 app.
+UpdateReason  3 in 1 app.
+DefaultTsPayloadReaderFactory.Flags  3 in 1 app.
+com.idevicesinc.sweetblue.annotations.Alpha  3 in 1 app.
+AcraToast  2 in 2 apps.
+CoordinatorLayout.DefaultBehavior  2 in 2 apps.
+OnItemClick  2 in 2 apps.
+DragState  2 in 2 apps.
+AppCompatDelegate.NightMode  2 in 2 apps.
+AnimationState  2 in 2 apps.
+TextChange  2 in 2 apps.
+FindBy  2 in 2 apps.
+LayoutState  2 in 2 apps.
+AfterPreferences  2 in 2 apps.
+PowerMockIgnore  2 in 2 apps.
+SwipeDirection  2 in 2 apps.
+ExternalFileDataProvider.ExternalFile  2 in 1 app.
+ActionBarSherlock.Implementation  2 in 1 app.
+ReminderIntervalDefault  2 in 1 app.
+ReminderRepeatsDefault  2 in 1 app.
+SchedulerRangeDefaultBegin  2 in 1 app.
+SchedulerRangeDefaultEnd  2 in 1 app.
+SchedulerRangeMin  2 in 1 app.
+RequiresPermission.Write  2 in 1 app.
+SchedulerRangeMax  2 in 1 app.
+ChosenHackerSpaceName  2 in 1 app.
+ChosenHackerSpaceUrl  2 in 1 app.
+ReminderRepeatsMax  2 in 1 app.
+ReminderRepeatsMin  2 in 1 app.
+Get  2 in 1 app.
+UserScope  2 in 1 app.
+Namespace  2 in 1 app.
+ApplicationContext  2 in 1 app.
+Subcomponent.Builder (dagger.Subcomponent)  2 in 1 app.
+WritableObjectVersion  2 in 1 app.
+WritableObjectTimestamp  2 in 1 app.
+MenuAction  2 in 1 app.
+Assisted  2 in 1 app.
+ThemeColor  2 in 1 app.
+Experimental  2 in 1 app.
+JsonCachable  2 in 1 app.
+ManyToOne  2 in 1 app.
+ReminderIntervalMax  2 in 1 app.
+KeyEdgeValue  2 in 1 app.
+SearchType  2 in 1 app.
+Operation  2 in 1 app.
+AsonIgnore  2 in 1 app.
+Dimension  2 in 1 app.
+NextcloudAccount  2 in 1 app.
+ComponentScan  2 in 1 app.
+MainThreadScheduler  2 in 1 app.
+ActionType  2 in 1 app.
+EventBusGreenRobot  2 in 1 app.
+IoThreadScheduler  2 in 1 app.
+Rest  2 in 1 app.
+RestService  2 in 1 app.
+CollectionAlignment  2 in 1 app.
+OPTIONS  2 in 1 app.
+ServerStatus.Enum  2 in 1 app.
+Raw  2 in 1 app.
+CollectionTransition  2 in 1 app.
+ReadPositionTag  2 in 1 app.
+RegisterChangeListenerMethod  2 in 1 app.
+UnregisterChangeListenerMethod  2 in 1 app.
+AuthTypeInt  2 in 1 app.
+OnTouchSeekListener.Direction  2 in 1 app.
+BrandImageSize or NumberValidator.BrandImageSize  2 in 1 app.
+MessageType or ParcelableMessage.MessageType  2 in 1 app.
+ElementType or EbmlReaderOutput.ElementType  2 in 1 app.
+LockState or UserManagerCompatUtils.LockState  2 in 1 app.
+ListMode or IDirectoryProvider.ListMode  2 in 1 app.
+NextTrack or PlayerService.NextTrack  2 in 1 app.
+FocusGain  2 in 1 app.
+OrmLiteDao  2 in 1 app.
+TrackGroupCategory  2 in 1 app.
+PrimaryTrackType  2 in 1 app.
+UsedByNativeCode  2 in 1 app.
+ProcessRangeRule  2 in 1 app.
+RoundedCornerFlags  2 in 1 app.
+WebServlet  2 in 1 app.
+IsInstrumentationTest  2 in 1 app.
+SeenDebugDrawer  2 in 1 app.
+AnimationSpeed  2 in 1 app.
+PicassoDebugging  2 in 1 app.
+StyleFlags  2 in 1 app.
+ShelfItemType  2 in 1 app.
+CacheIgnoredReason  2 in 1 app.
+ScrollMode  2 in 1 app.
+LongClick  2 in 1 app.
+SizeRule  2 in 1 app.
+EdgeType  2 in 1 app.
+BufferReplacementMode  2 in 1 app.
+GlideOption  2 in 1 app.
+FollowTypeRule  2 in 1 app.
+PartMap  2 in 1 app.
+PhotoTypeRule  2 in 1 app.
+Resource  2 in 1 app.
+UserActivity.UserPageRule  2 in 1 app.
+InverseBindingAdapter  2 in 1 app.
+ParameterizedRobolectricTestRunner.Parameters  2 in 1 app.
+DefaultDrmSessionManager.Mode  2 in 1 app.
+ReinitializationState  2 in 1 app.
+JustifyContent  2 in 1 app.
+AlignItems  2 in 1 app.
+AlignContent  2 in 1 app.
+PreDestroy  2 in 1 app.
+Primary  2 in 1 app.
+Source  2 in 1 app.
+AdaptationWorkaroundMode  2 in 1 app.
+ModulePrefs  2 in 1 app.
+Draft.Action  2 in 1 app.
+MatroskaExtractor.Flags  2 in 1 app.
+Mp4Extractor.Flags  2 in 1 app.
+FragmentedMp4Extractor.Flags  2 in 1 app.
+MediaCategory  2 in 1 app.
+Mp3Extractor.Flags  2 in 1 app.
+TsExtractor.Mode  2 in 1 app.
+ServiceScope  2 in 1 app.
+Unit  2 in 1 app.
+Temporal  2 in 1 app.
+GeneratedValue  2 in 1 app.
+NamedQueries  2 in 1 app.
+RootClass.Candidate  1 in 1 app.
+OnActivityResult.Extra  1 in 1 app.
+Spy  1 in 1 app.
+JoinEntity  1 in 1 app.
+AcraNotification  1 in 1 app.
+PostLoad  1 in 1 app.
+Transit  1 in 1 app.
+Past  1 in 1 app.
+ConditionalIgnore  1 in 1 app.
+Internal  1 in 1 app.
+PowerMockRunnerDelegate  1 in 1 app.
+PerFragment  1 in 1 app.
+ShowKeyInLayoutType  1 in 1 app.
+PhysicalState  1 in 1 app.
+LogicalState  1 in 1 app.
+JsonAdapter  1 in 1 app.
+App  1 in 1 app.
+ItemLongClick  1 in 1 app.
+Factory  1 in 1 app.
+Theme  1 in 1 app.
+ConnectionStatus  1 in 1 app.
+ActionFlags  1 in 1 app.
+HTTP  1 in 1 app.
+Beta  1 in 1 app.
+RequiresDevice  1 in 1 app.
+RepetitiveTest  1 in 1 app.
+Commit  1 in 1 app.
+Addons  1 in 1 app.
+CellStatus  1 in 1 app.
+OnMailReceived  1 in 1 app.
+ElementMap  1 in 1 app.
+PropertyKey  1 in 1 app.
+JsonBackReference  1 in 1 app.
+JsonManagedReference  1 in 1 app.
+NamespaceList  1 in 1 app.
+GsonTypeAdapterFactory  1 in 1 app.
+ColumnAdapter  1 in 1 app.
+ComponentScan.Filter  1 in 1 app.
+AutoIncrement  1 in 1 app.
+Check  1 in 1 app.
+ContentUri  1 in 1 app.
+InexactContentUri  1 in 1 app.
+TableEndpoint  1 in 1 app.
+ContentProvider  1 in 1 app.
+DownloadHelper.DownloadResultRule  1 in 1 app.
+Mysplash.DownloadFormatRule  1 in 1 app.
+AboutTypeRule  1 in 1 app.
+ClipRule  1 in 1 app.
+AlignRule  1 in 1 app.
+ViewTypeRule  1 in 1 app.
+SetWallpaperActivity.WallpaperWhereRule  1 in 1 app.
+MinimizeMode  1 in 1 app.
+Streaming  1 in 1 app.
+ValidationMode.Enum  1 in 1 app.
+ApplicationName  1 in 1 app.
+ApplicationVersion  1 in 1 app.
+ApplicationContact  1 in 1 app.
+QueryModel  1 in 1 app.
+Memoized  1 in 1 app.
+ParcelAdapter  1 in 1 app.
+RequestType  1 in 1 app.
+Qualifiers.ForActivity  1 in 1 app.
+Qualifiers.ForApplication  1 in 1 app.
+ViewCompat.NestedScrollType  1 in 1 app.
+ColorPickerDialog.DialogType  1 in 1 app.
+TutorialShown  1 in 1 app.
+UsageAccess  1 in 1 app.
+TypeQualifierDefault  1 in 1 app.
+ItemType  1 in 1 app.
+ExportTypesDef  1 in 1 app.
+FileTypesDef  1 in 1 app.
+AfterTextChange  1 in 1 app.
+KeyhashType  1 in 1 app.
+PrivateKeyType  1 in 1 app.
+ForeignCollectionField  1 in 1 app.
+WritableObjectKey  1 in 1 app.
+JsonBuffered.Status  1 in 1 app.
+JobType  1 in 1 app.
+DisplayMode  1 in 1 app.
+UpdateMode  1 in 1 app.
+ContentView  1 in 1 app.
+RemoteServiceRelativePath  1 in 1 app.
+MagicConstant  1 in 1 app.
+ExternallyReferenced  1 in 1 app.
+Value.Lazy  1 in 1 app.
+RenderMode  1 in 1 app.
+IgnoreExtraProperties  1 in 1 app.
+DescriptionLength  1 in 1 app.
+EpisodeViewState  1 in 1 app.
+EventType  1 in 1 app.
+ItunesItemTag  1 in 1 app.
+RssItemTag  1 in 1 app.
+javax.annotation.Nullable  1 in 1 app.
+SubscriptionFilter.Mode  1 in 1 app.
+Subscribed  1 in 1 app.
+SoundWavesDownloadManager.Action  1 in 1 app.
+MimeType  1 in 1 app.
+FieldMap  1 in 1 app.
+AutoComponent  1 in 1 app.
+AfterPermissionDenied  1 in 1 app.
+DefaultValue  1 in 1 app.
+ClearMethod  1 in 1 app.
+SaveOption  1 in 1 app.
+SavedNodeType  1 in 1 app.
+OrderType  1 in 1 app.
+PlayState  1 in 1 app.
+StartMediaTimeState  1 in 1 app.
+States  1 in 1 app.
+ElementState  1 in 1 app.
+ReconfigurationState  1 in 1 app.
+NetworkType  1 in 1 app.
+ReplacementState  1 in 1 app.
+Importance  1 in 1 app.
+EdgeDirection  1 in 1 app.
+AsciiBellBehaviour  1 in 1 app.
+Indexed  1 in 1 app.
+HighlightStyle  1 in 1 app.
+DisplayOption  1 in 1 app.
+Filter  1 in 1 app.
+UserList.Mode  1 in 1 app.
+StreamWith  1 in 1 app.
+DMResponse.Status  1 in 1 app.
+ParcelableMedia.Type  1 in 1 app.
+ConversationType  1 in 1 app.
+BeforeWriteContentValues  1 in 1 app.
+FilterFlags  1 in 1 app.
+SpanType  1 in 1 app.
+TestOnly  1 in 1 app.
+EnableTransactionManagement  1 in 1 app.
+Import  1 in 1 app.
+JsonGetter  1 in 1 app.
+ChannelHandler.Sharable  1 in 1 app.
+ContextConfiguration  1 in 1 app.
+ReceiverScope  1 in 1 app.
+GlideType  1 in 1 app.
+GlideExtension  1 in 1 app.
+Testo  1 in 1 app.
+InterpolatorRes  1 in 1 app.
+MultipartConfig  1 in 1 app.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Annotation Categories
+java.lang.
+"Override  257,578 in 1129 apps."
+"SuppressWarnings  6,830 in 559 apps."
+"Deprecated  1,419 in 141 apps."
+SafeVarargs  24 in 18 apps.
+FunctionalInterface  7 in 4 apps.
+java.lang.annotation.
+Retention  518 in 98 apps.
+Target  90 in 42 apps.
+Documented  18 in 12 apps.
+Inherited  5 in 5 apps.
+org.junit.
+"Test  17,476 in 362 apps."
+"RunWith  1,447 in 213 apps."
+"Before  1,366 in 140 apps."
+Rule  485 in 86 apps.
+After  421 in 64 apps.
+BeforeClass  104 in 30 apps.
+Category  62 in 4 apps.
+AfterClass  46 in 11 apps.
+FixMethodOrder  46 in 7 apps.
+ClassRule  11 in 6 apps.
+org.junit.runners.
+Parameterized.Parameters  56 in 14 apps.
+"Parameterized.Parameter (Anki-Android-master, focus-android-master, GreenBits-master)  9 in 3 apps."
+Suite.SuiteClasses  4 in 3 apps.
+org.junit.experimental.
+Categories.IncludeCategory  9 in 3 apps.
+Categories.ExcludeCategory  7 in 3 apps.
+theories.Theory  7 in 3 apps.
+theories.DataPoints  5 in 3 apps.
+javax.inject.
+"Inject  2,652 in 43 apps."
+Singleton  427 in 38 apps.
+Named  168 in 11 apps.
+Qualifier  64 in 11 apps.
+Scope  54 in 16 apps.
+javax.annotation.
+ParametersAreNonnullByDefault  25 in 3 apps.
+concurrent.ThreadSafe (uhabits-dev)  6 in 1 app.
+PostConstruct  6 in 1 app.
+PreDestroy  2 in 1 app.
+Resource  2 in 1 app.
+meta.TypeQualifierDefault  1 in 1 app.
+Nullable  1 in 1 app.
+javax.persistence.
+NamedQuery  5 in 1 app.
+Temporal  2 in 1 app.
+Id (shortyz-master)  2 in 1 app.
+NamedQueries  2 in 1 app.
+GeneratedValue  2 in 1 app.
+javax.ws.rs.
+Produces  7 in 1 app.
+PathParam  4 in 1 app.
+javax.servlet.annotation.
+WebFilter  3 in 1 app.
+WebServlet  2 in 1 app.
+MultipartConfig  1 in 1 app.
+
+android.support.annotation.
+"NonNull  33,610 in 459 apps."
+"Nullable  14,391 in 396 apps."
+"StringRes  1,334 in 134 apps."
+ColorInt  716 in 91 apps.
+DrawableRes  542 in 100 apps.
+VisibleForTesting  539 in 44 apps.
+RequiresApi  418 in 95 apps.
+ColorRes  326 in 53 apps.
+IntDef  318 in 53 apps.
+LayoutRes  295 in 139 apps.
+WorkerThread  280 in 37 apps.
+MainThread  278 in 19 apps.
+IdRes  250 in 69 apps.
+UiThread  188 in 31 apps.
+Keep  159 in 11 apps.
+AttrRes  127 in 37 apps.
+GuardedBy  119 in 4 apps.
+CallSuper  112 in 31 apps.
+StyleRes  98 in 35 apps.
+AnyThread  90 in 7 apps.
+IntRange  68 in 18 apps.
+StringDef  53 in 13 apps.
+DimenRes  51 in 17 apps.
+CheckResult  51 in 13 apps.
+RequiresPermission  48 in 8 apps.
+FloatRange  46 in 10 apps.
+RawRes  39 in 20 apps.
+XmlRes  25 in 12 apps.
+ArrayRes  21 in 11 apps.
+MenuRes  20 in 13 apps.
+BoolRes  16 in 8 apps.
+RestrictTo  13 in 5 apps.
+AnimRes  9 in 4 apps.
+Px  9 in 3 apps.
+IntegerRes  8 in 6 apps.
+Size  8 in 3 apps.
+PluralsRes  7 in 7 apps.
+AnyRes  7 in 5 apps.
+StyleableRes  5 in 2 apps.
+Dimension  2 in 1 app.
+RequiresPermission.Write  2 in 1 app.
+InterpolatorRes  1 in 1 app.
+android.support.v4.
+media.session.PlaybackStateCompat.State  8 in 1 app.
+view.ViewCompat.NestedScrollType  1 in 1 app.
+android.annotation.
+"SuppressLint  2,819 in 433 apps."
+"TargetApi  2,644 in 421 apps."
+android.arch.
+persistence.room.Query  994 in 41 apps.
+persistence.room.ColumnInfo  296 in 13 apps.
+persistence.room.Ignore  231 in 39 apps.
+persistence.room.Entity  120 in 26 apps.
+persistence.room.PrimaryKey  105 in 23 apps.
+persistence.room.Index  69 in 16 apps.
+persistence.room.Insert  55 in 13 apps.
+persistence.room.Dao  45 in 13 apps.
+persistence.room.ForeignKey  33 in 6 apps.
+persistence.room.TypeConverter  30 in 6 apps.
+persistence.room.Delete  25 in 9 apps.
+persistence.room.Update  22 in 6 apps.
+persistence.room.Database  20 in 17 apps.
+persistence.room.Transaction  12 in 2 apps.
+lifecycle.OnLifecycleEvent  10 in 5 apps.
+persistence.room.TypeConverters  7 in 7 apps.
+android.support.test.
+filters.SmallTest  149 in 11 apps.
+filters.LargeTest  115 in 22 apps.
+filters.MediumTest  26 in 1 app.
+filters.FlakyTest  15 in 2 apps.
+annotation.UiThreadTest  12 in 1 app.
+filters.SdkSuppress  4 in 4 apps.
+filters.RequiresDevice  1 in 1 app. 
+annotation.Beta  1 in 1 app.
+android.test.
+suitebuilder.annotation.SmallTest  291 in 6 apps.
+suitebuilder.annotation.LargeTest  47 in 22 apps.
+suitebuilder.annotation.Smoke  36 in 1 app.
+suitebuilder.annotation.MediumTest  17 in 4 apps.
+UiThreadTest  17 in 3 apps.
+suitebuilder.annotation.Suppress  3 in 3 apps.
+RepetitiveTest  1 in 1 app.
+android.webkit.
+JavascriptInterface  349 in 60 apps.
+android.view.ViewDebug.
+ExportedProperty  103 in 9 apps.
+ViewDebug.IntToString  16 in 2 apps.
+CapturedViewProperty  15 in 4 apps.
+android.widget.RemoteViews
+RemoteView  4 in 3 apps.
+android.databinding.
+Bindable  72 in 3 apps.
+BindingAdapter  62 in 7 apps.
+BindingConversion  8 in 3 apps.
+InverseMethod  5 in 1 app.
+InverseBindingAdapter  2 in 1 app.
+com.android.billingclient.api.BillingClient.
+BillingResponse  12 in 4 apps.
+SkuType  6 in 1 app.
+androidx.coordinatorlayout.widget.CoordinatorLayout
+DefaultBehavior  2 in 2 apps.
+androidx.appcompat.app.AppCompatDelegate
+NightMode  2 in 2 apps.
+
+
+butterknife.
+"BindView  4,589 in 62 apps."
+OnClick  766 in 51 apps.
+Bind  463 in 11 apps.
+BindString  85 in 4 apps.
+OnTextChanged  37 in 9 apps.
+OnItemSelected  25 in 8 apps.
+OnLongClick  23 in 14 apps.
+BindColor  20 in 3 apps.
+BindInt  20 in 2 apps.
+Optional  14 in 5 apps.
+OnCheckedChanged  13 in 7 apps.
+OnTouch  12 in 7 apps.
+BindViews  12 in 6 apps.
+OnFocusChange  11 in 3 apps.
+OnEditorAction  9 in 4 apps.
+OnPageChange  7 in 5 apps.
+BindDrawable  7 in 3 apps.
+BindBool  6 in 2 apps.
+InjectView  5 in 1 app.
+OnItemClick  2 in 2 apps.
+com.bluelinelabs.logansquare.annotation.
+"JsonField  1,222 in 2 apps."
+JsonObject  274 in 2 apps.
+OnJsonParseComplete  13 in 1 app.
+OnPreJsonSerialize  5 in 1 app.
+JsonIgnore  3 in 1 app.
+com.biglybt.util.
+Thunk  458 in 1 app.
+com.vuze.util.
+Thunk  403 in 1 app.
+ch.deletescape.lawnchair.
+util.Thunk  199 in 1 app.
+AbstractFloatingView.FloatingViewType  3 in 1 app.
+popup.PopupContainerWithArrow.RoundedCornerFlags  2 in 1 app.
+com.fasterxml.jackson.
+"annotation.JsonProperty  1,055 in 14 apps."
+annotation.JsonIgnore  51 in 7 apps.
+databind.annotation.JsonDeserialize  51 in 3 apps.
+annotation.JsonInclude  45 in 5 apps.
+annotation.JsonSetter  37 in 1 app.
+annotation.JsonAnySetter  34 in 4 apps.
+annotation.JsonPropertyOrder  33 in 3 apps.
+annotation.JsonAnyGetter  33 in 3 apps.
+annotation.JsonIgnoreProperties  29 in 4 apps.
+databind.annotation.JsonNaming  21 in 1 app.
+annotation.JsonCreator  8 in 4 apps.
+annotation.JsonValue  6 in 3 apps.
+databind.annotation.JsonSerialize  4 in 2 apps.
+annotation.JsonAutoDetect  2 in 2 apps.
+annotation.JsonGetter  1 in 1 app.
+annotation.JsonManagedReference  1 in 1 app.
+annotation.JsonBackReference  1 in 1 app.
+org.mockito.
+"Mock  1,042 in 32 apps."
+Captor  74 in 8 apps.
+InjectMocks  21 in 5 apps.
+Spy  1 in 1 app.
+com.google.gson.annotations.
+SerializedName  769 in 30 apps.
+Expose  296 in 11 apps.
+JsonAdapter  1 in 1 app.
+com.google.auto.
+value.AutoValue  69 in 5 apps.
+value.AutoValue.Builder  19 in 5 apps.
+factory.AutoFactory  7 in 1 app.
+value.extension.memoized.Memoized  1 in 1 app.
+dagger.
+Provides  665 in 38 apps.
+Module  191 in 35 apps.
+ContributesAndroidInjector  147 in 5 apps.
+Component  100 in 31 apps.
+Binds  76 in 6 apps.
+IntoMap  41 in 3 apps.
+Subcomponent  22 in 4 apps.
+multibindings.ClassKey  14 in 1 app.
+BindsInstance  5 in 3 apps.
+Component.Builder  4 in 4 apps.
+Reusable  4 in 2 apps.
+MapKey  3 in 3 apps.
+Subcomponent.Builder  2 in 1 app.
+autodagger.
+AutoInjector  30 in 1 app.
+AutoComponent  1 in 1 app.
+retrofit2.http.
+GET  656 in 44 apps.
+Path  638 in 25 apps.
+POST  284 in 29 apps.
+Headers  154 in 11 apps.
+Body  135 in 25 apps.
+Field  118 in 9 apps.
+Header  77 in 9 apps.
+DELETE  55 in 16 apps.
+Url  45 in 6 apps.
+FormUrlEncoded  42 in 9 apps.
+PUT  30 in 11 apps.
+PATCH  27 in 9 apps.
+Part  15 in 2 apps.
+QueryMap  12 in 4 apps.
+Multipart  5 in 3 apps.
+PartMap  2 in 1 app.
+OPTIONS  2 in 1 app.
+FieldMap  1 in 1 app.
+Streaming  1 in 1 app.
+HTTP  1 in 1 app.
+com.j256.
+ormlite.field.DatabaseField  538 in 7 apps.
+ormlite.field.DatabaseTable  66 in 6 apps.
+simplecsv.common.CsvColumn  18 in 1 app.
+ormlite.field.ForeignCollectionField  1 in 1 app.
+org.robolectric.
+annotation.Config  397 in 45 apps.
+annotation.Implementation  74 in 10 apps.
+annotation.Implements  35 in 11 apps.
+annotation.RealObject  13 in 6 apps.
+ParameterizedRobolectricTestRunner.Parameters  2 in 1 app.
+org.greenrobot.
+eventbus.Subscribe  335 in 30 apps.
+greendao.annotation.Generated  109 in 9 apps.
+greendao.annotation.Id  24 in 5 apps.
+greendao.annotation.Unique  10 in 2 apps.
+greendao.annotation.ToMany  6 in 2 apps.
+greendao.annotation.Transient  5 in 2 apps.
+greendao.annotation.JoinProperty  5 in 1 app.
+greendao.annotation.JoinEntity  1 in 1 app.
+org.jetbrains.annotations.
+NotNull  320 in 25 apps.
+NonNls  35 in 2 apps.
+Contract  12 in 3 apps.
+Nullable  3 in 1 app.
+TestOnly  1 in 1 app.
+PropertyKey  1 in 1 app.
+ryey.easer.commons.plugindef.
+ValidData  257 in 1 app.
+org.mariotaku.
+library.objectcursor.annotation.CursorField  229 in 1 app.
+restfu.annotation.param.Param  120 in 1 app.
+library.exportablepreferences.annotation.ExportablePreference  93 in 1 app.
+restfu.annotation.param.KeyValue  48 in 1 app.
+restfu.annotation.param.Params  42 in 1 app.
+restfu.http.BodyType  25 in 1 app.
+library.objectcursor.annotation.CursorObject  15 in 1 app.
+twidere.model.Draft.Action  13 in 1 app.
+twidere.annotation.CustomTabType  11 in 1 app.
+microblog.library.twitter.model.TwitterResponse.AccessLevel  8 in 1 app.
+twidere.model.ParcelableMedia.Type  6 in 1 app.
+twidere.annotation.FilterScope  6 in 1 app.
+restfu.annotation.param.Queries  5 in 1 app.
+library.objectcursor.annotation.AfterCursorObjectCreated  5 in 1 app.
+microblog.library.twitter.model.ExtendedProfile.Visibility  4 in 1 app.
+microblog.library.twitter.model.ScheduledStatus.State  4 in 1 app.
+twidere.annotation.AccountType  4 in 1 app.
+twidere.model.account.cred.Credentials.Type  3 in 1 app.
+twidere.annotation.NotificationType  3 in 1 app.
+twidere.annotation.ImageShapeStyle  3 in 1 app.
+twidere.graphic.like.LikeAnimationDrawable.Style  3 in 1 app.
+microblog.library.twitter.model.UniversalSearchResult.ResultType  3 in 1 app.
+microblog.library.mastodon.annotation.StatusVisibility  3 in 1 app.
+microblog.library.twitter.model.DMResponse.Status  2 in 1 app.
+microblog.library.twitter.annotation.MediaCategory  2 in 1 app.
+microblog.library.twitter.model.SearchQuery.Unit  2 in 1 app.
+microblog.library.twitter.model.ModuleMetadata.ResultType  2 in 1 app.
+microblog.library.twitter.model.UserList.Mode  2 in 1 app.
+twidere.model.Draft.Action  2 in 1 app.
+twidere.model.ParcelableMessage.MessageType  2 in 1 app.
+twidere.annotation.AuthTypeInt  2 in 1 app.
+twidere.annotation.ReadPositionTag  2 in 1 app.
+restfu.annotation.param.Raw  2 in 1 app.
+microblog.library.twitter.model.UserList.Mode  1 in 1 app.
+microblog.library.twitter.model.DMResponse.Status  1 in 1 app.
+microblog.library.twitter.model.UniversalSearchQuery.Filter  1 in 1 app.
+microblog.library.twitter.annotation.StreamWith  1 in 1 app.
+twidere.model.ParcelableStatus.FilterFlags  1 in 1 app.
+twidere.model.ParcelableMessageConversation.ConversationType  1 in 1 app.
+twidere.model.SpanItem.SpanType  1 in 1 app.
+twidere.view.TabPagerIndicator.DisplayOption  1 in 1 app.
+twidere.util.TwidereLinkify.HighlightStyle  1 in 1 app.
+library.objectcursor.annotation.BeforeWriteContentValues  1 in 1 app.
+fr.ybonnel.csvengine.annotation.
+CsvColumn  201 in 1 app.
+net.bible.android.
+control.ApplicationScope  57 in 1 app.
+view.activity.MainBibleActivityScope  10 in 1 app.
+view.activity.ActivityScope  1 in 1 app.
+org.liberty.android.fantastischmemo.modules.
+PerApplication  30 in 1 app.
+ForApplication  13 in 1 app.
+PerActivity  13 in 1 app.
+PerFragment  1 in 1 app.
+org.tasks.
+injection.ForApplication  56 in 1 app.
+injection.ApplicationScope  40 in 1 app.
+injection.ForActivity  17 in 1 app.
+injection.ActivityScope  5 in 1 apps.
+billing.SkusAdapter.RowTypeDef  5 in 1 app.
+org.androidannotations.
+annotations.ViewById  196 in 10 apps.
+annotations.Bean  151 in 4 apps.
+annotations.OptionsItem  78 in 3 apps.
+annotations.Background  63 in 8 apps.
+annotations.AfterViews  54 in 9 apps.
+annotations.EActivity  53 in 10 apps.
+annotations.InstanceState  44 in 5 apps.
+annotations.Click  35 in 8 apps.
+annotations.Extra  27 in 7 apps.
+annotations.EFragment  26 in 5 apps.
+annotations.EBean  22 in 4 apps.
+annotations.OnActivityResult  19 in 5 apps.
+annotations.OptionsMenu  17 in 2 apps.
+annotations.SystemService  16 in 5 apps.
+annotations.EViewGroup  15 in 2 apps.
+annotations.FragmentArg  13 in 4 apps.
+annotations.RootContext  12 in 2 apps.
+annotations.ItemClick  8 in 2 apps.
+annotations.OptionsMenuItem  8 in 1 app.
+annotations.FragmentById  8 in 1 app.
+annotations.CheckedChange  4 in 1 app.
+annotations.EApplication  3 in 3 apps.
+annotations.AfterInject  3 in 2 apps.
+annotations.PreferenceScreen  3 in 2 apps.
+annotations.ItemSelect  3 in 1 app.
+annotations.EReceiver  3 in 1 app.
+annotations.AfterPreferences  2 in 2 apps.
+annotations.TextChange  2 in 2 apps.
+rest.spring.annotations.Get  2 in 1 app.
+rest.spring.annotations.Rest  2 in 1 app.
+rest.spring.annotations.RestService  2 in 1 app.
+annotations.LongClick  2 in 1 app.
+annotations.OrmLiteDao  2 in 1 app.
+annotations.App  1 in 1 app.
+annotations.ItemLongClick  1 in 1 app.
+annotations.AfterTextChange  1 in 1 app.
+annotations.OnActivityResult.Extra  1 in 1 app.
+org.springframework.
+beans.factory.annotation.Autowired  195 in 1 app.
+context.annotation.Configuration  17 in 1 app.
+context.annotation.Lazy  5 in 1 app.
+context.annotation.Primary  2 in 1 app.
+context.annotation.ComponentScan  2 in 1 app.
+context.annotation.Import  1 in 1 app.
+context.annotation.ComponentScan.Filter  1 in 1 app.
+transaction.annotation.EnableTransactionManagement  1 in 1 app.
+test.context.ContextConfiguration  1 in 1 app.
+com.hannesdorfmann.parcelableplease.annotation.
+ParcelableThisPlease  191 in 1 app.
+ParcelablePlease  129 in 1 app.
+ParcelableNoThanks  15 in 1 app.
+Bagger  7 in 1 app.
+com.idevicesinc.sweetblue.annotations.
+Advanced  149 in 1 app.
+Immutable  42 in 1 app.
+Lambda  26 in 1 app.
+Extendable  13 in 1 app.
+Alpha  3 in 1 app.
+Experimental  2 in 1 app.
+io.appium.java_client.pagefactory.
+AndroidFindBy  134 in 2 apps.
+com.esotericsoftware.kryo.serializers.TaggedFieldSerializer.
+Tag  125 in 1 app.
+org.emdev.ui.actions.
+ActionMethod  110 in 1 app.
+lombok.
+Getter  106 in 3 apps.
+Data  106 in 2 apps.
+NoArgsConstructor  75 in 2 apps.
+Setter  66 in 2 apps.
+AllArgsConstructor  44 in 3 apps.
+Builder  21 in 2 apps.
+EqualsAndHashCode  10 in 2 apps.
+ToString  9 in 2 apps.
+experimental.Delegate  5 in 1 app.
+RequiredArgsConstructor  4 in 1 app.
+io.freefair.android.injection.annotation.
+InjectView  61 in 1 app.
+XmlLayout  6 in 1 app.
+XmlMenu  6 in 1 app.
+roboguice.
+inject.InjectView  39 in 2 apps.
+inject.ContextSingleton  29 in 4 apps.
+event.Observes  21 in 1 app.
+inject.InjectFragment  3 in 1 app.
+inject.ContentView  1 in 1 app.
+com.ubergeek42.cats.
+Cat  95 in 1 app.
+CatD  11 in 1 app.
+org.simpleframework.xml.
+Attribute  88 in 6 apps.
+Root  76 in 7 apps.
+Element  74 in 7 apps.
+ElementList  24 in 5 apps.
+Text  3 in 2 apps.
+Namespace  2 in 1 app.
+NamespaceList  1 in 1 app.
+core.Commit  1 in 1 app.
+ElementMap  1 in 1 app.
+in.arjsna.permissionchecker.di.
+qualifiers.ActivityContext  8 in 1 app.
+scopes.FragmentScope  6 in 1 app.
+qualifiers.ApplicationContext  2 in 1 app.
+subreddit.android.appstore.util.dagger.
+ApplicationScope  19 in 1 app.
+FragmentScope  8 in 1 app.
+co.smartreceipts.android.
+di.scopes.ApplicationScope  94 in 1 app.
+di.scopes.FragmentScope  50 in 1 app.
+di.scopes.ActivityScope  15 in 1 app.
+di.scopes.ServiceScope  2 in 1 app.
+workers.reports.pdf.renderer.imagex.compat.PdfRendererCompat.RenderMode  1 in 1 app.
+net.grandcentrix.thirtyinch.callonmainthread.
+CallOnMainThread  65 in 2 apps.
+io.requery.
+Convert  63 in 3 apps.
+Key  24 in 3 apps.
+Nullable  19 in 1 app.
+Column  17 in 2 apps.
+Table  6 in 2 apps.
+ManyToOne  2 in 1 app.
+PostLoad  1 in 1 app.
+org.lumicall.android.preferences.
+PreferenceField  62 in 1 app.
+org.codehaus.jackson.
+annotate.JacksonAnnotation  23 in 1 app.
+annotate.JsonIgnore  5 in 3 apps.
+map.annotate.JsonCachable.JsonCachable  2 in 1 app.
+annotate.JsonAutoDetect  1 in 1 app.
+com.iskrembilen.quasseldroid.protocol.state.serializers.
+Syncable  57 in 1 app.
+org.parceler.
+Parcel  55 in 2 apps.
+org.powermock.
+core.classloader.annotations.PrepareForTest  51 in 12 apps.
+core.classloader.annotations.PowerMockIgnore  2 in 2 apps.
+modules.junit4.PowerMockRunnerDelegate.PowerMockRunnerDelegate  1 in 1 app.
+de.ktran.anno1404warenrechner.views.
+PerActivity  4 in 1 app.
+com.google.android.stardroid.inject.
+PerActivity  29 in 1 app.
+de.eidottermihi.rpicheck.ssh.beans.
+Exported  48 in 1 app.
+com.googlecode.objectify.annotation.
+Id  2 in 2 apps.
+io.objectbox.annotation.
+apihint.Internal  1 in 1 app.
+Id  1 in 1 app.
+com.github.jasminb.jsonapi.annotations.
+Relationship  21 in 1 app.
+Id  18 in 1 app.
+Type  17 in 1 app.
+net.orange_box.storebox.annotations.
+method.KeyByString  46 in 1 app.
+method.RemoveMethod  14 in 1 app.
+method.UnregisterChangeListenerMethod  2 in 1 app.
+method.RegisterChangeListenerMethod  2 in 1 app.
+method.ClearMethod  1 in 1 app.
+method.DefaultValue  1 in 1 app.
+option.SaveOption  1 in 1 app.
+org.openqa.selenium.support.
+CacheLookup  44 in 2 apps.
+FindBy  2 in 2 apps.
+com.google.android.exoplayer2.
+Player.RepeatMode  43 in 3 apps.
+upstream.DataSpec.Flags  32 in 1 app.
+C.Encoding  26 in 1 app.
+C.SelectionFlags  24 in 1 app.
+text.Cue.AnchorType  21 in 1 app.
+C.BufferFlags  17 in 1 app.
+C.PcmEncoding  17 in 1 app.
+DefaultRenderersFactory.ExtensionRendererMode  13 in 2 apps.
+Player.DiscontinuityReason  12 in 2 apps.
+upstream.Loader.RetryAction  12 in 1 app.
+upstream.HttpDataSource.Type  11 in 1 app.
+Player.TimelineChangeReason  9 in 2 apps.
+text.Cue.LineType  9 in 1 app.
+source.ads.AdPlaybackState.AdState  9 in 1 app.
+drm.UnsupportedDrmException.Reason  8 in 1 app.
+text.ttml.TtmlStyle.OptionalBoolean  8 in 1 app.
+util.EGLSurfaceTexture.SecureMode  7 in 1 app.
+C.AudioUsage  7 in 1 app.
+C.ContentType  6 in 2 apps.
+C.AudioContentType  6 in 1 app.
+C.VideoScalingMode  6 in 1 app.
+extractor.ts.TsExtractor.Mode  6 in 1 app.
+ui.AspectRatioFrameLayout.ResizeMode - 5 in 2 apps.
+offline.DownloadManager.InternalState  5 in 1 app.
+C.CryptoMode  5 in 1 app.
+C.StereoMode  5 in 1 app.
+C.StreamType  5 in 1 app.
+C.AudioFlags  4 in 1 app.
+text.ttml.TtmlStyle.FontSizeUnit  4 in 1 app.
+drm.DrmSession.State  4 in 1 app.
+text.Cue.TextSizeType  4 in 1 app.
+extractor.mp4.Track.Transformation  3 in 1 app.
+trackselection.MappingTrackSelector.RendererSupport  3 in 1 app.
+upstream.cache.CacheDataSource.Flags  3 in 1 app.
+C.ColorSpace  3 in 1 app.
+C.ColorTransfer  3 in 1 app.
+C.ColorRange  3 in 1 app.
+extractor.ts.DefaultTsPayloadReaderFactory.Flags  3 in 1 app.
+source.hls.playlist.HlsMediaPlaylist.PlaylistType  3 in 1 app.
+audio.Ac3Util.SyncFrameInfo.StreamType  3 in 1 app.
+mediacodec.MediaCodecRenderer.KeepCodecResult  3 in 1 app.
+text.ttml.TtmlStyle.StyleFlags  2 in 1 app.
+source.hls.HlsSampleStreamWrapper.PrimaryTrackType  2 in 1 app.
+source.dash.DashMediaPeriod.TrackGroupCategory  2 in 1 app.
+upstream.cache.CacheDataSource.CacheIgnoredReason  2 in 1 app.
+text.CaptionStyleCompat.EdgeType  2 in 1 app.
+decoder.DecoderInputBuffer.BufferReplacementMode  2 in 1 app.
+drm.DefaultDrmSessionManager.Mode  2 in 1 app.
+audio.SimpleDecoderAudioRenderer.ReinitializationState  2 in 1 app.
+mediacodec.MediaCodecRenderer.AdaptationWorkaroundMode  2 in 1 app.
+extractor.mkv.MatroskaExtractor.Flags  2 in 1 app.
+extractor.mkv.EbmlReaderOutput.ElementType  2 in 1 app.
+extractor.mp4.FragmentedMp4Extractor.Flags  2 in 1 app.
+extractor.mp4.Mp4Extractor.Flags  2 in 1 app.
+extractor.mp3.Mp3Extractor.Flags  2 in 1 app.
+extractor.ts.TsExtractor.Mode  2 in 1 app.
+extractor.flv.FlvExtractor.States  1 in 1 app.
+extractor.mkv.DefaultEbmlReader.ElementState  1 in 1 app.
+mediacodec.MediaCodecRenderer.ReconfigurationState  1 in 1 app.
+text.TextRenderer.ReplacementState  1 in 1 app.
+scheduler.Requirements.NetworkType  1 in 1 app.
+util.NotificationUtil.Importance  1 in 1 app.
+audio.DefaultAudioSink.StartMediaTimeState  1 in 1 app.
+audio.AudioTrackPositionTracker.PlayState  1 in 1 app.
+com.google.android.apps.
+common.proguard.UsedByReflection  20 in 1 app.
+muzei.api.MuzeiContract.Artwork.MetaFontType  4 in 1 app.
+muzei.api.MuzeiArtSource.UpdateReason  3 in 1 app.
+fr.ybo.
+database.annotation.Column  65 in 1 app.
+moteurcsv.annotation.BaliseCsv  43 in 1 app.
+moteurcsv.annotation.FichierCsv  9 in 1 app.
+database.annotation.Indexed  1 in 1 app.
+io.realm.annotations.
+Required  40 in 3 apps.
+RealmClass  5 in 1 app.
+com.antlersoft.android.db.
+FieldAccessor  39 in 1 app.
+TableInterface  5 in 1 app.
+org.acra.annotation.
+ReportsCrashes  35 in 33 apps.
+AcraCore  10 in 10 apps.
+AcraHttpSender  6 in 6 apps.
+AcraDialog  4 in 4 apps.
+AcraMailSender  3 in 3 apps.
+AcraToast  2 in 2 apps.
+AcraNotification  1 in 1 app.
+com.beust.jcommander.
+Parameter  20 in 1 app.
+com.wangdaye.mysplash.
+Mysplash.PageRule  33 in 1 app.
+Mysplash.CsvFile  31 in 1 app.
+common.i.model.LoadModel.StateRule  29 in 1 app.
+Mysplash.PerPageRule  17 in 1 app.
+search.view.widget.SearchPageView.TypeRule  14 in 1 app.
+Mysplash.CategoryIdRule  9 in 1 app.
+Mysplash.PhotosTypeRule  5 in 1 app.
+common.ui.widget.nestedScrollView.NestedScrollFrameLayout.DirectionRule  5 in 1 app.
+Mysplash.CollectionTypeRule  4 in 1 app.
+common.ui.popup.CollectionMenuPopupWindow.MenuItemRule  3 in 1 app.
+common.utils.helper.DownloadHelper.DownloadTypeRule  3 in 1 app.
+common.ui.widget.freedomSizeView.FreedomImageView.SizeRule  2 in 1 app.
+me.model.widget.MyFollowObject.FollowTypeRule  2 in 1 app.
+me.model.widget.PhotosObject.PhotoTypeRule  2 in 1 app.
+user.view.activity.UserActivity.UserPageRule  2 in 1 app.
+common.utils.helper.DownloadHelper.DownloadResultRule  1 in 1 app.
+common.data.entity.item.DownloadMission.ProcessRangeRule  2 in 1 app.
+common.ui.widget.SwipeBackCoordinatorLayout.DirectionRule  2 in 1 app.
+common.i.model.AboutModel.AboutTypeRule  1 in 1 app.
+common.ui.activity.SetWallpaperActivity.ClipRule  1 in 1 app.
+common.ui.activity.SetWallpaperActivity.AlignRule  1 in 1 app.
+common.ui.adapter.FollowingAdapter.ViewTypeRule  1 in 1 app.
+common.ui.widget.swipeRefreshView.MaterialProgressDrawable.ProgressDrawableSize  1 in 1 app.
+common.ui.activity.SetWallpaperActivity.WallpaperWhereRule  1 in 1 app.
+Mysplash.DownloadFormatRule  1 in 1 app.
+com.sdrtouch.core.
+UsedByJni  4 in 1 app.
+edu.umd.cs.findbugs.annotations.
+SuppressFBWarnings  27 in 4 apps.
+org.joda.convert.
+FromString  20 in 1 app.
+ToString  17 in 1 app.
+hugo.weaving.
+DebugLog  25 in 5 apps.
+tranquvis.simplesmsremote.Aspects.ExecSequentially.
+ExecSequentially  24 in 1 app.
+javafx.fxml.
+FXML  20 in 1 app.
+io.github.hidroh.materialistic.
+annotation.Synthetic  131 in 1 app.
+data.ItemManager.CacheMode  19 in 1 app.
+test.ParameterizedTestRunner.Parameters  7 in 1 app.
+data.ItemManager.FetchMode  5 in 1 app.
+annotation.PublicApi  4 in 1 app.
+data.AlgoliaPopularClient.Range  3 in 1 app.
+KeyDelegate.ScrollMode  2 in 1 app.
+KeyDelegate.Direction  2 in 1 app.
+data.WebItem.Type  1 in 1 app.
+org.dmfs.android.retentionmagic.annotations.
+Retain  18 in 1 app.
+Parameter  10 in 1 app.
+com.squareup.
+wire.ProtoField  17 in 1 app.
+moshi.Json  11 in 2 apps.
+otto.Produce  10 in 3 apps.
+moshi.FromJson  3 in 2 apps.
+moshi.ToJson  3 in 2 apps.
+org.ethereum.config.
+SystemProperties.ValidateMe  62 in 1 app.
+NoAutoscan  17 in 1 app.
+com.raizlabs.android.dbflow.annotation.
+Column  58 in 2 apps.
+Table  20 in 2 apps.
+Migration  16 in 2 apps.
+ColumnIgnore  4 in 1 app.
+QueryModel  1 in 1 app.
+com.gabrielittner.auto.value.cursor.
+ColumnName  16 in 1 app.
+ColumnAdapter  1 in 1 app.
+com.google.android.accessibility.
+utils.traversal.TraversalStrategy.SearchDirection  44 in 1 app.
+utils.parsetree.ParseTree.VariableType  28 in 1 app.
+compositor.Event  16 in 1 app.
+utils.traversal.TraversalStrategy.SearchDirectionOrUnknown  14 in 1 app.
+utils.Role.RoleName  13 in 1 app.
+utils.Performance.StageId  6 in 1 app.
+utils.CollectionState.RowColumnTransition  6 in 1 app.
+utils.parsetree.ParseTree.Operator  5 in 1 app.
+utils.volumebutton.VolumeButtonPatternDetector.ButtonSequence  5 in 1 app.
+utils.volumebutton.VolumeButtonPatternDetector.ButtonsUsed  5 in 1 app.
+talkback.Analytics.UserActionType  5 in 1 app.
+compositor.Compositor.Flavor  4 in 1 app.
+utils.CollectionState.TableHeadingType  4 in 1 app.
+utils.parsetree.ParseTree.OperatorClass  4 in 1 app.
+utils.input.InputModeManager.InputMode  3 in 1 app.
+utils.Performance.EventTypeId  3 in 1 app.
+compositor.Compositor.DescriptionOrder  3 in 1 app.
+talkback.focusmanagement.record.FocusActionInfo.SourceAction  3 in 1 app.
+talkback.controller.TelevisionNavigationController.RemoteMode  3 in 1 app.
+utils.CollectionState.CollectionAlignment  2 in 1 app.
+utils.CollectionState.CollectionTransition  2 in 1 app.
+talkback.focusmanagement.action.TouchExplorationAction.ActionType  2 in 1 app.
+talkback.TelevisionDPadManager.State  2 in 1 app.
+talkback.SavedNode.SavedNodeType  1 in 1 app.
+utils.parsetree.ParseTreeResourceNode.Type  1 in 1 app.
+pub.devrel.easypermissions.
+AfterPermissionGranted  14 in 4 apps.
+com.physphil.android.unitconverterultimate.models.
+Conversion.id  14 in 1 app.
+Unit.id  7 in 1 app.
+com.bumptech.glide.annotation.
+GlideModule  13 in 13 apps.
+GlideOption  2 in 1 app.
+GlideType  1 in 1 app.
+GlideExtension  1 in 1 app.
+permissions.dispatcher.
+NeedsPermission  13 in 5 apps.
+RuntimePermissions  8 in 5 apps.
+OnPermissionDenied  8 in 4 apps.
+OnShowRationale  7 in 4 apps.
+OnNeverAskAgain  6 in 3 apps.
+com.h6ah4i.android.widget.advrecyclerview.draggable.annotation.
+DraggableItemStateFlags  12 in 2 apps.
+org.isoron.
+uhabits.core.database.Column  28 in 1 app.
+uhabits.core.AppScope  12 in 1 app.
+androidbase.AppContext  7 in 1 app.
+androidbase.activities.ActivityScope  5 in 1 app.
+androidbase.activities.ActivityContext  5 in 1 app.
+uhabits.core.database.Table  4 in 1 app.
+uhabits.receivers.ReceiverScope  1 in 1 app.
+com.bytesforge.linkasanote.
+FragmentScoped  11 in 1 app.
+laano.links.LinkId  6 in 1 app.
+laano.notes.NoteId  4 in 1 app.
+laano.favorites.FavoriteId  4 in 1 app.
+addeditaccount.nextcloud.NextcloudAccount  2 in 1 app.
+com.jakewharton.u2020.
+ui.debug.DebugDrawerLayout.EdgeGravity  11 in 1 app.
+ui.debug.DebugDrawerLayout.LockMode  5 in 1 app.
+data.PixelGridEnabled  3 in 1 app.
+data.ScalpelEnabled  3 in 1 app.
+data.ScalpelWireframeEnabled  3 in 1 app.
+data.PixelRatioEnabled  3 in 1 app.
+data.AnimationSpeed  2 in 1 app.
+data.PicassoDebugging  2 in 1 app.
+data.SeenDebugDrawer  2 in 1 app.
+ui.debug.DebugDrawerLayout.State  2 in 1 app.
+com.tngtech.java.junit.dataprovider.
+UseDataProvider  10 in 2 apps.
+DataProvider  9 in 2 apps.
+org.quantumbadger.redreader.
+cache.CacheRequest.RequestFailureType  71 in 1 app.
+reddit.url.RedditURLParser.PathType  10 in 1 app.
+io.WritableField  7 in 1 app.
+fragments.MainMenuFragment.MainMenuAction  5 in 1 app.
+reddit.RedditAPI.RedditSubredditAction  4 in 1 app.
+reddit.RedditAPI.RedditAction  4 in 1 app.
+views.bezelmenu.BezelSwipeOverlay.SwipeEdge  4 in 1 app.
+cache.CacheRequest.DownloadQueueType  3 in 1 app.
+io.WritableObject.WritableObjectTimestamp  2 in 1 app.
+io.WritableObject.WritableObjectVersion  2 in 1 app.
+jsonwrap.JsonBuffered.Status  3 in 1 app.
+jsonwrap.JsonValue.Type  2 in 1 app.
+jsonwrap.JsonBuffered.Status  1 in 1 app.
+io.WritableObject.WritableObjectKey  1 in 1 app.
+org.kontalk.
+service.msgcenter.MessageCenterService.CommandHandler  29 in 1 app.
+ui.MessagingNotification.NotificationChannelId  10 in 1 app.
+client.NumberValidator.BrandImageSize  2 in 1 app.
+org.nutritionfacts.dailydozen.model.enums.
+TimeScale.Interface  9 in 1 app.
+Units.Interface  3 in 1 app.
+org.telegram.messenger.support.
+widget.FastScroller.State  13 in 1 app.
+widget.ViewBoundsCheck.ViewBounds  9 in 1 app.
+widget.RecyclerView.Orientation  6 in 1 app.
+widget.RecyclerView.AdapterChanges  4 in 1 app.
+widget.RecyclerView.EdgeDirection  1 in 1 app.
+customtabs.CustomTabsService.Result  7 in 4 apps.
+com.afollestad.
+inquiry.annotations.Column  17 in 2 apps.
+polar.kustom.KustomUtil.KustomDir  5 in 1 app.
+polar.util.ApplyUtil.Launcher  3 in 1 app.
+polar.zooper.ZooperUtil.ZooperDir  3 in 1 app.
+ason.AsonName  3 in 1 app.
+ason.AsonIgnore  2 in 1 app.
+bridge.annotations.ContentType  2 in 1 app.
+nocknock.api.ServerStatus.Enum  2 in 1 app.
+nocknock.api.ValidationMode.Enum  1 in 1 app.
+inquiry.annotations.Table  1 in 1 app.
+net.jcip.annotations.
+ThreadSafe  2 in 1 app.
+com.termux.app.TermuxPreferences
+AsciiBellBehaviour  1 in 1 app.
+com.owncloud.android.
+test.ui.groups.FlexibleCategories.TestScanPackage  8 in 2 apps.
+test.ui.groups.FlexibleCategories.TestClassPrefix  8 in 2 apps.
+test.ui.groups.FlexibleCategories.TestClassSuffix  8 in 2 apps.
+utils.NextcloudServer.NextcloudServer  3 in 1 app.
+com.b44t.messenger.aosp.RecyclerView
+AdapterChanges  4 in 1 app.
+LayoutState  2 in 2 apps.
+openfoodfacts.github.scrachx.openfood.
+utils.NavigationDrawerListener.NavigationDrawerType  8 in 1 app.
+utils.ProductInfoState  4 in 1 app.
+utils.SearchType  2 in 1 app.
+dagger.FragmentScope  2 in 1 app.
+dagger.ActivityScope  2 in 1 app.
+dagger.Qualifiers.ForApplication  1 in 1 app.
+dagger.Qualifiers.ForActivity  1 in 1 app.
+com.fastaccess.
+ui.modules.repos.RepoPagerMvp.RepoNavigationType  8 in 1 app.
+helper.PrefGetter.ThemeType  8 in 1 app.
+provider.timeline.ReactionsProvider.ReactionType  8 in 1 app.
+ui.modules.main.MainMvp.NavigationType  5 in 1 app.
+ui.modules.repos.extras.misc.RepoMiscMVp.MiscType  5 in 1 app.
+data.dao.SettingsModel.SettingsType  4 in 1 app.
+provider.tasks.git.GithubActionService.GitActionType  3 in 1 app.
+helper.PrefGetter.ThemeColor  2 in 1 app.
+com.eventyay.organizer.common.di.module.ViewModelKey
+ViewModelKey  24 in 1 app.
+de.grobox.transportr.ViewModelKey
+ViewModelKey  3 in 1 app.
+com.anysoftkeyboard.
+keyboards.Keyboard.KeyboardRowModeId  24 in 1 app.
+keyboardextensions.KeyboardExtension.KeyboardExtensionType  8 in 1 app.
+keyboards.views.preview.PreviewPopupTheme.PreviewAnimationType  5 in 1 app.
+keyboards.KeyboardSwitcher.InputModeId  3 in 1 app.
+keyboards.Keyboard.KeyEdgeValue  2 in 1 app.
+keyboards.AnyKeyboard.ShowKeyInLayoutType  1 in 1 app.
+utils.ModifierKeyState.PhysicalState  1 in 1 app.
+utils.ModifierKeyState.LogicalState  1 in 1 app.
+com.heinrichreimersoftware.
+materialintro.app.IntroActivity.ButtonNextFunction  3 in 1 app.
+materialintro.app.IntroActivity.ButtonCtaTintMode  3 in 1 app.
+materialintro.app.IntroActivity.ButtonBackFunction  3 in 1 app.
+materialintro.app.OnNavigationBlockedListener.Direction  2 in 2 apps.
+materialintro.view.SwipeBlockableViewPager.SwipeDirection  2 in 2 apps.
+androidissuereporter.IssueReporterActivity.Result  2 in 1 apps
+com.poupa.vinylmusicplayer.ui.activities.bugreport.BugReportActivity
+Result  2 in 1 app.
+im.vector.
+view.UnreadCounterBadgeView.Status  2 in 1 app.
+PhoneNumberHandler.DisplayMode  1 in 1 app.
+util.ReadMarkerManager.UpdateMode  1 in 1 app.
+org.aspectj.lang.annotation.
+Pointcut  7 in 2 apps.
+Around  4 in 2 apps.
+Aspect  3 in 2 apps.
+io.reactivex.annotations.
+NonNull  7 in 2 apps.
+CheckReturnValue  3 in 1 app.
+rkr.simplekeyboard.inputmethod.
+annotations.UsedForTesting  7 in 1 app.
+compat.UserManagerCompatUtils.LockState  2 in 1 app.
+annotations.ExternallyReferenced  1 in 1 app.
+cz.numsolution.cfdpal.model.
+CalculationType  7 in 1 app.
+org.apache.
+cxf.jaxrs.model.wadl.Description  7 in 1 app.
+geode.test.junit.ConditionalIgnore.ConditionalIgnore  1 in 1 app.
+com.google.android.flexbox.FlexboxLayout.
+FlexDirection  7 in 1 app.
+DividerMode  5 in 1 app.
+FlexWrap  3 in 1 app.
+AlignItems  2 in 1 app.
+AlignContent  2 in 1 app.
+JustifyContent  2 in 1 app.
+com.facebook.
+samples.zoomable.DefaultZoomableController.LimitFlag  7 in 1 app.
+react.bridge.ReactMethod.ReactMethod  3 in 1 app.
+com.evancharlton.mileage.dao.Dao.
+Column  50 in 1 app.
+Validate  49 in 1 app.
+Range.Positive  13 in 1 app.
+DataObject  7 in 1 app.
+CanBeEmpty  3 in 1 app.
+Past  1 in 1 app.
+com.getbase.floatingactionbutton.FloatingActionButton
+FAB_SIZE  4 in 2 apps.
+net.i2p.android.ext.floatingactionbutton.FloatingActionButton
+FAB_SIZE  2 in 1 app.
+org.immutables.
+value.Value.Immutable  6 in 3 apps.
+gson.Gson.TypeAdapters  4 in 3 apps.
+value.Value.Lazy  1 in 1 app.
+acr.browser.lightning.constant.
+Proxy  1 in 1 app.
+com.jtechme.jumpgo.constant.Constants
+Proxy  5 in 1 app.
+shortbread.
+Shortcut  6 in 2 apps.
+de.triplet.simpleprovider.
+Column  9 in 1 app.
+Column  2 in 1 app.
+com.activeandroid.annotation.
+Column  26 in 3 apps.
+Table  13 in 3 apps.
+com.android.gallery3d.common.Entry
+Column  13 in 1 app.
+Table  2 in 2 apps.
+com.github.gfx.android.orma.annotation.
+Column  83 in 1 app.
+Table  9 in 1 app.
+com.google.api.server.spi.config.
+ApiMethod  6 in 2 apps.
+ApiNamespace  4 in 2 apps.
+Api  4 in 2 apps.
+org.bottiger.podcast.
+player.SoundWavesPlayerBase.PlayerState  16 in 1 app.
+webservices.datastore.gpodder.datatypes.GEpisodeAction.Action  9 in 1 app.
+activities.feedview.EpisodeViewHolder.DisplayState  6 in 1 app.
+DiscoveryFragment.SearchEngine  6 in 1 app.
+model.Library.SortOrder  6 in 1 app.
+utils.okhttp.UserAgentInterceptor.TrafficTag  5 in 1 app.
+listeners.PlayerStatusObservable.PlayerStatus  5 in 1 app.
+activities.feedview.FeedViewAdapter.Order  5 in 1 app.
+playlist.filters.SubscriptionFilter.Mode  4 in 1 app.
+views.drawables.PlayPauseDrawable.IconState  4 in 1 app.
+utils.ImageLoaderUtils.NetworkPolicy  4 in 1 app.
+model.events.SubscriptionChanged.Action  4 in 1 app.
+model.events.EpisodeChanged.Action  4 in 1 app.
+webservices.datastore.gpodder.GPodderAPI.SynchronizationResult  4 in 1 app.
+service.Downloader.SoundWavesDownloadManager.SoundWavesDownloadManager.NetworkState  4 in 1 app.
+provider.IDbItem.DbItemType  3 in 1 app.
+provider.IEpisode.Location  3 in 1 app.
+model.LibraryPersistency.PersistencyResult  3 in 1 app.
+adapters.SubscriptionSelectorCallback.PinState  3 in 1 app.
+views.PlayPauseButton.ButtonLocation  3 in 1 app.
+flavors.Activities.Constants.Activities  3 in 1 app.
+service.Downloader.SoundWavesDownloadManager.DownloadManagerEvent  3 in 1 app.
+service.Downloader.SoundWavesDownloadManager.QueuePosition  3 in 1 app.
+provider.ISubscription.Type  3 in 1 app.
+webservices.directories.IDirectoryProvider.ListMode  2 in 1 app.
+service.PlayerService.NextTrack  2 in 1 app.
+views.OnTouchSeekListener.Direction  4 in 1 app.
+utils.StorageUtils.MimeType  1 in 1 app.
+service.Downloader.SoundWavesDownloadManager.Action  1 in 1 app.
+provider.Subscription.Subscribed  1 in 1 app.
+playlist.filters.SubscriptionFilter.Mode  1 in 1 app.
+parser.FeedParser.RssItemTag  1 in 1 app.
+parser.FeedParser.ItunesItemTag  1 in 1 app.
+service.Downloader.SoundWavesDownloadManager.Result  1 in 1 app.
+cloud.EventLogger.EventType  1 in 1 app.
+adapters.PlaylistAdapter.EpisodeViewState  1 in 1 app.
+activities.feedview.EpisodeViewHolder.DescriptionLength  1 in 1 app.
+net.simonvt.schematic.annotation.
+DataType  6 in 1 app.
+Check  1 in 1 app.
+ContentUri  1 in 1 app.
+Table  1 in 1 app.
+InexactContentUri  1 in 1 app.
+TableEndpoint  1 in 1 app.
+ContentProvider  1 in 1 app.
+AutoIncrement  1 in 1 app.
+com.tasomaniac.
+openwith.ReturnTypesAreNonnullByDefault  5 in 1 app.
+openwith.PerActivity  29 in 1 app.
+dashclock.hackerspace.data.ChosenHackerSpaceName  2 in 1 app.
+dashclock.hackerspace.data.ChosenHackerSpaceUrl  2 in 1 app.
+openwith.data.prefs.UsageAccess  1 in 1 app.
+openwith.data.prefs.TutorialShown  1 in 1 app.
+com.todoroo.astrid.data.Task
+Priority  5 in 1 app.
+com.sensirion.smartgadget.utils.section_manager.SectionManagerMobile
+AvailableSections  5 in 1 app.
+net.osmand.plus.
+widgets.tools.ExtendedBottomSheetBehavior.State  10 in 1 app.
+MapMarkersHelper.MapMarkersSortByDef  5 in 1 app.
+osmedit.OsmEditsFragment.FFileTypesDef  1 in 1 app.
+osmedit.OsmEditsFragment.ExportTypesDef  1 in 1 app.
+
+com.yahoo.squidb.annotations.
+TableModelSpec  5 in 1 app.
+ColumnSpec  3 in 1 app.
+org.droidparts.annotation.
+inject.InjectDependency  5 in 1 app.
+sql.Column  17 in 1 app.
+sql.Table  2 in 1 app.
+com.github.moko256.twitlatte.entity.Type.
+ClientTypeInt  5 in 1 app.
+dev.dworks.apps.anexplorer.ui.MaterialProgressDrawable
+ProgressDrawableSize  1 in 1 app.
+com.mde.potdroid.helpers.ptr.MaterialProgressDrawable
+ProgressDrawableSize  1 in 1 app.
+nya.miku.wishmaster.lib.pullable_layout.MaterialProgressDrawable
+ProgressDrawableSize  1 in 1 app.
+com.app.missednotificationsreminder.di.qualifiers.
+ForApplication  11 in 1 app.
+ForActivity 4 in 1 app.
+SelectedApplications  4 in 1 app.
+RespectPhoneCalls  3 in 1 app.
+RespectRingerMode  3 in 1 app.
+RemindWhenScreenIsOn  3 in 1 app.
+SchedulerEnabled  3 in 1 app.
+SchedulerMode  3 in 1 app.
+SchedulerRangeBegin  3 in 1 app.
+SchedulerRangeEnd  3 in 1 app.
+ReminderEnabled  3 in 1 app.
+ForceWakeLock  3 in 1 app.
+LimitReminderRepeats  3 in 1 app.
+CreateDismissNotification  3 in 1 app.
+ReminderRingtone  3 in 1 app.
+Vibrate  3 in 1 app.
+ReminderInterval  3 in 1 app.
+ReminderRepeats  3 in 1 app.
+ReminderIntervalMin  3 in 1 app.
+IgnorePersistentNotifications  3 in 1 app.
+SchedulerRangeDefaultBegin  2 in 1 app.
+SchedulerRangeDefaultEnd  2 in 1 app.
+SchedulerRangeMin  2 in 1 app.
+SchedulerRangeMax  2 in 1 app.
+ReminderRepeatsMax  2 in 1 app.
+ReminderRepeatsMin  2 in 1 app.
+IsInstrumentationTest  2 in 1 app.
+ReminderRepeatsDefault  2 in 1 app.
+ReminderIntervalMax  2 in 1 app.
+ReminderIntervalDefault  2 in 1 app.
+IoThreadScheduler  2 in 1 app.
+MainThreadScheduler  2 in 1 app.
+com.google.gwt.
+inject.client.GinModules.GinModules  4 in 1 app.
+resources.client.ClientBundle.Source  2 in 1 app.
+gadgets.client.Gadget.ModulePrefs.ModulePrefs  2 in 1 app.
+user.client.rpc.RemoteServiceRelativePath.RemoteServiceRelativePath  1 in 1 app.
+ru.valle.btc.
+Address.PublicKeyRepresentation  8 in 1 app.
+BTCUtils.TransactionType  4 in 1 app.
+BTCUtils.PrivateKeyType  1 in 1 app.
+Address.KeyhashType  1 in 1 app.
+org.schabi.newpipe.
+views.CollapsibleView.ViewMode  4 in 1 app.
+player.helper.PlayerHelper.MinimizeMode  1 in 1 app.
+org.nv95.openmanga.
+common.views.behavior.VerticalScrollingBehavior.ScrollDirection  11 in 1 app.
+search.SearchAdapter.ItemViewType  10 in 1 app.
+core.providers.CName  8 in 1 app.
+core.MangaStatus.MangaStatus  4 in 1 app. 
+shelf.ShelfItemType  2 in 1 app.
+tools.settings.SettingsAdapter.ItemType  1 in 1 app.
+com.iven.musicplayergo.playback.PlaybackInfoListener
+State  6 in 2 apps.
+com.android.setupwizardlib.DividerItemDecoration
+DividerCondition  4 in 1 app.
+com.android.talkbacktests.TestController
+OrderType  1 in 1 app.
+name.boyle.chris.sgtpuzzles.UsedByJNI
+UsedByJNI  24 in 1 app.
+org.softeg.
+slartus.forpdaplus.controls.imageview.PullBackLayout.Direction  12 in 1 app.
+sqliteannotations.Column  1 in 1 app.
+org.retroshare.android.qml_app.
+UsedByNativeCode  2 in 1 app.
+ru.equestriadev.mgke.FragNavController
+TabIndex  3 in 1 app.
+Transit  1 in 1 app.
+com.google.inject.
+BindingAnnotation  3 in 1 app.
+assistedinject.Assisted  2 in 1 app.
+com.totsp.gwittir.client.beans.annotations.Introspectable
+Introspectable  3 in 1 app.
+org.floens.chan.ui.view.FastScroller
+DragState  2 in 2 apps.
+AnimationState  2 in 2 apps.
+State  2 in 1 app.
+cz.dvratil.fbeventsync.ExternalFileDataProvider.
+ExternalFile  2 in 1 app.
+com.actionbarsherlock.ActionBarSherlock
+Implementation  2 in 1 app.
+com.samebits.beacon.locator.injection.
+UserScope  2 in 1 app.
+com.veniosg.dir.
+android.ui.PathController.Mode  3 in 1 app.
+android.util.CopyHelper.Operation  2 in 1 app.
+android.ui.Themer.Theme  1 in 1 app.
+mvvm.model.iab.PlayBillingManager.ConnectionStatus  1 in 1 app.
+com.tmtron.greenannotations.EventBusGreenRobot
+EventBusGreenRobot  2 in 1 app.
+au.id.micolous.metrodroid.card.
+CardRawDataFragmentClass  6 in 1 app.
+org.y20k.transistor.helpers.AudioFocusRequestCompat
+FocusGain  2 in 1 app.
+com.stericson.rootshell.containers.RootClass
+Candidate  1 in 1 app.
+icepick.
+State  63 in 2 apps.
+com.evernote.android.state.
+State  180 in 1 app.
+org.hamcrest.Factory
+Factory  1 in 1 app.
+org.dolphinemu.dolphinemu.
+activities.EmulationActivity.MenuAction  2 in 1 app.
+utils.AppLinkHelper.ActionFlags  1 in 1 app.
+org.holoeverywhere.addon.Addons
+Addons  1 in 1 app.
+org.ligi.gobandroid_hd.logic.GoDefinitions
+CellStatus  1 in 1 app.
+me.drakeet.mailotto.OnMailReceived
+OnMailReceived  1 in 1 app.
+com.ryanharter.auto.value.
+gson.GsonTypeAdapterFactory  1 in 1 app.
+parcel.ParcelAdapter  1 in 1 app.
+info.schnatterer.nusic.core.impl.RemoteMusicDatabaseServiceMusicBrainz
+ApplicationName  1 in 1 app.
+ApplicationContact  1 in 1 app.
+ApplicationVersion  1 in 1 app.
+org.sufficientlysecure.keychain.ui.keyview.ViewKeyActivity
+RequestType  1 in 1 app.
+com.jaredrummler.android.colorpicker.ColorPickerDialog
+DialogType  1 in 1 app.
+com.fastebro.androidrgbtool.print.PrintJobDialogFragment
+JobType  1 in 1 app.
+org.intellij.lang.annotations.MagicConstant
+MagicConstant  1 in 1 app.
+com.google.firebase.database.
+IgnoreExtraProperties  1 in 1 app.
+com.derek_s.hubble_gallery.internal.di.ActivityScope
+ActivityScope  1 in 1 app.
+me.zhanghai.android.effortlesspermissions.
+AfterPermissionDenied  1 in 1 app.
+io.netty.channel.ChannelHandler
+Sharable  1 in 1 app.
+com.alexcruz.papuhwalls.
+Corner  5 in 1 app.
+com.anthony.deepl.openl.manager.LanguageManager.
+Language  8 in 1 app.
